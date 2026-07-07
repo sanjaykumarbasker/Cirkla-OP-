@@ -24,7 +24,7 @@
                 </div>
             </li>
             <li><a href="/certifications" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none flex items-center no-underline transition-colors duration-200 copar-main-nav__item {{ ($activePage ?? null) === 'standards' ? 'text-ink' : 'text-ink-50 hover:text-ink' }}">Standards</a></li>
-            <li><a href="/epr" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none flex items-center no-underline transition-colors duration-200 copar-main-nav__item {{ ($activePage ?? null) === 'epr' ? 'text-ink' : 'text-ink-50 hover:text-ink' }}">Process</a></li>
+            <li><a href="/epr" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none flex items-center no-underline transition-colors duration-200 copar-main-nav__item {{ ($activePage ?? null) === 'epr' ? 'text-ink' : 'text-ink-50 hover:text-ink' }}">EPR Calculator</a></li>
             <li>
                 <a href="/contact" class="font-sans font-medium text-[15px] bg-green text-paper px-5 py-2.5 rounded-pill no-underline transition-colors duration-200 hover:bg-green-mid inline-flex items-center gap-2 copar-nav-cta">
                     Customise trays
@@ -54,7 +54,7 @@
                 <a href="/solutions/unlaminated-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Unlaminated Trays</a>
             </div>
             <a href="/certifications" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70 py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150">Standards</a>
-            <a href="/epr" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70 py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150">Process</a>
+            <a href="/epr" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70 py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150">EPR Calculator</a>
             <a href="/contact" class="mt-4 font-sans font-medium text-[15px] bg-green text-paper px-5 py-3.5 rounded-pill no-underline text-center hover:bg-green-mid transition-colors duration-200 flex items-center justify-center gap-2">Customise trays</a>
         </div>
     </div>

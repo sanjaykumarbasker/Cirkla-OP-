@@ -27,7 +27,7 @@
                     <div class="flex flex-col gap-3">
                         <a href="/certifications" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Standards</a>
                         <a href="/news-and-events" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Recognition</a>
-                        <a href="/epr" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Process</a>
+                        <a href="/epr" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">EPR Calculator</a>
                         <a href="/contact" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Contact</a>
                     </div>
                 </div>

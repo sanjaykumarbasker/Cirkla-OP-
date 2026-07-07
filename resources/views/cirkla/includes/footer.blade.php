@@ -3,7 +3,7 @@
         <div class="grid md:grid-cols-3 gap-12">
             <div>
                 <a href="/" class="inline-flex items-center no-underline mb-5 copar-footer-brand-link">
-                    <img src="/images/logo.svg" alt="COPAR" class="copar-brand-logo copar-brand-logo--footer">
+                    <img src="/images/logo.svg" alt="QRCOPAR AgroFiber Pvt Ltd" class="copar-brand-logo copar-brand-logo--footer">
                 </a>
                 <p class="font-sans text-[14px] text-paper/60 leading-[1.6] max-w-xs">
                     Tray packaging that is custom made, sustainable, and circular.

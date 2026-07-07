@@ -64,31 +64,36 @@
 
 .copar-home-visual {
     min-height: 500px;
+    width: min(100%, 520px);
+    aspect-ratio: 1 / 1;
     position: relative;
+    overflow: visible !important;
 }
 
 .copar-home-visual img {
     position: absolute;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
     filter: drop-shadow(0 22px 28px rgba(26, 29, 21, 0.16));
 }
 
 .copar-visual-pouch {
     top: 2rem;
-    right: 1rem;
-    width: 11rem;
+    right: 2.25rem;
+    width: 11.75rem;
 }
 
 .copar-visual-tray {
-    bottom: 5rem;
-    left: 0;
-    width: 360px;
+    bottom: 5.25rem;
+    left: 1rem;
+    width: 370px;
 }
 
 .copar-visual-spoons {
-    right: 2.5rem;
-    bottom: 2rem;
-    width: 9rem;
+    right: 3.25rem;
+    bottom: 2.25rem;
+    width: 9.5rem;
 }
 
 .copar-sector-card img {
@@ -209,6 +214,11 @@
 @media (max-width: 1023px) {
     .copar-home-hero-grid {
         grid-template-columns: 1fr;
+    }
+
+    .copar-home-visual {
+        width: min(100%, 560px);
+        margin: 2rem auto 0;
     }
 
     .copar-product-showcase,

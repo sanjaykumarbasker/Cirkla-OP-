@@ -1,0 +1,69 @@
+.copar-home-hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 520px;
+    gap: 3rem;
+    align-items: center;
+}
+
+.copar-home-visual {
+    min-height: 500px;
+    position: relative;
+}
+
+.copar-home-visual img {
+    position: absolute;
+    object-fit: contain;
+    filter: drop-shadow(0 22px 28px rgba(26, 29, 21, 0.16));
+}
+
+.copar-visual-pouch {
+    top: 2rem;
+    right: 1rem;
+    width: 11rem;
+}
+
+.copar-visual-tray {
+    bottom: 5rem;
+    left: 0;
+    width: 360px;
+}
+
+.copar-visual-spoons {
+    right: 2.5rem;
+    bottom: 2rem;
+    width: 9rem;
+}
+
+.copar-sector-card img {
+    width: 100%;
+    height: 100%;
+    min-height: 220px;
+    object-fit: cover;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.copar-sector-card:hover img {
+    transform: scale(1.04);
+    opacity: 1;
+}
+
+.copar-rich-title em {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.copar-rich-title--green em {
+    color: #2d4a1e;
+}
+
+@media (max-width: 1023px) {
+    .copar-home-hero-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .copar-home-visual {
+        display: none;
+    }
+}

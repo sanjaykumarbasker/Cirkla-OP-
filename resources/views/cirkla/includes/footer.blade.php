@@ -1,0 +1,54 @@
+<footer class="bg-green-deep border-t border-cream/[0.08]">
+    <div class="max-w-site mx-auto px-6 md:px-12 py-16 md:py-20">
+        <div class="grid md:grid-cols-3 gap-12">
+            <div>
+                <a href="/" class="inline-flex items-center gap-2 font-serif font-bold text-[22px] text-butter no-underline uppercase mb-5">
+                    <img src="/images/copar/logo.svg" alt="COPAR logo" class="w-9 h-9 object-contain">
+                    COPAR
+                </a>
+                <p class="font-sans text-[14px] text-paper/60 leading-[1.6] max-w-xs">
+                    Packaging that is custom made, sustainable, and circular.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 gap-10">
+                <div>
+                    <p class="font-mono text-[10px] tracking-[0.14em] uppercase text-butter/60 mb-5">Solutions</p>
+                    <div class="flex flex-col gap-3">
+                        <a href="/technology" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">HyperBarrier Paper</a>
+                        <a href="/solutions/produce" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Agri-Fibre Packaging</a>
+                        <a href="/solutions/ready-meals" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">ServeSmart Cutlery</a>
+                        <a href="/solutions/custom" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Custom</a>
+                    </div>
+                </div>
+                <div>
+                    <p class="font-mono text-[10px] tracking-[0.14em] uppercase text-butter/60 mb-5">Company</p>
+                    <div class="flex flex-col gap-3">
+                        <a href="/certifications" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Standards</a>
+                        <a href="/news-and-events" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Recognition</a>
+                        <a href="/epr" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Process</a>
+                        <a href="/contact" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <p class="font-mono text-[10px] tracking-[0.14em] uppercase text-butter/60 mb-5">Location</p>
+                <address class="font-sans text-[14px] text-paper/70 leading-[1.7] not-italic">
+                    QRCOPAR AGROFIBER PRIVATE LIMITED<br>
+                    SF.NO.317/1A, D.NO.2/854<br>
+                    Kodangi Palayam, Palladam(TK)<br>
+                    Kodangipalayam<br>
+                    District: Tiruppur<br>
+                    State: Tamil Nadu<br>
+                    PIN Code: 641662
+                </address>
+            </div>
+        </div>
+    </div>
+    <div class="border-t border-cream/[0.08]">
+        <div class="max-w-site mx-auto px-6 md:px-12 py-5">
+            <p class="font-mono text-[10px] tracking-[0.06em] text-paper/50">© 2026 COPAR. All rights reserved.</p>
+        </div>
+    </div>
+</footer>

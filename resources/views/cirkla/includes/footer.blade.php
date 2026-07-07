@@ -12,7 +12,7 @@
 
             <div class="grid grid-cols-2 gap-10">
                 <div>
-                    <p class="font-mono text-[10px] tracking-[0.14em] uppercase text-butter/60 mb-5">Tray Products</p>
+                    <p class="font-mono text-[10px] tracking-[0.14em] uppercase text-butter/60 mb-5">Solutions</p>
                     <div class="flex flex-col gap-3">
                         <a href="/solutions/meat-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Meat Trays</a>
                         <a href="/solutions/rte-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">RTE Trays</a>
@@ -26,7 +26,7 @@
                 <div>
                     <p class="font-mono text-[10px] tracking-[0.14em] uppercase text-butter/60 mb-5">Company</p>
                     <div class="flex flex-col gap-3">
-                        <a href="/certifications" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Standards</a>
+                        <a href="/certifications" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Technology</a>
                         <a href="/news-and-events" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Recognition</a>
                         <a href="/epr" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">EPR Calculator</a>
                         <a href="/contact" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Contact</a>

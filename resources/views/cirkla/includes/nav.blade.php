@@ -28,7 +28,7 @@
         <ul class="hidden md:flex items-center gap-9 list-none m-0 p-0 copar-main-nav">
             <li class="relative group">
                 <button class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none text-ink-50 hover:text-ink transition-colors duration-200 flex items-center gap-1.5 bg-transparent border-none cursor-pointer p-0 copar-main-nav__item">
-                    Tray Products
+                    Solutions
                     <svg width="8" height="5" viewbox="0 0 8 5" fill="currentColor" class="opacity-60">
                         <path d="M0 0.5L4 4.5L8 0.5H0Z"></path>
                     </svg>
@@ -60,7 +60,7 @@
                     </ul>
                 </div>
             </li>
-            <li><a href="/certifications" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none flex items-center no-underline transition-colors duration-200 copar-main-nav__item {{ ($activePage ?? null) === 'standards' ? 'text-ink' : 'text-ink-50 hover:text-ink' }}">Standards</a></li>
+            <li><a href="/certifications" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none flex items-center no-underline transition-colors duration-200 copar-main-nav__item {{ ($activePage ?? null) === 'standards' ? 'text-ink' : 'text-ink-50 hover:text-ink' }}">Technology</a></li>
             <li><a href="/epr" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none flex items-center no-underline transition-colors duration-200 copar-main-nav__item {{ ($activePage ?? null) === 'epr' ? 'text-ink' : 'text-ink-50 hover:text-ink' }}">EPR Calculator</a></li>
             <li>
                 <a href="/contact" class="font-sans font-medium text-[15px] bg-green text-paper px-5 py-2.5 rounded-pill no-underline transition-colors duration-200 hover:bg-green-mid inline-flex items-center gap-2 copar-nav-cta">
@@ -81,7 +81,7 @@
 
     <div id="mobile-menu" class="hidden md:hidden bg-paper border-t border-rule">
         <div class="px-6 py-6 flex flex-col gap-1">
-            <p class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-50 py-3 border-b border-rule">Tray Products</p>
+            <p class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-50 py-3 border-b border-rule">Solutions</p>
             <div class="pl-4 flex flex-col gap-0">
                 <a href="/solutions/meat-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Meat Trays</a>
                 <a href="/solutions/rte-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">RTE Trays</a>
@@ -97,7 +97,7 @@
                     <a href="{{ $trayMenuItem['href'] }}" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">{{ $trayMenuItem['label'] }}</a>
                 @endforeach
             </div>
-            <a href="/certifications" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70 py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150">Standards</a>
+            <a href="/certifications" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70 py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150">Technology</a>
             <a href="/epr" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70 py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150">EPR Calculator</a>
             <a href="/contact" class="mt-4 font-sans font-medium text-[15px] bg-green text-paper px-5 py-3.5 rounded-pill no-underline text-center hover:bg-green-mid transition-colors duration-200 flex items-center justify-center gap-2">Customise trays</a>
         </div>

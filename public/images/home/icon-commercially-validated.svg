@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Main_Design" data-name="Main Design" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #2d4a1e;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 12.5px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" y="0" width="500" height="500"/>
+  <g>
+    <path class="cls-2" d="M349.94,331.41v55.88c0,7.02-5.69,12.71-12.71,12.71h-204.58c-7.02,0-12.71-5.69-12.71-12.71V112.71c0-7.02,5.69-12.71,12.71-12.71h204.58c7.02,0,12.71,5.69,12.71,12.71v92.51"/>
+    <g>
+      <rect class="cls-2" x="364.34" y="184.46" width="26.18" height="64.78" transform="translate(149.88 -154.23) rotate(28.6)"/>
+      <rect class="cls-2" x="331.11" y="240.77" width="26.18" height="74.04" transform="translate(175 -130.88) rotate(28.6)"/>
+      <polygon class="cls-2" points="314.98 304.03 337.97 316.56 314.96 331.41 314.98 304.03"/>
+      <path class="cls-2" d="M401.39,193.02l3.07-5.35c2.37-4.34.74-9.87-3.6-12.23-4.34-2.37-9.87-.74-12.23,3.6l-2.94,5.42"/>
+      <polyline class="cls-2" points="401.15 200.71 413.39 207.61 387.59 254.92"/>
+    </g>
+    <polyline class="cls-2" points="237.55 360 261.59 315.65 272.39 345.59 285.15 334.3 298.89 351.7 314.96 331.41"/>
+    <rect class="cls-2" x="150.29" y="132.59" width="169.32" height="45.51"/>
+    <line class="cls-2" x1="150.29" y1="205.23" x2="319.6" y2="205.23"/>
+    <line class="cls-2" x1="150.29" y1="234.18" x2="319.6" y2="234.18"/>
+    <line class="cls-2" x1="150.29" y1="263.14" x2="275.86" y2="263.14"/>
+    <path class="cls-2" d="M215.24,347.53c-3.06,14.95-16.29,26.2-32.14,26.2-18.12,0-32.81-14.69-32.81-32.81s14.69-32.81,32.81-32.81c5.81,0,11.27,1.51,16.01,4.16"/>
+    <polyline class="cls-2" points="174.83 336.7 185.68 348.64 217.12 320.94"/>
+  </g>
+</svg>

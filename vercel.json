@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "functions": {
+    "api/index.php": {
+      "runtime": "vercel-php@0.9.0"
+    }
+  },
+  "routes": [
+    {
+      "src": "/favicon.ico",
+      "dest": "/public/favicon.ico"
+    },
+    {
+      "src": "/favicon-16.png",
+      "dest": "/public/favicon-16.png"
+    },
+    {
+      "src": "/favicon-32.png",
+      "dest": "/public/favicon-32.png"
+    },
+    {
+      "src": "/robots.txt",
+      "dest": "/public/robots.txt"
+    },
+    {
+      "src": "/_astro/(.*)",
+      "dest": "/public/_astro/$1"
+    },
+    {
+      "src": "/images/(.*)",
+      "dest": "/public/images/$1"
+    },
+    {
+      "src": "/videos/(.*)",
+      "dest": "/public/videos/$1"
+    },
+    {
+      "src": "/s/(.*)",
+      "dest": "/public/s/$1"
+    },
+    {
+      "src": "/css2(.*)",
+      "dest": "/public/css2$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
+  ],
+  "env": {
+    "APP_NAME": "Cirkla",
+    "APP_ENV": "production",
+    "APP_DEBUG": "false",
+    "APP_URL": "https://cirkla-op.vercel.app",
+    "APP_LOCALE": "en",
+    "APP_FALLBACK_LOCALE": "en",
+    "APP_MAINTENANCE_DRIVER": "file",
+    "LOG_CHANNEL": "stderr",
+    "LOG_LEVEL": "error",
+    "SESSION_DRIVER": "cookie",
+    "SESSION_ENCRYPT": "false",
+    "CACHE_STORE": "array",
+    "QUEUE_CONNECTION": "sync",
+    "DB_CONNECTION": "sqlite",
+    "VIEW_COMPILED_PATH": "/tmp/views"
+  }
+}

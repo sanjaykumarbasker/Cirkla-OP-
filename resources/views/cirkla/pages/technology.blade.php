@@ -2,6 +2,7 @@
     $pageTitle = 'HyperBarrier Paper - COPAR';
     $metaDescription = 'COPAR HyperBarrier Paper combines recyclable paper packaging with oxygen and moisture barrier performance.';
     $activePage = 'technology';
+    $layoutVariant = 'barrier';
     $hero = [
         'eyebrow' => 'HyperBarrier Paper',
         'title' => 'Recyclable mono-barrier paper <em>with shelf-life protection.</em>',

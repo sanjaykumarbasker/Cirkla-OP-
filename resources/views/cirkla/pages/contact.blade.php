@@ -10,8 +10,8 @@ $activePage = 'contact';
 
 <body>
 @include('cirkla.includes.nav')
-<main>
-    <section class="pt-nav bg-green-deep">
+<main class="copar-standalone copar-standalone--contact">
+    <section class="pt-nav bg-green-deep copar-standalone-hero">
         <div class="max-w-site mx-auto px-6 md:px-12 py-16 md:py-20">
             <h1 class="font-serif font-normal text-[clamp(44px,5vw,64px)] leading-[1.08] tracking-[-1.5px] text-paper max-w-3xl mb-4">Let's make your packaging work for you.</h1>
             <p class="font-sans text-[19px] text-paper/70 leading-[1.6] max-w-2xl">Send your packaging requirement, sector, and product interest. The team can help assess materials, product files, and custom production options.</p>

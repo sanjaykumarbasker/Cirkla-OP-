@@ -2,6 +2,7 @@
     $pageTitle = 'Ready Meals & ServeSmart Paper Cutlery - COPAR';
     $metaDescription = 'COPAR supports ready meal and food service packaging with fibre meal trays and ServeSmart paper cutlery.';
     $activePage = 'ready-meals';
+    $layoutVariant = 'service';
     $hero = [
         'eyebrow' => 'Ready meals & convenience',
         'title' => 'Meal formats and paper cutlery <em>made for better service.</em>',

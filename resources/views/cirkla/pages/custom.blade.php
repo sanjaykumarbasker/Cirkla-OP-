@@ -2,6 +2,7 @@
     $pageTitle = 'Custom Packaging Solutions - COPAR';
     $metaDescription = 'COPAR designs custom sustainable packaging using HyperBarrier, agri-fibre, and paper material options.';
     $activePage = 'custom';
+    $layoutVariant = 'custom';
     $hero = [
         'eyebrow' => 'Custom Packaging Solutions',
         'title' => 'Not a one-size approach. <em>A custom-made solution.</em>',

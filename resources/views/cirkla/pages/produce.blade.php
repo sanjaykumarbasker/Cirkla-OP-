@@ -2,6 +2,7 @@
     $pageTitle = 'Agri-Fibre Packaging - COPAR';
     $metaDescription = 'COPAR Agri-Fibre Packaging turns agricultural waste materials into compostable and recyclable food packaging formats.';
     $activePage = 'produce';
+    $layoutVariant = 'fibre';
     $hero = [
         'eyebrow' => 'Agri-Fibre Packaging',
         'title' => 'Circular fibre packaging <em>made from agricultural waste.</em>',

@@ -2,6 +2,7 @@
     $pageTitle = 'Dairy & Pet Care Packaging - COPAR';
     $metaDescription = 'COPAR develops circular packaging options for dairy, pet care, and specialty food applications.';
     $activePage = 'overwrap';
+    $layoutVariant = 'specialty';
     $hero = [
         'eyebrow' => 'Dairy & Pet Care',
         'title' => 'Specialty food packaging <em>customised by category.</em>',

@@ -2,6 +2,7 @@
     $pageTitle = 'Seafood & MAP Packaging - COPAR';
     $metaDescription = 'COPAR creates seafood, MAP, and chilled food packaging options using circular fibre and barrier materials.';
     $activePage = 'map-vsp';
+    $layoutVariant = 'seafood';
     $hero = [
         'eyebrow' => 'Seafood',
         'title' => 'Chilled seafood packaging <em>with barrier intent.</em>',

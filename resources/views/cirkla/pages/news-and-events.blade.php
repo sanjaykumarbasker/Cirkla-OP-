@@ -10,8 +10,8 @@ $activePage = 'news';
 
 <body>
 @include('cirkla.includes.nav')
-<main>
-    <section class="pt-nav bg-green-deep">
+<main class="copar-standalone copar-standalone--recognition">
+    <section class="pt-nav bg-green-deep copar-standalone-hero">
         <div class="max-w-site mx-auto px-6 md:px-12 py-20 md:py-28 grid md:grid-cols-2 gap-12 items-center">
             <div>
                 <p class="inline-flex px-4 py-1.5 bg-butter text-green-deep rounded-pill font-mono text-[13px] tracking-[0.08em] uppercase font-medium mb-8">Recognition & Resources</p>

@@ -2,6 +2,7 @@
     $pageTitle = 'Meat & Poultry Packaging - COPAR';
     $metaDescription = 'COPAR develops barrier and fibre packaging options for meat and poultry applications.';
     $activePage = 'meat-protein';
+    $layoutVariant = 'protein';
     $hero = [
         'eyebrow' => 'Meat & poultry',
         'title' => 'Packaging designed for <em>fresh protein performance.</em>',

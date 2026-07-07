@@ -1480,3 +1480,321 @@
         order: 0;
     }
 }
+
+/* GoCirkla reference palette */
+:root {
+    --cirkla-ink: #1a1d15;
+    --cirkla-ink-70: #1a1d15b3;
+    --cirkla-ink-50: #1a1d1580;
+    --cirkla-rule: #1a1d1514;
+    --cirkla-rule-strong: #1a1d151f;
+    --cirkla-green-deep: #1f3d2a;
+    --cirkla-green: #2d4a1e;
+    --cirkla-green-mid: #4a7a2e;
+    --cirkla-green-soft: #8da670;
+    --cirkla-paper: #faf8f2;
+    --cirkla-cream: #f4f0e6;
+    --cirkla-butter: #ecdfa8;
+    --cirkla-white: #ffffff;
+}
+
+body {
+    background: var(--cirkla-paper);
+    color: var(--cirkla-ink);
+}
+
+.bg-green-deep,
+.copar-product-cta,
+.copar-video-frame,
+.copar-standard-hero__badge {
+    background-color: var(--cirkla-green-deep) !important;
+}
+
+.bg-green,
+.copar-solution-hero,
+.copar-product-page--protein .copar-solution-hero,
+.copar-product-page--custom .copar-solution-hero,
+.copar-benefit-item span,
+.copar-primary-link,
+.copar-product-cta a {
+    background-color: var(--cirkla-green) !important;
+}
+
+.bg-green-mid,
+.hover\:bg-green-mid:hover,
+.copar-primary-link:hover,
+.copar-product-cta a:hover {
+    background-color: var(--cirkla-green-mid) !important;
+}
+
+.bg-paper,
+.copar-benefits-section,
+.copar-video-section,
+.copar-details-section,
+.copar-product-page--laminated .copar-solution-hero,
+.copar-product-page--standards .copar-solution-hero,
+.copar-standalone--standards .copar-standalone-hero {
+    background-color: var(--cirkla-paper) !important;
+}
+
+.bg-cream,
+.hover\:bg-cream:hover,
+.copar-applications-section,
+.copar-gallery-section,
+.copar-product-page--special-support .copar-benefits-section,
+.copar-product-page--special-support .copar-product-showcase__media,
+.copar-product-page--specialty .copar-solution-hero,
+.copar-standard-card__media,
+.copar-standard-concept,
+.copar-standard-trays-dropdown__overview {
+    background-color: var(--cirkla-cream) !important;
+}
+
+.bg-butter,
+.hover\:bg-butter:hover,
+.hover\:bg-butter\/80:hover {
+    background-color: var(--cirkla-butter) !important;
+}
+
+.bg-cream\/40 {
+    background-color: #f4f0e666 !important;
+}
+
+.bg-green-deep\/70 {
+    background-color: #1f3d2ab3 !important;
+}
+
+.bg-paper\/\[0\.08\] {
+    background-color: #faf8f214 !important;
+}
+
+.text-green,
+.text-green-mid,
+.hover\:text-green:hover,
+.copar-section-label,
+.copar-solution-hero__title em,
+.copar-section-heading h2 em,
+.copar-section-intro h2 em,
+.copar-video-layout h2 em,
+.copar-product-cta h2 em,
+.copar-standard-hero__title em,
+.copar-standard-concept__layout h2 em,
+.copar-standard-card__comparison h4,
+.copar-standard-concept__steps span {
+    color: var(--cirkla-green) !important;
+}
+
+.text-green-deep {
+    color: var(--cirkla-green-deep) !important;
+}
+
+.text-butter,
+.text-butter\/60,
+.hover\:text-butter:hover,
+.copar-kicker,
+.copar-standard-hero__badge strong {
+    color: var(--cirkla-butter) !important;
+}
+
+.text-ink,
+.copar-solution-hero__title,
+.copar-section-intro h2,
+.copar-section-heading h2,
+.copar-video-layout h2,
+.copar-application-card h3,
+.copar-product-showcase__body h3,
+.copar-standard-hero__title,
+.copar-standard-card__body h3,
+.copar-standard-concept__layout h2,
+.copar-standard-concept__steps strong,
+.copar-standalone--standards .copar-standalone-hero h1,
+.copar-standalone--standards .copar-standalone-hero p:not(.inline-flex),
+.copar-standalone--recognition .copar-standalone-hero h1,
+.copar-standalone--recognition .copar-standalone-hero p:not(.inline-flex) {
+    color: var(--cirkla-ink) !important;
+}
+
+.text-ink-70,
+.copar-solution-hero__text,
+.copar-section-intro > p:not(.copar-section-label),
+.copar-video-layout > div > p:not(.copar-section-label),
+.copar-benefit-item p,
+.copar-application-card span,
+.copar-product-showcase__body > p,
+.copar-product-showcase__body li,
+.copar-product-gallery figcaption,
+.copar-standard-hero__text,
+.copar-standard-hero__stats span,
+.copar-standard-index a,
+.copar-standard-card__body > p:not(.copar-section-label),
+.copar-standard-card__comparison dd,
+.copar-standard-concept__layout > div > p:not(.copar-section-label),
+.copar-standard-concept__steps p {
+    color: var(--cirkla-ink-70) !important;
+}
+
+.text-ink-50,
+.copar-standard-card__comparison dt {
+    color: var(--cirkla-ink-50) !important;
+}
+
+.text-paper,
+.copar-solution-hero__title,
+.copar-primary-link,
+.copar-product-cta a,
+.copar-standard-hero__badge {
+    color: var(--cirkla-paper) !important;
+}
+
+.text-cream {
+    color: var(--cirkla-cream) !important;
+}
+
+.text-paper\/70,
+.text-cream\/70,
+.copar-product-cta p {
+    color: #faf8f2b3 !important;
+}
+
+.border-rule,
+.border-green-deep,
+.copar-product-showcase__media,
+.copar-product-gallery figure,
+.copar-solution-hero__media,
+.copar-benefits-grid,
+.copar-application-card,
+.copar-video-frame,
+.copar-standard-hero .copar-kicker,
+.copar-standard-hero__media,
+.copar-standard-hero__stats span,
+.copar-standard-index a,
+.copar-standard-card,
+.copar-standard-card__comparison,
+.copar-standard-concept__steps article {
+    border-color: var(--cirkla-rule) !important;
+}
+
+.border-green,
+.hover\:border-green:hover,
+.copar-application-card:hover,
+.copar-standard-index a:hover,
+.copar-standard-card:hover,
+.copar-standard-concept__steps article:hover {
+    border-color: var(--cirkla-green) !important;
+}
+
+.copar-nav-dropdown__link:hover,
+.copar-standard-index a:hover,
+.copar-standard-trays-dropdown__overview {
+    color: var(--cirkla-green) !important;
+}
+
+.copar-kicker {
+    background: #f4f0e614 !important;
+    border-color: #ecdfa880 !important;
+}
+
+.copar-standard-hero .copar-kicker,
+.copar-product-page--laminated .copar-kicker,
+.copar-product-page--service .copar-kicker,
+.copar-product-page--specialty .copar-kicker,
+.copar-standalone--standards .copar-standalone-hero .inline-flex,
+.copar-standalone--recognition .copar-standalone-hero .inline-flex {
+    background: var(--cirkla-white) !important;
+    border-color: var(--cirkla-rule) !important;
+    color: var(--cirkla-green) !important;
+}
+
+.copar-solution-hero::before {
+    background: radial-gradient(circle, #ecdfa833, #ecdfa800) !important;
+}
+
+.copar-solution-hero__pills span {
+    border-color: #f4f0e64d !important;
+    color: #f4f0e6bf !important;
+}
+
+.copar-solution-hero__media,
+.copar-product-showcase__media,
+.copar-product-gallery figure,
+.copar-benefit-item,
+.copar-application-card,
+.copar-standard-hero__media,
+.copar-standard-card,
+.copar-standard-concept__steps article {
+    background-color: var(--cirkla-white) !important;
+}
+
+.copar-product-page--laminated .copar-solution-hero::before {
+    background: radial-gradient(circle, #ecdfa899, #ecdfa800) !important;
+}
+
+.copar-product-page--laminated .copar-solution-hero__title,
+.copar-product-page--laminated .copar-solution-hero__text,
+.copar-product-page--service .copar-solution-hero__title,
+.copar-product-page--service .copar-solution-hero__text,
+.copar-product-page--specialty .copar-solution-hero__title,
+.copar-product-page--specialty .copar-solution-hero__text {
+    color: var(--cirkla-ink) !important;
+}
+
+.copar-product-page--laminated .copar-solution-hero__text,
+.copar-product-page--service .copar-solution-hero__text,
+.copar-product-page--specialty .copar-solution-hero__text {
+    color: var(--cirkla-ink-70) !important;
+}
+
+.copar-product-page--laminated .copar-solution-hero__pills span,
+.copar-product-page--service .copar-solution-hero__pills span,
+.copar-product-page--specialty .copar-solution-hero__pills span {
+    border-color: var(--cirkla-rule) !important;
+    color: var(--cirkla-ink-70) !important;
+}
+
+.copar-product-page--service .copar-solution-hero {
+    background: linear-gradient(180deg, var(--cirkla-cream) 0 62%, var(--cirkla-green-deep) 62% 100%) !important;
+}
+
+.copar-product-page--special-support .copar-solution-hero,
+.copar-standalone--contact .copar-standalone-hero {
+    background: linear-gradient(135deg, var(--cirkla-green), var(--cirkla-green-mid)) !important;
+}
+
+.copar-standalone--process .copar-standalone-hero,
+.copar-product-page--protein .copar-solution-hero {
+    background: var(--cirkla-green-deep) !important;
+}
+
+.copar-standalone--standards .copar-standalone-hero::before {
+    background: linear-gradient(90deg, transparent 0 58%, #ecdfa866 58% 100%) !important;
+}
+
+.copar-standalone--recognition .copar-standalone-hero {
+    background: var(--cirkla-cream) !important;
+}
+
+.copar-standalone--recognition .copar-standalone-hero::before {
+    background: radial-gradient(circle at 78% 45%, #8da67040, transparent 32rem) !important;
+}
+
+.copar-standard-hero {
+    background: linear-gradient(180deg, var(--cirkla-cream) 0%, var(--cirkla-paper) 100%) !important;
+}
+
+.copar-standard-hero::before {
+    background:
+        linear-gradient(90deg, #1a1d1514 1px, transparent 1px),
+        linear-gradient(#1a1d1514 1px, transparent 1px) !important;
+}
+
+.copar-standard-card__media {
+    background: var(--cirkla-cream) !important;
+}
+
+.copar-standard-card__media span {
+    color: #2d4a1e33 !important;
+}
+
+.copar-standard-card:hover {
+    box-shadow: 0 18px 42px #1f3d2a1a !important;
+}

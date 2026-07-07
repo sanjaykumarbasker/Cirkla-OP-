@@ -8,6 +8,8 @@ Route::redirect('index.htm', '/');
 $pages = [
     'technology' => 'technology',
     'technology.html' => 'technology',
+    'standard-trays' => 'standard-trays',
+    'standard-trays.html' => 'standard-trays',
     'epr' => 'epr',
     'epr.html' => 'epr',
     'contact' => 'contact',

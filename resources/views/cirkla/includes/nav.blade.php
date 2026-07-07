@@ -1,3 +1,24 @@
+@php
+    $standardTrayMenu = [
+        ['label' => '3D Tray', 'href' => '/standard-trays#tray-01'],
+        ['label' => '3SC Tray', 'href' => '/standard-trays#tray-02'],
+        ['label' => '3P Tray', 'href' => '/standard-trays#tray-03'],
+        ['label' => '8P Tray', 'href' => '/standard-trays#tray-04'],
+        ['label' => 'US-3 Tray', 'href' => '/standard-trays#tray-05'],
+        ['label' => '11S Tray', 'href' => '/standard-trays#tray-06'],
+        ['label' => '11DC Tray', 'href' => '/standard-trays#tray-07'],
+        ['label' => '7P Tray', 'href' => '/standard-trays#tray-08'],
+        ['label' => '1P Tray', 'href' => '/standard-trays#tray-09'],
+        ['label' => '5P Tray', 'href' => '/standard-trays#tray-10'],
+        ['label' => '25P T2 Tray', 'href' => '/standard-trays#tray-11'],
+        ['label' => '2D Tray', 'href' => '/standard-trays#tray-12'],
+        ['label' => 'V3 Tray', 'href' => '/standard-trays#tray-13'],
+        ['label' => 'V4 Tray', 'href' => '/standard-trays#tray-14'],
+        ['label' => '8 PB Tray', 'href' => '/standard-trays#tray-15'],
+        ['label' => 'V5 Tray', 'href' => '/standard-trays#tray-16'],
+        ['label' => 'V7 Tray', 'href' => '/standard-trays#tray-17'],
+    ];
+@endphp
 <nav class="fixed top-0 left-0 right-0 z-50 bg-paper/90 backdrop-blur-nav border-b border-rule">
     <div class="max-w-site mx-auto px-6 md:px-12 h-nav flex items-center justify-between copar-site-nav__inner">
         <a href="/" class="flex items-center no-underline flex-shrink-0 copar-brand-link">
@@ -20,6 +41,22 @@
                         <li><a href="/solutions/special-trays" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150 copar-nav-dropdown__link">Special Trays</a></li>
                         <li><a href="/solutions/laminated-trays" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150 copar-nav-dropdown__link">Laminated Trays</a></li>
                         <li><a href="/solutions/unlaminated-trays" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150 copar-nav-dropdown__link">Unlaminated Trays</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="relative group">
+                <button class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none transition-colors duration-200 flex items-center gap-1.5 bg-transparent border-none cursor-pointer p-0 copar-main-nav__item {{ ($activePage ?? null) === 'standard-trays' ? 'text-ink' : 'text-ink-50 hover:text-ink' }}">
+                    Standard Trays
+                    <svg width="8" height="5" viewbox="0 0 8 5" fill="currentColor" class="opacity-60">
+                        <path d="M0 0.5L4 4.5L8 0.5H0Z"></path>
+                    </svg>
+                </button>
+                <div class="absolute top-full left-0 pt-2 hidden group-hover:block">
+                    <ul class="bg-white border border-rule rounded-card shadow-lg list-none m-0 p-1.5 min-w-[220px] copar-nav-dropdown copar-standard-trays-dropdown">
+                        <li><a href="/standard-trays" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150 copar-nav-dropdown__link copar-standard-trays-dropdown__overview">All Standard Trays</a></li>
+                        @foreach($standardTrayMenu as $trayMenuItem)
+                            <li><a href="{{ $trayMenuItem['href'] }}" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150 copar-nav-dropdown__link">{{ $trayMenuItem['label'] }}</a></li>
+                        @endforeach
                     </ul>
                 </div>
             </li>
@@ -52,6 +89,13 @@
                 <a href="/solutions/special-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Special Trays</a>
                 <a href="/solutions/laminated-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Laminated Trays</a>
                 <a href="/solutions/unlaminated-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Unlaminated Trays</a>
+            </div>
+            <p class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-50 py-3 border-b border-rule">Standard Trays</p>
+            <div class="pl-4 grid grid-cols-2 gap-x-4">
+                <a href="/standard-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">All Standard Trays</a>
+                @foreach($standardTrayMenu as $trayMenuItem)
+                    <a href="{{ $trayMenuItem['href'] }}" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">{{ $trayMenuItem['label'] }}</a>
+                @endforeach
             </div>
             <a href="/certifications" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70 py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150">Standards</a>
             <a href="/epr" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70 py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150">EPR Calculator</a>

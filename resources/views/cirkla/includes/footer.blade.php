@@ -20,6 +20,7 @@
                         <a href="/solutions/special-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Special Trays</a>
                         <a href="/solutions/laminated-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Laminated Trays</a>
                         <a href="/solutions/unlaminated-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Unlaminated Trays</a>
+                        <a href="/standard-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Standard Trays</a>
                     </div>
                 </div>
                 <div>

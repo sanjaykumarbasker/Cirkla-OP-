@@ -33,6 +33,10 @@
       "dest": "/public/css/$1"
     },
     {
+      "src": "/js/(.*)",
+      "dest": "/public/js/$1"
+    },
+    {
       "src": "/documents/(.*)",
       "dest": "/public/documents/$1"
     },

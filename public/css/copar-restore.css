@@ -113,6 +113,22 @@
     gap: 1.5rem;
 }
 
+.copar-brand-logo {
+    display: block;
+    height: auto;
+    object-fit: contain;
+}
+
+.copar-brand-logo--nav {
+    max-height: 42px;
+    width: 114px;
+}
+
+.copar-brand-logo--footer {
+    max-height: 52px;
+    width: 140px;
+}
+
 .copar-main-nav {
     flex: 0 0 auto;
     flex-wrap: nowrap;

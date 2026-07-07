@@ -1,27 +1,48 @@
-﻿<nav class="fixed top-0 left-0 right-0 z-50 bg-paper/90 backdrop-blur-nav border-b border-rule"> <!-- ── Desktop + mobile bar ── --> <div class="max-w-site mx-auto px-6 md:px-12 h-nav flex items-center justify-between"> <!-- Logo --> <a href="/" class="flex items-center gap-2 font-serif font-bold text-[18px] tracking-[-0.5px] text-green no-underline flex-shrink-0 uppercase"> <img src="/images/logo.png" alt="Cirkla logo" class="w-7 h-7 object-contain">
-Cirkla
-</a> <!-- Desktop links (hidden below md) --> <ul class="hidden md:flex items-center gap-9 list-none m-0 p-0"> <li class="relative group">  <button class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none
-                       text-ink-50 hover:text-ink transition-colors duration-200
-                       flex items-center gap-1.5 bg-transparent border-none cursor-pointer p-0"> Solutions <svg width="8" height="5" viewbox="0 0 8 5" fill="currentColor" class="opacity-60"> <path d="M0 0.5L4 4.5L8 0.5H0Z"></path> </svg> </button> <div class="absolute top-full left-0 pt-2 hidden group-hover:block"> <ul class="bg-white border border-rule rounded-card shadow-lg list-none m-0 p-1.5 min-w-[200px]"> <li> <a href="/solutions/meat-protein" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px]
-                               text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150"> Meat &amp; Protein </a> </li><li> <a href="/solutions/ready-meals" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px]
-                               text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150"> Ready Meals </a> </li><li> <a href="/solutions/produce" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px]
-                               text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150"> Produce </a> </li><li> <a href="/solutions/custom" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px]
-                               text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150"> Custom </a> </li> </ul> </div>  </li><li class="relative group"> <a href="/technology" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none
-                      flex items-center no-underline transition-colors duration-200
-                {{ ($activePage ?? null) === 'technology' ? 'text-ink' : 'text-ink-50 hover:text-ink' }}"> Technology </a> </li><li class="relative group"> <a href="/epr" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none
-                      flex items-center no-underline transition-colors duration-200
-                {{ ($activePage ?? null) === 'epr' ? 'text-ink' : 'text-ink-50 hover:text-ink' }}"> EPR Calculator </a> </li> <li> <a href="/contact" class="font-sans font-medium text-[15px] bg-green text-paper
-                 px-5 py-2.5 rounded-pill no-underline transition-colors duration-200 hover:bg-green-mid
-                 inline-flex items-center gap-2">
-Request a Sample
-<svg width="14" height="14" viewbox="0 0 14 14" fill="none"> <path d="M2 7h10m0 0L7 2m5 5L7 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </a> </li> </ul> <!-- Hamburger (visible below md) --> <button id="nav-hamburger" class="md:hidden flex flex-col gap-[5px] p-2 -mr-2 bg-transparent border-none cursor-pointer" aria-label="Open menu"> <span class="block w-5 h-px bg-ink transition-all duration-200" id="ham-1"></span> <span class="block w-5 h-px bg-ink transition-all duration-200" id="ham-2"></span> <span class="block w-5 h-px bg-ink transition-all duration-200" id="ham-3"></span> </button> </div> <!-- ── Mobile menu panel ── --> <div id="mobile-menu" class="hidden md:hidden bg-paper border-t border-rule"> <div class="px-6 py-6 flex flex-col gap-1"> <div> <p class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-50 py-3 border-b border-rule"> Solutions </p> <div class="pl-4 flex flex-col gap-0"> <a href="/solutions/meat-protein" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50
-                         no-underline hover:text-green transition-colors duration-150"> Meat &amp; Protein </a><a href="/solutions/ready-meals" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50
-                         no-underline hover:text-green transition-colors duration-150"> Ready Meals </a><a href="/solutions/produce" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50
-                         no-underline hover:text-green transition-colors duration-150"> Produce </a><a href="/solutions/custom" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50
-                         no-underline hover:text-green transition-colors duration-150"> Custom </a> </div> </div><a href="/technology" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70
-                   py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150"> Technology </a><a href="/epr" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70
-                   py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150"> EPR Calculator </a> <a href="/contact" class="mt-4 font-sans font-medium text-[15px] bg-green text-paper
-               px-5 py-3.5 rounded-pill no-underline text-center hover:bg-green-mid
-               transition-colors duration-200 flex items-center justify-center gap-2">
-Request a Sample
-<svg width="14" height="14" viewbox="0 0 14 14" fill="none"> <path d="M2 7h10m0 0L7 2m5 5L7 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </a> </div> </div> </nav>
+<nav class="copar-nav">
+    <div class="copar-nav__inner">
+        <a class="copar-logo" href="/" aria-label="COPAR home">
+            <img src="/images/copar/logo.svg" alt="COPAR">
+        </a>
+
+        <div class="copar-nav__links">
+            <a class="{{ ($activePage ?? '') === 'home' ? 'is-active' : '' }}" href="/">Home</a>
+            <details>
+                <summary>Solutions</summary>
+                <div class="copar-menu">
+                    <a href="/technology">HyperBarrier Paper</a>
+                    <a href="/solutions/produce">Agri-Fibre Packaging</a>
+                    <a href="/solutions/ready-meals">ServeSmart Paper Cutlery</a>
+                    <a href="/solutions/custom">Custom Packaging</a>
+                </div>
+            </details>
+            <details>
+                <summary>Industries</summary>
+                <div class="copar-menu">
+                    <a href="/solutions/meat-protein">Meat &amp; Poultry</a>
+                    <a href="/solutions/ready-meals">Ready Meals</a>
+                    <a href="/solutions/produce">Fresh Produce</a>
+                    <a href="/solutions/map-vsp">Seafood</a>
+                    <a href="/solutions/overwrap">Dairy &amp; Pet Care</a>
+                </div>
+            </details>
+            <a class="{{ ($activePage ?? '') === 'standards' ? 'is-active' : '' }}" href="/certifications">Standards</a>
+            <a class="{{ ($activePage ?? '') === 'contact' ? 'is-active' : '' }}" href="/contact">Contact</a>
+        </div>
+
+        <a class="copar-nav__cta" href="/contact">Customise packaging</a>
+
+        <details class="copar-mobile">
+            <summary>Menu</summary>
+            <div class="copar-mobile__panel">
+                <a href="/">Home</a>
+                <a href="/technology">HyperBarrier Paper</a>
+                <a href="/solutions/produce">Agri-Fibre Packaging</a>
+                <a href="/solutions/ready-meals">ServeSmart Cutlery</a>
+                <a href="/solutions/meat-protein">Meat &amp; Poultry</a>
+                <a href="/solutions/map-vsp">Seafood</a>
+                <a href="/certifications">Standards</a>
+                <a href="/contact">Contact</a>
+            </div>
+        </details>
+    </div>
+</nav>

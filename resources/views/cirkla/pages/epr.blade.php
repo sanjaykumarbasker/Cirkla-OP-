@@ -1,104 +1,89 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 @php
-$pageTitle = 'EPR Savings Calculator - Cirkla';
-$metaDescription = 'Cirkla - Fiber packaging that performs.';
-$pageScript = '/_astro/hoisted.B0qOguVs.js';
-$activePage = 'epr';
+    $pageTitle = 'Circular Packaging Process - COPAR';
+    $metaDescription = 'COPAR creates custom sustainable packaging through assessment, material-led design, prototyping, validation, and production.';
+    $activePage = 'process';
 @endphp
 @include('cirkla.includes.head')
 
-<body> @include('cirkla.includes.nav') <main>
-        <section class="pt-nav bg-green-deep">
-            <div class="max-w-site mx-auto px-6 md:px-12 py-20 md:py-28">
-                <p class="inline-flex px-4 py-1.5 bg-butter text-green-deep rounded-pill font-mono text-[13px] tracking-[0.08em] uppercase font-medium mb-8">Extended Producer Responsibility</p>
-                <h1 class="font-serif font-normal text-[clamp(44px,5vw,64px)] leading-[1.08] tracking-[-1.5px] text-paper max-w-3xl mb-6">See how much you save <em class="italic font-light">switching to fiber.</em></h1>
-                <p class="font-sans text-[19px] text-paper/70 leading-[1.6] max-w-2xl">EPR fees are calculated by material weight. Fiber trays carry dramatically lower fees than EPS or PET — enter your details below to see the difference.</p>
-            </div>
-        </section>
-        <section class="bg-white py-20 md:py-[120px]">
-            <div class="max-w-site mx-auto px-6 md:px-12"> <!-- Inputs -->
-                <div class="bg-cream rounded-card p-8 md:p-10 mb-10 reveal">
-                    <p class="font-mono text-[13px] tracking-[0.1em] uppercase font-medium text-green-mid mb-6">Your Packaging Inputs</p>
-                    <div class="grid md:grid-cols-3 gap-6">
-                        <div> <label class="block font-sans text-[13px] font-medium text-ink mb-2" for="refMaterial">Current Tray Material</label> <select id="refMaterial" class="w-full bg-white border border-rule rounded-[8px] px-4 py-3 font-sans text-[15px] text-ink focus:outline-none focus:ring-2 focus:ring-green/30">
-                                <option value="EPS">EPS (Expanded Polystyrene)</option>
-                                <option value="PET" selected="">PET (Clear Plastic)</option>
-                                <option value="PP">PP (Polypropylene)</option>
-                            </select>
-                            <p class="font-sans text-[12px] text-ink-50 mt-1.5">The plastic tray you currently use</p>
-                        </div>
-                        <div> <label class="block font-sans text-[13px] font-medium text-ink mb-2" for="trayWeight">Tray Weight (grams)</label> <input id="trayWeight" type="number" value="30" min="1" max="500" step="0.1" class="w-full bg-white border border-rule rounded-[8px] px-4 py-3 font-sans text-[15px] text-ink focus:outline-none focus:ring-2 focus:ring-green/30">
-                            <p class="font-sans text-[12px] text-ink-50 mt-1.5">Weight of your current plastic tray</p>
-                        </div>
-                        <div> <label class="block font-sans text-[13px] font-medium text-ink mb-2" for="numTrays">Number of Trays / Year</label> <input id="numTrays" type="text" inputmode="numeric" value="1,000,000" class="w-full bg-white border border-rule rounded-[8px] px-4 py-3 font-sans text-[15px] text-ink focus:outline-none focus:ring-2 focus:ring-green/30">
-                            <p class="font-sans text-[12px] text-ink-50 mt-1.5">Annual tray volume</p>
+<body>
+<div class="copar-shell">
+    @include('cirkla.includes.nav')
+
+    <main>
+        <section class="copar-product-hero">
+            <div class="copar-container">
+                <div class="copar-product-grid">
+                    <div>
+                        <p class="copar-eyebrow">Circular packaging process</p>
+                        <h1 class="copar-title">Custom sustainable packaging <em>made for you.</em></h1>
+                        <p class="copar-lead">
+                            COPAR moves from assessment to material selection, prototype validation, and production planning so each solution fits the product and sector.
+                        </p>
+                        <div class="copar-actions">
+                            <a class="copar-button" href="/contact">Start a project</a>
                         </div>
                     </div>
-                </div> <!-- Output: Fee Comparison Table -->
-                <div class="reveal" id="resultsBlock">
-                    <header class="mb-8">
-                        <p class="font-mono text-[13px] tracking-[0.1em] uppercase font-medium text-green-mid mb-3">Annual EPR Fee</p>
-                    </header> <!-- Total fees table -->
-                    <div class="overflow-x-auto mb-4">
-                        <table class="w-full border-collapse font-sans text-[14px]">
-                            <thead>
-                                <tr class="border-b border-rule">
-                                    <th class="text-left py-3 pl-4 pr-6 font-medium text-ink-50 font-mono text-[13px] tracking-[0.08em] uppercase w-40">Material</th>
-                                    <th class="text-right py-3 px-4 font-medium text-ink-50 font-mono text-[13px] tracking-[0.08em] uppercase w-36">Oregon</th>
-                                    <th class="text-right py-3 px-4 font-medium text-ink-50 font-mono text-[13px] tracking-[0.08em] uppercase w-36">Colorado</th>
-                                    <th class="text-right py-3 px-4 font-medium text-ink-50 font-mono text-[13px] tracking-[0.08em] uppercase w-36">California <span class="normal-case">(Low)</span></th>
-                                    <th class="text-right py-3 px-4 font-medium text-ink-50 font-mono text-[13px] tracking-[0.08em] uppercase w-36">California <span class="normal-case">(High)</span></th>
-                                </tr>
-                            </thead>
-                            <tbody id="totalFeeBody"> <!-- JS populated --> </tbody>
-                        </table>
-                    </div>
-                    <p class="font-sans text-[12px] text-ink-50 mb-10">Total annual EPR fees in dollars. California fees include base rate + Reuse Investment Fee + PPMF weight and component fees.</p> <!-- Per tray fees table -->
-                    <p class="font-mono text-[13px] tracking-[0.1em] uppercase font-medium text-green-mid mb-4">Fee Per Tray (¢)</p>
-                    <div class="overflow-x-auto mb-4">
-                        <table class="w-full border-collapse font-sans text-[14px]">
-                            <thead>
-                                <tr class="border-b border-rule">
-                                    <th class="text-left py-3 pl-4 pr-6 font-medium text-ink-50 font-mono text-[13px] tracking-[0.08em] uppercase w-40">Material</th>
-                                    <th class="text-right py-3 px-4 font-medium text-ink-50 font-mono text-[13px] tracking-[0.08em] uppercase w-36">Oregon</th>
-                                    <th class="text-right py-3 px-4 font-medium text-ink-50 font-mono text-[13px] tracking-[0.08em] uppercase w-36">Colorado</th>
-                                    <th class="text-right py-3 px-4 font-medium text-ink-50 font-mono text-[13px] tracking-[0.08em] uppercase w-36">California <span class="normal-case">(Low)</span></th>
-                                    <th class="text-right py-3 px-4 font-medium text-ink-50 font-mono text-[13px] tracking-[0.08em] uppercase w-36">California <span class="normal-case">(High)</span></th>
-                                </tr>
-                            </thead>
-                            <tbody id="perTrayFeeBody"> <!-- JS populated --> </tbody>
-                        </table>
-                    </div>
-                    <p class="font-sans text-[12px] text-ink-50">Fee per tray in cents (¢).</p> <!-- Savings callout -->
-                    <div class="mt-10 bg-green rounded-card p-8 md:p-10" id="savingsCallout">
-                        <p class="font-mono text-[13px] tracking-[0.1em] uppercase font-medium text-butter mb-3">Your Estimated Savings with Cirkla</p>
-                        <div class="grid md:grid-cols-3 gap-6">
-                            <div>
-                                <p class="font-sans text-[13px] text-paper/60 mb-1">vs. Oregon avg</p>
-                                <p class="font-serif text-[36px] font-normal text-paper leading-none" id="savingsOR">—</p>
-                            </div>
-                            <div>
-                                <p class="font-sans text-[13px] text-paper/60 mb-1">vs. Colorado avg</p>
-                                <p class="font-serif text-[36px] font-normal text-paper leading-none" id="savingsCO">—</p>
-                            </div>
-                            <div>
-                                <p class="font-sans text-[13px] text-paper/60 mb-1">vs. California avg</p>
-                                <p class="font-serif text-[36px] font-normal text-paper leading-none" id="savingsCA">—</p>
-                            </div>
-                        </div>
-                        <p class="font-sans text-[13px] text-paper/50 mt-6">Savings = your current material's fee minus Cirkla (Molded Fiber) fee. California savings shown as midpoint of low/high range.</p>
+                    <div class="copar-product-media">
+                        <img src="/images/copar/process/sustainable.svg" alt="Circular packaging process">
                     </div>
                 </div>
             </div>
         </section>
-        <section class="bg-cream py-12">
-            <div class="max-w-site mx-auto px-6 md:px-12">
-                <p class="font-sans text-[13px] text-ink-50 leading-[1.7] max-w-3xl"> <strong class="text-ink font-medium">Disclaimer:</strong> Fee estimates are based on published 2025–2027 EPR schedule rates for Oregon, Colorado, and California. Actual fees depend on producer registration, material classification, and program administrator determinations. This calculator is for illustrative purposes only and does not constitute legal or regulatory advice.
-                </p>
+
+        <section class="copar-section copar-section--green">
+            <div class="copar-container">
+                <header class="copar-section-header">
+                    <p class="copar-eyebrow">Workflow</p>
+                    <h2 class="copar-section-title">A streamlined path from prototype to production.</h2>
+                </header>
+                <div class="copar-process">
+                    <article class="copar-step">
+                        <span>01</span>
+                        <h3>Packaging assessment</h3>
+                        <p>Understand the existing packaging, application, and performance requirements.</p>
+                    </article>
+                    <article class="copar-step">
+                        <span>02</span>
+                        <h3>Material-led solution</h3>
+                        <p>Provide fibre or paper formats tested for performance and recyclable norms.</p>
+                    </article>
+                    <article class="copar-step">
+                        <span>03</span>
+                        <h3>Prototyping and validation</h3>
+                        <p>Test fit, strength, and functional performance before production.</p>
+                    </article>
+                    <article class="copar-step">
+                        <span>04</span>
+                        <h3>Large-scale production</h3>
+                        <p>Move from sample to production with a transparent supply chain.</p>
+                    </article>
+                </div>
             </div>
         </section>
-    </main>
-</body>
 
+        <section class="copar-section">
+            <div class="copar-container">
+                <div class="copar-split">
+                    <div>
+                        <p class="copar-eyebrow">What happens after</p>
+                        <h2 class="copar-section-title">Packaging is about performance, compliance, and end of life.</h2>
+                    </div>
+                    <div class="copar-feature-panel">
+                        <ul class="copar-list">
+                            <li>Recyclable HyperBarrier paper options for barrier performance.</li>
+                            <li>Compostable and recyclable agri-fibre packaging formats.</li>
+                            <li>Biodegradable ServeSmart paper cutlery for food service applications.</li>
+                            <li>Custom projects that match material pathways to sector needs.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        @include('cirkla.includes.contact-panel')
+    </main>
+</div>
+</body>
 </html>

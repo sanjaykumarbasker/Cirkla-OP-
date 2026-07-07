@@ -132,7 +132,7 @@
     filter: drop-shadow(0 22px 28px rgba(26, 29, 21, 0.16));
 }
 
-.copar-visual-pouch {
+.copar-visual-tray-top {
     top: 2rem;
     right: 2.25rem;
     width: 11.75rem;
@@ -144,7 +144,7 @@
     width: 370px;
 }
 
-.copar-visual-spoons {
+.copar-visual-tray-small {
     right: 3.25rem;
     bottom: 2.25rem;
     width: 9.5rem;

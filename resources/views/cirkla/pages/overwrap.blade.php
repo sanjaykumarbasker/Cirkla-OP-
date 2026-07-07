@@ -1,65 +1,53 @@
 @php
-    $pageTitle = 'Dairy & Pet Care Packaging - COPAR';
-    $metaDescription = 'COPAR develops circular packaging options for dairy, pet care, and specialty food applications.';
+    $pageTitle = 'Unlaminated Trays - COPAR';
+    $metaDescription = 'COPAR unlaminated trays for tray-first fibre packaging programs and custom food applications.';
     $activePage = 'overwrap';
     $layoutVariant = 'specialty';
     $hero = [
-        'eyebrow' => 'Dairy & Pet Care',
-        'title' => 'Specialty food packaging <em>customised by category.</em>',
-        'copy' => 'From dairy applications to pet food trays and lids, COPAR develops circular packaging around product fit, shelf requirements, and compliance goals.',
-        'image' => '/images/copar/meal-tray-2c-transparent.png',
-        'imageAlt' => 'Full COPAR pet care tray',
-        'pills' => ['Pet food trays', 'Lids', 'Dairy applications'],
+        'eyebrow' => 'Unlaminated Trays',
+        'title' => 'Unlaminated trays <em>for straightforward fibre packaging.</em>',
+        'copy' => 'COPAR unlaminated trays support tray-first applications where a clean moulded fibre format, rigidity, and product fit are the priority.',
+        'image' => '/images/copar/tray-hero.png',
+        'imageAlt' => 'Full COPAR unlaminated tray',
+        'pills' => ['Moulded fibre', 'Retail trays', 'Custom dimensions'],
     ];
-    $featureTitle = 'Category-led design';
-    $featureHeading = 'Packaging matched to the product, <em>not forced from a standard SKU.</em>';
-    $featureCopy = 'Dairy and pet care formats often need bespoke dimensions, seal systems, and material decisions. COPAR can prototype and validate those needs before scale-up.';
+    $featureTitle = 'Tray-first material';
+    $featureHeading = 'Simple fibre trays, <em>matched to the product.</em>';
+    $featureCopy = 'Unlaminated tray formats can be reviewed for products that need a rigid tray base without added laminated surface requirements.';
     $benefits = [
-        'Customised tray and lid formats for pet food applications.',
-        'Material options for dairy, retail, and specialty food categories.',
+        'Clean moulded fibre tray structure.',
+        'Useful for fresh produce, dry goods, and selected prepared food applications.',
         'Designed around compliance, cost, and end-of-life requirements.',
-        'Can combine fibre, barrier paper, and custom material pathways.',
+        'Can be customised by tray size, shape, and depth.',
     ];
     $applications = [
-        ['label' => 'Pet Care', 'title' => 'Pet food trays', 'copy' => '500 ml and 1000 ml tray resources are available from the supplied product files.'],
-        ['label' => 'Pet Care', 'title' => 'Lid systems', 'copy' => 'Review lid documentation for pack compatibility and buyer presentation.'],
-        ['label' => 'Dairy', 'title' => 'Custom dairy formats', 'copy' => 'Material-led projects for dairy packs, tubs, inserts, and specialty retail applications.'],
+        ['label' => 'Retail trays', 'title' => 'Shelf-ready fibre bases', 'copy' => 'Unlaminated tray pathways for products that need simple presentation and practical handling.'],
+        ['label' => 'Produce trays', 'title' => 'Fresh and dry product formats', 'copy' => 'Tray structures for produce and goods where a moulded fibre base is the right fit.'],
+        ['label' => 'Custom trays', 'title' => 'Dimension-led development', 'copy' => 'Review fit, stacking, and rigidity before moving into sample and production planning.'],
     ];
     $productDetails = [
         [
-            'label' => 'Pet food tray 500ML',
-            'title' => 'Compact tray format for pet food portions',
-            'copy' => 'The 500ML pet food tray document informs a smaller portion format where strength, seal planning and shelf presentation need to work together.',
-            'image' => '/images/copar/meal-tray-2c-transparent.png',
-            'imageAlt' => 'Full pet food tray format',
+            'label' => 'Unlaminated tray',
+            'title' => 'Moulded fibre tray without laminated surface',
+            'copy' => 'Unlaminated trays give packaging teams a simple tray format for products where fibre structure, shape, and presentation are the key requirements.',
+            'image' => '/images/copar/tray-hero.png',
+            'imageAlt' => 'Full unlaminated tray format',
             'features' => [
-                'Compact size for single-serve and portioned pet food.',
-                'Designed for lid compatibility and retail presentation.',
-                'Supports a fibre-led packaging pathway.',
-            ],
-        ],
-        [
-            'label' => 'Pet food tray 1000ML',
-            'title' => 'Larger tray format for higher volume packs',
-            'copy' => 'The 1000ML pet food tray resource supports larger pack conversations where capacity, rigidity and distribution performance matter.',
-            'image' => '/images/copar/ppt-image2.png',
-            'imageAlt' => 'Full COPAR tray render',
-            'features' => [
-                'Higher-capacity tray option for pet care packs.',
-                'Can be reviewed with lid, sealing and stacking needs.',
+                'Suitable for selected fresh, dry, and retail tray applications.',
+                'Can be reviewed with stacking and product-fit needs.',
                 'Useful for buyer and production trial planning.',
             ],
         ],
         [
-            'label' => 'Pet food lid',
-            'title' => 'Lid system planning for tray compatibility',
-            'copy' => 'The pet food lid files are represented as part of the complete pack system, supporting fit, seal and presentation discussions.',
+            'label' => 'Tray fit planning',
+            'title' => 'Custom sizing for product compatibility',
+            'copy' => 'Tray dimensions, rim design, and depth can be developed around the product rather than forcing a standard format.',
             'image' => '/images/copar/tray.png',
-            'imageAlt' => 'COPAR tray top view for lid planning',
+            'imageAlt' => 'COPAR unlaminated tray top view',
             'features' => [
-                'Designed around tray fit and sealing requirements.',
+                'Designed around product fit and display requirements.',
                 'Supports finished-pack presentation.',
-                'Can be customised alongside tray dimensions.',
+                'Can be customised alongside customer tray dimensions.',
             ],
         ],
     ];

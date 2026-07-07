@@ -8,34 +8,19 @@
         <ul class="hidden md:flex items-center gap-9 list-none m-0 p-0">
             <li class="relative group">
                 <button class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none text-ink-50 hover:text-ink transition-colors duration-200 flex items-center gap-1.5 bg-transparent border-none cursor-pointer p-0">
-                    Solutions
+                    Tray Products
                     <svg width="8" height="5" viewbox="0 0 8 5" fill="currentColor" class="opacity-60">
                         <path d="M0 0.5L4 4.5L8 0.5H0Z"></path>
                     </svg>
                 </button>
                 <div class="absolute top-full left-0 pt-2 hidden group-hover:block">
-                    <ul class="bg-white border border-rule rounded-card shadow-lg list-none m-0 p-1.5 min-w-[200px]">
-                        <li><a href="/technology" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150">HyperBarrier Paper</a></li>
-                        <li><a href="/solutions/produce" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150">Agri-Fibre Packaging</a></li>
-                        <li><a href="/solutions/ready-meals" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150">ServeSmart Cutlery</a></li>
-                        <li><a href="/solutions/custom" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150">Custom</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li class="relative group">
-                <button class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none text-ink-50 hover:text-ink transition-colors duration-200 flex items-center gap-1.5 bg-transparent border-none cursor-pointer p-0">
-                    Industries
-                    <svg width="8" height="5" viewbox="0 0 8 5" fill="currentColor" class="opacity-60">
-                        <path d="M0 0.5L4 4.5L8 0.5H0Z"></path>
-                    </svg>
-                </button>
-                <div class="absolute top-full left-0 pt-2 hidden group-hover:block">
-                    <ul class="bg-white border border-rule rounded-card shadow-lg list-none m-0 p-1.5 min-w-[200px]">
-                        <li><a href="/solutions/meat-protein" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150">Meat &amp; Poultry</a></li>
-                        <li><a href="/solutions/ready-meals" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150">Ready Meals</a></li>
-                        <li><a href="/solutions/produce" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150">Fresh Produce</a></li>
-                        <li><a href="/solutions/map-vsp" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150">Seafood</a></li>
-                        <li><a href="/solutions/overwrap" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150">Dairy &amp; Pet Care</a></li>
+                    <ul class="bg-white border border-rule rounded-card shadow-lg list-none m-0 p-1.5 min-w-[220px]">
+                        <li><a href="/solutions/meat-trays" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150">Meat Trays</a></li>
+                        <li><a href="/solutions/rte-trays" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150">RTE Trays</a></li>
+                        <li><a href="/solutions/fresh-produce" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150">Fresh Produce Trays</a></li>
+                        <li><a href="/solutions/special-trays" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150">Special Trays</a></li>
+                        <li><a href="/solutions/laminated-trays" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150">Laminated Trays</a></li>
+                        <li><a href="/solutions/unlaminated-trays" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150">Unlaminated Trays</a></li>
                     </ul>
                 </div>
             </li>
@@ -43,7 +28,7 @@
             <li><a href="/epr" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none flex items-center no-underline transition-colors duration-200 {{ ($activePage ?? null) === 'epr' ? 'text-ink' : 'text-ink-50 hover:text-ink' }}">Process</a></li>
             <li>
                 <a href="/contact" class="font-sans font-medium text-[15px] bg-green text-paper px-5 py-2.5 rounded-pill no-underline transition-colors duration-200 hover:bg-green-mid inline-flex items-center gap-2">
-                    Customise packaging
+                    Customise trays
                     <svg width="14" height="14" viewbox="0 0 14 14" fill="none">
                         <path d="M2 7h10m0 0L7 2m5 5L7 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
@@ -60,18 +45,18 @@
 
     <div id="mobile-menu" class="hidden md:hidden bg-paper border-t border-rule">
         <div class="px-6 py-6 flex flex-col gap-1">
-            <p class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-50 py-3 border-b border-rule">Solutions</p>
+            <p class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-50 py-3 border-b border-rule">Tray Products</p>
             <div class="pl-4 flex flex-col gap-0">
-                <a href="/technology" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">HyperBarrier Paper</a>
-                <a href="/solutions/produce" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Agri-Fibre Packaging</a>
-                <a href="/solutions/ready-meals" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">ServeSmart Cutlery</a>
-                <a href="/solutions/custom" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Custom</a>
+                <a href="/solutions/meat-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Meat Trays</a>
+                <a href="/solutions/rte-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">RTE Trays</a>
+                <a href="/solutions/fresh-produce" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Fresh Produce Trays</a>
+                <a href="/solutions/special-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Special Trays</a>
+                <a href="/solutions/laminated-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Laminated Trays</a>
+                <a href="/solutions/unlaminated-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Unlaminated Trays</a>
             </div>
-            <a href="/solutions/meat-protein" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70 py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150">Meat &amp; Poultry</a>
-            <a href="/solutions/map-vsp" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70 py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150">Seafood</a>
             <a href="/certifications" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70 py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150">Standards</a>
             <a href="/epr" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70 py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150">Process</a>
-            <a href="/contact" class="mt-4 font-sans font-medium text-[15px] bg-green text-paper px-5 py-3.5 rounded-pill no-underline text-center hover:bg-green-mid transition-colors duration-200 flex items-center justify-center gap-2">Customise packaging</a>
+            <a href="/contact" class="mt-4 font-sans font-medium text-[15px] bg-green text-paper px-5 py-3.5 rounded-pill no-underline text-center hover:bg-green-mid transition-colors duration-200 flex items-center justify-center gap-2">Customise trays</a>
         </div>
     </div>
 </nav>

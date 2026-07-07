@@ -1,53 +1,53 @@
 @php
-    $pageTitle = 'HyperBarrier Paper - COPAR';
-    $metaDescription = 'COPAR HyperBarrier Paper combines recyclable paper packaging with oxygen and moisture barrier performance.';
+    $pageTitle = 'Laminated Trays - COPAR';
+    $metaDescription = 'COPAR laminated trays for food packaging programs that need sealability, presentation, and tray performance.';
     $activePage = 'technology';
     $layoutVariant = 'barrier';
     $hero = [
-        'eyebrow' => 'HyperBarrier Paper',
-        'title' => 'Recyclable mono-barrier paper <em>with shelf-life protection.</em>',
-        'copy' => 'Most barrier papers compromise either recyclability or performance. HyperBarrier changes that with recyclable paper formats engineered for oxygen and moisture barrier performance.',
-        'image' => '/images/copar/pouch.png',
-        'imageAlt' => 'HyperBarrier Paper pouch',
-        'pills' => ['Recyclable paper streams', 'MAP-ready', 'Converter-friendly'],
+        'eyebrow' => 'Laminated Trays',
+        'title' => 'Laminated trays <em>for stronger pack performance.</em>',
+        'copy' => 'COPAR tray programs can be specified with laminated surfaces for applications that need improved sealing, handling, and finished-pack presentation.',
+        'image' => '/images/copar/meal-tray-2c-transparent.png',
+        'imageAlt' => 'Full laminated COPAR tray',
+        'pills' => ['Seal-ready', 'Retail presentation', 'Custom tray formats'],
     ];
-    $featureTitle = 'Why it matters';
-    $featureHeading = 'Barrier performance, <em>without plastic traps.</em>';
-    $featureCopy = 'HyperBarrier combines recyclable fibre content with barrier performance in the range of EVOH, without relying on EVOH.';
+    $featureTitle = 'Tray performance';
+    $featureHeading = 'A tray structure made for <em>finished-pack reliability.</em>';
+    $featureCopy = 'Laminated tray options support food brands and processors that need a fibre tray with surface performance matched to the packing line.';
     $benefits = [
-        'Recyclable in paper streams.',
-        'Replaces plastic layers like EVOH.',
-        'Supports MAP applications for meat, dairy, produce, and ready meals.',
-        'Designed for converters across extrusion, lamination, and thermoforming.',
+        'Supports sealing and lidding conversations.',
+        'Designed for chilled, fresh, and prepared food formats.',
+        'Improves pack presentation for retail and food service.',
+        'Can be matched to shape, depth, portion size, and line requirements.',
     ];
     $applications = [
-        ['label' => 'Fresh food', 'title' => 'MAP-compliant formats', 'copy' => 'Barrier paper options for fresh meat, seafood, produce, dairy, and convenience foods that need shelf-life protection.'],
-        ['label' => 'Retail', 'title' => 'Recyclable flowwrap', 'copy' => 'Paper-based pack structures for retail shelves where recyclability and presentation both matter.'],
-        ['label' => 'Converters', 'title' => 'Flexible production paths', 'copy' => 'Designed for teams that need extrusion, lamination, thermoforming, or coating-ready material options.'],
+        ['label' => 'Prepared food', 'title' => 'Laminated RTE tray options', 'copy' => 'Tray surfaces planned around ready-to-eat and ready-to-heat use cases.'],
+        ['label' => 'Fresh food', 'title' => 'Retail tray presentation', 'copy' => 'Fibre tray formats with a cleaner finished-pack look for chilled display.'],
+        ['label' => 'Custom programs', 'title' => 'Format-led development', 'copy' => 'Tray geometry, lid fit, and surface needs can be reviewed before production.'],
     ];
     $productDetails = [
         [
-            'label' => 'HyperBarrier Paper',
-            'title' => 'Recyclable mono-barrier paper packaging',
-            'copy' => 'HyperBarrier is designed for food brands and converters that need shelf-life protection without trapping the pack in multilayer plastic structures.',
-            'image' => '/images/copar/pouch.png',
-            'imageAlt' => 'Full HyperBarrier paper pouch',
+            'label' => 'Laminated tray',
+            'title' => 'Fibre tray with laminated surface options',
+            'copy' => 'A laminated tray gives packaging teams a tray-first format with added surface functionality for sealing, presentation, and product handling.',
+            'image' => '/images/copar/meal-tray-2c-transparent.png',
+            'imageAlt' => 'Full laminated meal tray',
             'features' => [
-                'FSC minimum fibre content pathway for recyclable paper streams.',
-                'Oxygen and moisture barrier performance in the range of EVOH without using EVOH.',
-                'Suitable for meat, dairy, produce, ready meals, flowwrap and pouch formats.',
+                'Suitable for RTE, meat, fresh produce, and special tray applications.',
+                'Supports custom lidding and sealing requirements.',
+                'Built around tray dimensions, product fit, and buyer presentation.',
             ],
         ],
         [
-            'label' => 'Converter-ready',
-            'title' => 'Built for extrusion, lamination and thermoforming teams',
-            'copy' => 'The material pathway is intended for practical conversion workflows, helping packaging teams move from proof of concept to commercial format decisions.',
-            'image' => '/images/copar/open-pouch.png',
-            'imageAlt' => 'Open COPAR paper pouch',
+            'label' => 'Custom laminate planning',
+            'title' => 'Tray development around packing-line needs',
+            'copy' => 'COPAR can review tray depth, rim design, surface requirements, and handling expectations so the finished format works in production.',
+            'image' => '/images/copar/ppt-image2.png',
+            'imageAlt' => 'COPAR tray render',
             'features' => [
-                'Supports custom coatings and barrier structures.',
-                'Helps replace plastic layers in flexible and formed applications.',
-                'Designed around compliance, cost and pack-performance targets.',
+                'Format review for sample and production planning.',
+                'Options for single and divided tray structures.',
+                'Designed for practical performance discussions with QA and operations teams.',
             ],
         ],
     ];

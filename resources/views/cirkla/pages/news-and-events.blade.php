@@ -2,7 +2,7 @@
 <html lang="en">
 @php
 $pageTitle = 'Recognition & Resources - COPAR';
-$metaDescription = 'COPAR recognition, product highlights, and technical capabilities for sustainable packaging solutions.';
+$metaDescription = 'COPAR recognition, tray product highlights, and technical capabilities for sustainable tray packaging solutions.';
 $pageScript = '/_astro/hoisted.CCIidRwJ.js';
 $activePage = 'news';
 @endphp
@@ -19,11 +19,11 @@ $activePage = 'news';
                     Material innovation <em class="italic font-light">made visible.</em>
                 </h1>
                 <p class="font-sans text-[19px] text-paper/70 leading-[1.6] max-w-2xl">
-                    COPAR's fibre and paper packaging innovations support recyclable and compostable formats while maintaining functional performance.
+                    COPAR's tray innovations support recyclable and compostable tray formats while maintaining functional performance.
                 </p>
             </div>
             <div class="hidden md:flex items-center justify-center">
-                <img src="/images/copar/footer-image.png" alt="COPAR sustainable packaging" class="max-w-full max-h-[480px] object-contain">
+                <img src="/images/copar/footer-image.png" alt="COPAR sustainable tray packaging" class="max-w-full max-h-[480px] object-contain">
             </div>
         </div>
     </section>
@@ -52,15 +52,15 @@ $activePage = 'news';
             <div class="copar-product-gallery reveal">
                 <figure>
                     <img src="/images/copar/meal-tray-2c-transparent.png" alt="2C meal tray full product view">
-                    <figcaption><strong>2C Meal Tray</strong><br>Two-compartment fibre tray format for ready meals, sample trials and buyer review.</figcaption>
+                    <figcaption><strong>RTE Tray</strong><br>Two-compartment fibre tray format for ready meals, sample trials and buyer review.</figcaption>
                 </figure>
                 <figure>
                     <img src="/images/copar/tray-hero.png" alt="Agri-fibre tray full product view">
-                    <figcaption><strong>Agri-Fibre Trays</strong><br>Tray pathways for produce, food service, meat, pork, sausage, drylock and MSO formats.</figcaption>
+                    <figcaption><strong>Fresh Produce Trays</strong><br>Tray pathways for produce, retail display and food service formats.</figcaption>
                 </figure>
                 <figure>
-                    <img src="/images/copar/spoons.png" alt="ServeSmart paper cutlery full product view">
-                    <figcaption><strong>ServeSmart Cutlery</strong><br>9-ply FSC paper cutlery with strength, clean taste and biodegradable end of life.</figcaption>
+                    <img src="/images/copar/ppt-image2.png" alt="Special COPAR tray full product view">
+                    <figcaption><strong>Special Trays</strong><br>Custom tray structures for laminated, unlaminated, divided and moisture-aware formats.</figcaption>
                 </figure>
             </div>
         </div>

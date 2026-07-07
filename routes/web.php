@@ -20,6 +20,25 @@ foreach ($pages as $uri => $view) {
     Route::view($uri, "cirkla.pages.{$view}");
 }
 
+$trayPages = [
+    'solutions/laminated-trays' => 'technology',
+    'solutions/laminated-trays.html' => 'technology',
+    'solutions/meat-trays' => 'meat-protein',
+    'solutions/meat-trays.html' => 'meat-protein',
+    'solutions/rte-trays' => 'ready-meals',
+    'solutions/rte-trays.html' => 'ready-meals',
+    'solutions/fresh-produce' => 'produce',
+    'solutions/fresh-produce.html' => 'produce',
+    'solutions/special-trays' => 'custom',
+    'solutions/special-trays.html' => 'custom',
+    'solutions/unlaminated-trays' => 'overwrap',
+    'solutions/unlaminated-trays.html' => 'overwrap',
+];
+
+foreach ($trayPages as $uri => $view) {
+    Route::view($uri, "cirkla.pages.{$view}");
+}
+
 $solutions = [
     'meat-protein',
     'ready-meals',

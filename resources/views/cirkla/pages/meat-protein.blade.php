@@ -1,50 +1,50 @@
 @php
-    $pageTitle = 'Meat & Poultry Packaging - COPAR';
-    $metaDescription = 'COPAR develops barrier and fibre packaging options for meat and poultry applications.';
+    $pageTitle = 'Meat Trays - COPAR';
+    $metaDescription = 'COPAR meat trays for fresh protein, pork, sausage, poultry, and chilled retail packaging programs.';
     $activePage = 'meat-protein';
     $layoutVariant = 'protein';
     $hero = [
-        'eyebrow' => 'Meat & poultry',
-        'title' => 'Packaging designed for <em>fresh protein performance.</em>',
-        'copy' => 'Build shelf-life, presentation, and circular material goals into trays and barrier formats for meat and poultry programs.',
+        'eyebrow' => 'Meat Trays',
+        'title' => 'Meat trays designed for <em>fresh protein performance.</em>',
+        'copy' => 'COPAR meat trays support shelf presentation, moisture-aware handling, and circular material goals for meat, poultry, pork, and sausage programs.',
         'image' => '/images/copar/meal-tray-2c-transparent.png',
-        'imageAlt' => 'COPAR fibre tray',
-        'pills' => ['Barrier-ready', 'Retail formats', 'Protein applications'],
+        'imageAlt' => 'COPAR meat tray',
+        'pills' => ['Fresh protein', 'Retail formats', 'Processor-ready'],
     ];
     $featureTitle = 'Protein applications';
-    $featureHeading = 'Performance where packaging decisions <em>matter most.</em>';
-    $featureCopy = 'Fresh protein packaging needs strength, moisture control, barrier performance, and production consistency. COPAR builds material options around those requirements.';
+    $featureHeading = 'Performance where tray decisions <em>matter most.</em>';
+    $featureCopy = 'Fresh protein trays need strength, moisture handling, product fit, and production consistency. COPAR builds tray options around those requirements.';
     $benefits = [
-        'Supports MAP and chilled retail applications.',
-        'Designed for shelf-life protection and product presentation.',
-        'Pairs HyperBarrier paper options with agri-fibre tray formats.',
+        'Supports chilled retail and processor tray applications.',
+        'Designed for product presentation and pack stability.',
         'Customisable for meat, poultry, pork, sausage, and processor-specific requirements.',
+        'Useful for butcher case, retail, and trial planning conversations.',
     ];
     $applications = [
         ['label' => 'Retail meat', 'title' => 'Fresh tray programs', 'copy' => 'Tray formats for butcher cases, chilled retail packs, and protein merchandising.'],
         ['label' => 'Processor lines', 'title' => 'Production-ready specs', 'copy' => 'Product files support review of size, forming, and performance requirements before trials.'],
-        ['label' => 'Custom protein', 'title' => 'Bespoke builds', 'copy' => 'Custom formats for shelf life, pack fit, lidding, and distribution needs.'],
+        ['label' => 'Custom protein', 'title' => 'Bespoke builds', 'copy' => 'Custom formats for pack fit, lidding, distribution, and presentation needs.'],
     ];
     $video = '/videos/copar/meal-tray-2c.mp4';
     $productDetails = [
         [
             'label' => 'Meat tray TDS',
             'title' => 'Fresh protein tray formats for chilled retail',
-            'copy' => 'The meat tray documentation is represented as a fibre tray pathway for fresh beef, pork, poultry and similar chilled retail packs.',
+            'copy' => 'The meat tray resources are represented as fibre tray pathways for fresh beef, pork, poultry and similar chilled retail packs.',
             'image' => '/images/copar/meal-tray-2c-transparent.png',
-            'imageAlt' => 'Full COPAR fibre tray',
+            'imageAlt' => 'Full COPAR meat tray',
             'features' => [
                 'Designed for strength, presentation and product fit.',
                 'Supports chilled display and processor line conversations.',
-                'Can pair with HyperBarrier paper where barrier performance is required.',
+                'Can be reviewed around lidding, stacking, and fill weight.',
             ],
         ],
         [
             'label' => 'Pork and sausage trays',
-            'title' => 'Protein-specific pack options',
-            'copy' => 'The pork and sausage product files inform a flexible protein packaging story for different cuts, shapes and merchandising requirements.',
+            'title' => 'Protein-specific tray options',
+            'copy' => 'The pork and sausage product files inform a flexible protein tray story for different cuts, shapes and merchandising requirements.',
             'image' => '/images/copar/tray-hero.png',
-            'imageAlt' => 'Full agri-fibre tray for protein packs',
+            'imageAlt' => 'Full fibre tray for protein packs',
             'features' => [
                 'Customisable for cut size, fill weight and shelf presentation.',
                 'Suitable for butcher case and retail protein programs.',

@@ -7,18 +7,20 @@
                     COPAR
                 </a>
                 <p class="font-sans text-[14px] text-paper/60 leading-[1.6] max-w-xs">
-                    Packaging that is custom made, sustainable, and circular.
+                    Tray packaging that is custom made, sustainable, and circular.
                 </p>
             </div>
 
             <div class="grid grid-cols-2 gap-10">
                 <div>
-                    <p class="font-mono text-[10px] tracking-[0.14em] uppercase text-butter/60 mb-5">Solutions</p>
+                    <p class="font-mono text-[10px] tracking-[0.14em] uppercase text-butter/60 mb-5">Tray Products</p>
                     <div class="flex flex-col gap-3">
-                        <a href="/technology" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">HyperBarrier Paper</a>
-                        <a href="/solutions/produce" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Agri-Fibre Packaging</a>
-                        <a href="/solutions/ready-meals" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">ServeSmart Cutlery</a>
-                        <a href="/solutions/custom" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Custom</a>
+                        <a href="/solutions/meat-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Meat Trays</a>
+                        <a href="/solutions/rte-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">RTE Trays</a>
+                        <a href="/solutions/fresh-produce" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Fresh Produce Trays</a>
+                        <a href="/solutions/special-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Special Trays</a>
+                        <a href="/solutions/laminated-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Laminated Trays</a>
+                        <a href="/solutions/unlaminated-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Unlaminated Trays</a>
                     </div>
                 </div>
                 <div>

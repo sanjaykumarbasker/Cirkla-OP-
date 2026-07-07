@@ -1,41 +1,41 @@
 @php
-    $pageTitle = 'Seafood & MAP Packaging - COPAR';
-    $metaDescription = 'COPAR creates seafood, MAP, and chilled food packaging options using circular fibre and barrier materials.';
+    $pageTitle = 'Special Trays - COPAR';
+    $metaDescription = 'COPAR special trays for moisture-aware, divided, and custom food packaging applications.';
     $activePage = 'map-vsp';
     $layoutVariant = 'seafood';
     $hero = [
-        'eyebrow' => 'Seafood',
-        'title' => 'Chilled seafood packaging <em>with barrier intent.</em>',
-        'copy' => 'Seafood applications need freshness, moisture control, and clean retail presentation. COPAR combines barrier papers and fibre formats around those performance needs.',
+        'eyebrow' => 'Special Trays',
+        'title' => 'Special tray formats <em>for non-standard applications.</em>',
+        'copy' => 'COPAR develops special tray options for products that need custom fit, divided layouts, moisture-aware handling, or buyer-specific presentation.',
         'image' => '/images/copar/meal-tray-2c-transparent.png',
-        'imageAlt' => 'Full COPAR tray for seafood and MAP applications',
-        'pills' => ['Seafood', 'MAP applications', 'Moisture control'],
+        'imageAlt' => 'Full COPAR special tray',
+        'pills' => ['Drylock trays', 'MSO trays', 'Custom tray formats'],
     ];
-    $featureTitle = 'Freshness-led design';
-    $featureHeading = 'Built around chilled supply chains <em>and shelf appeal.</em>';
-    $featureCopy = 'COPAR packaging can be specified for seafood and other chilled food categories where strength, barrier performance, and compliance must work together.';
+    $featureTitle = 'Application-led design';
+    $featureHeading = 'Built around handling, fit, <em>and shelf appeal.</em>';
+    $featureCopy = 'Special tray projects can be specified for products where strength, moisture handling, and pack compatibility must work together.';
     $benefits = [
-        'Supports MAP-compliant applications where barrier performance is required.',
+        'Supports moisture-aware tray applications.',
         'Designed for chilled retail display and distribution.',
-        'Material options can combine paper barrier and fibre tray strategies.',
-        'Customised for product fit, lidding, and processor requirements.',
+        'Material and structure options can be combined by tray requirement.',
+        'Customised for product fit, lidding, and processor needs.',
     ];
     $applications = [
-        ['label' => 'Seafood', 'title' => 'Chilled seafood trays', 'copy' => 'Formats for seafood portions, counter service, and retail seafood packs.'],
-        ['label' => 'MAP', 'title' => 'Modified-atmosphere packs', 'copy' => 'Barrier material pathways for applications that need shelf-life protection.'],
-        ['label' => 'VSP', 'title' => 'Vacuum skin pack planning', 'copy' => 'Custom projects can assess fit, strength, and barrier needs before production tooling.'],
+        ['label' => 'Drylock', 'title' => 'Moisture-aware trays', 'copy' => 'Formats for products where absorption, moisture handling, and stability matter.'],
+        ['label' => 'MSO', 'title' => 'Special tray structures', 'copy' => 'Tray options for products that need specific shape, depth, and pack handling.'],
+        ['label' => 'Custom', 'title' => 'Special project planning', 'copy' => 'Custom projects can assess fit, strength, and surface needs before production tooling.'],
     ];
     $productDetails = [
         [
-            'label' => 'Seafood trays',
-            'title' => 'Fresh seafood and chilled food tray pathways',
-            'copy' => 'Seafood packaging needs moisture control, chilled shelf appeal and a clean material story. COPAR can pair fibre tray formats with barrier paper strategies where required.',
+            'label' => 'Special tray',
+            'title' => 'Custom tray pathways for non-standard packs',
+            'copy' => 'Special trays support projects where the product, pack line, or retail display requires a tray outside a standard format.',
             'image' => '/images/copar/meal-tray-2c-transparent.png',
-            'imageAlt' => 'Full COPAR tray for seafood',
+            'imageAlt' => 'Full COPAR special tray',
             'features' => [
-                'Supports chilled seafood portions and retail display.',
-                'Designed around freshness, fit and lidding requirements.',
-                'Can be evaluated for MAP-compliant applications.',
+                'Supports divided, deep, shallow, and moisture-aware tray needs.',
+                'Designed around fit, lidding and presentation requirements.',
+                'Can be evaluated for buyer and production trials.',
             ],
         ],
         [
@@ -45,7 +45,7 @@
             'image' => '/images/copar/tray-hero.png',
             'imageAlt' => 'Full fibre tray for moisture-aware packs',
             'features' => [
-                'Useful for seafood and fresh chilled food trials.',
+                'Useful for fresh chilled food trials.',
                 'Supports product protection through handling.',
                 'Can be customised by fit, volume and buyer requirements.',
             ],

@@ -22,8 +22,8 @@
         <div class="max-w-site mx-auto px-6 md:px-12 py-20 md:py-28 copar-solution-hero__grid">
             <div class="copar-solution-hero__copy">
                 <p class="copar-kicker">{{ $hero['eyebrow'] ?? 'COPAR solution' }}</p>
-                <h1 class="copar-solution-hero__title">{!! $hero['title'] ?? 'Sustainable packaging, <em>customised.</em>' !!}</h1>
-                <p class="copar-solution-hero__text">{{ $hero['copy'] ?? 'Made from circular materials and designed around the performance needs of food and retail packaging.' }}</p>
+                <h1 class="copar-solution-hero__title">{!! $hero['title'] ?? 'Sustainable trays, <em>customised.</em>' !!}</h1>
+                <p class="copar-solution-hero__text">{{ $hero['copy'] ?? 'Made from circular materials and designed around the performance needs of food tray programs.' }}</p>
                 @if(!empty($hero['pills']))
                     <div class="copar-solution-hero__pills">
                         @foreach($hero['pills'] as $pill)
@@ -32,12 +32,12 @@
                     </div>
                 @endif
                 <a href="/contact" class="copar-primary-link">
-                    Customise packaging
+                    Customise trays
                     <svg width="14" height="14" viewbox="0 0 14 14" fill="none"><path d="M2 7h10m0 0L7 2m5 5L7 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                 </a>
             </div>
             <div class="copar-solution-hero__media">
-                <img src="{{ $hero['image'] ?? '/images/copar/tray-hero.png' }}" alt="{{ $hero['imageAlt'] ?? 'COPAR packaging' }}" class="copar-product-hero-image">
+                <img src="{{ $hero['image'] ?? '/images/copar/tray-hero.png' }}" alt="{{ $hero['imageAlt'] ?? 'COPAR tray' }}" class="copar-product-hero-image">
             </div>
         </div>
     </section>
@@ -154,8 +154,8 @@
 
     <section class="copar-product-cta py-20 md:py-[120px]">
         <div class="max-w-site mx-auto px-6 md:px-12 text-center reveal">
-            <h2>Let's make your packaging <em>work for you.</em></h2>
-            <p>Tell us your sector, product, and performance requirements. COPAR can help move from assessment to prototype and production.</p>
+            <h2>Let's make your trays <em>work for you.</em></h2>
+            <p>Tell us your product category, tray type, dimensions, and performance requirements. COPAR can help move from assessment to prototype and production.</p>
             <a href="/contact">Start a project</a>
         </div>
     </section>

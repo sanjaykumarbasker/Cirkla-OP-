@@ -64,7 +64,7 @@ $activePage = 'standards';
                     Recognised for material innovation <em class="italic text-green font-light">and performance.</em>
                 </h2>
                 <p class="font-sans text-[16px] text-ink-70 leading-[1.6] max-w-2xl">
-                    COPAR's material innovations in fibre and paper packaging are being recognised for supporting recyclable and compostable formats while maintaining functional performance.
+                    COPAR's tray innovations are being recognised for supporting recyclable and compostable tray formats while maintaining functional performance.
                 </p>
             </header>
             <div class="grid md:grid-cols-3 gap-5 reveal">

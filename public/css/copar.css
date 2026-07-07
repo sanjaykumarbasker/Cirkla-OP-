@@ -250,7 +250,7 @@ a {
     filter: drop-shadow(0 24px 32px rgba(24, 33, 28, 0.22));
 }
 
-.copar-cutout--pouch {
+.copar-cutout--tray-top {
     width: 42%;
     top: 0;
     right: 2%;
@@ -262,7 +262,7 @@ a {
     left: 0;
 }
 
-.copar-cutout--spoons {
+.copar-cutout--tray-small {
     width: 30%;
     bottom: 1%;
     right: 8%;
@@ -883,7 +883,7 @@ a {
         border-radius: 24px;
     }
 
-    .copar-cutout--pouch {
+    .copar-cutout--tray-top {
         width: 43%;
         right: -2%;
     }
@@ -893,7 +893,7 @@ a {
         left: -8%;
     }
 
-    .copar-cutout--spoons {
+    .copar-cutout--tray-small {
         width: 33%;
         right: 0;
     }

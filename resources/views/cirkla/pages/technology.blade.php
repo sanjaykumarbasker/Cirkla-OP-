@@ -2,7 +2,7 @@
     $pageTitle = 'Laminated Trays - COPAR';
     $metaDescription = 'COPAR laminated trays for food packaging programs that need sealability, presentation, and tray performance.';
     $activePage = 'technology';
-    $layoutVariant = 'barrier';
+    $layoutVariant = 'laminated';
     $hero = [
         'eyebrow' => 'Laminated Trays',
         'title' => 'Laminated trays <em>for stronger pack performance.</em>',

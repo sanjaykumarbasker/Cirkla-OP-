@@ -11,7 +11,7 @@
         'imageAlt' => 'Two-compartment COPAR RTE tray',
         'pills' => ['Ready-to-eat', 'Ready-to-heat', 'Single and divided trays'],
     ];
-    $featureTitle = 'Ready meal formats';
+    $featureTitle = 'RTE formats';
     $featureHeading = 'Meal trays built for <em>serving, packing, and display.</em>';
     $featureCopy = 'RTE tray options help brands plan around portion control, tray rigidity, fill weight, and finished-pack appearance.';
     $benefits = [
@@ -21,7 +21,7 @@
         'Supports buyer review, QA checks, and production conversations.',
     ];
     $applications = [
-        ['label' => 'RTE meals', 'title' => 'Single-compartment trays', 'copy' => 'Simple tray formats for ready meals, snacks, and prepared food lines.'],
+        ['label' => 'RTE meals', 'title' => 'Single-compartment trays', 'copy' => 'Simple tray formats for prepared foods, snacks, and convenience lines.'],
         ['label' => 'Divided meals', 'title' => 'Two-compartment trays', 'copy' => 'Separated tray layouts for meals with sides, sauces, or multiple portions.'],
         ['label' => 'Food service', 'title' => 'Convenience tray programs', 'copy' => 'Tray formats for takeaway, counter service, and prepared food distribution.'],
     ];
@@ -29,8 +29,8 @@
     $productDetails = [
         [
             'label' => '2C RTE tray',
-            'title' => 'Two-compartment tray for ready meals',
-            'copy' => 'The supplied 2C tray format supports portion separation, meal presentation, and a practical path for ready-to-serve food programs.',
+            'title' => 'Two-compartment tray for RTE programs',
+            'copy' => 'The supplied 2C tray format supports portion separation, presentation, and a practical path for ready-to-serve food programs.',
             'image' => '/images/copar/meal-tray-2c-transparent.png',
             'imageAlt' => 'Full two-compartment COPAR RTE tray',
             'features' => [

@@ -52,7 +52,7 @@ $activePage = 'news';
             <div class="copar-product-gallery reveal">
                 <figure>
                     <img src="/images/copar/meal-tray-2c-transparent.png" alt="2C meal tray full product view">
-                    <figcaption><strong>RTE Tray</strong><br>Two-compartment fibre tray format for ready meals, sample trials and buyer review.</figcaption>
+                    <figcaption><strong>RTE Tray</strong><br>Two-compartment fibre tray format for RTE foods, sample trials and buyer review.</figcaption>
                 </figure>
                 <figure>
                     <img src="/images/copar/tray-hero.png" alt="Agri-fibre tray full product view">

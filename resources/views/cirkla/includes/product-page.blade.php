@@ -5,7 +5,7 @@
     $applications = $applications ?? [];
     $productDetails = $productDetails ?? [];
     $gallery = $gallery ?? [];
-    $layoutVariant = $layoutVariant ?? 'barrier';
+    $layoutVariant = $layoutVariant ?? 'laminated';
     $featureTitle = $featureTitle ?? 'Why it matters';
     $featureHeading = $featureHeading ?? 'Built for performance, <em class="italic text-green font-light">not compromise.</em>';
     $featureCopy = $featureCopy ?? null;

@@ -54,7 +54,7 @@ $activePage = 'epr';
                 <div class="grid sm:grid-cols-2 gap-px bg-rule rounded-card overflow-hidden border border-rule">
                     <div class="bg-white p-[22px_24px]"><h3 class="font-serif text-[20px] text-ink mb-2">Laminated Trays</h3><p class="font-sans text-[14px] text-ink-70 leading-[1.6]">Tray surface options for sealing and presentation requirements.</p></div>
                     <div class="bg-white p-[22px_24px]"><h3 class="font-serif text-[20px] text-ink mb-2">Unlaminated Trays</h3><p class="font-sans text-[14px] text-ink-70 leading-[1.6]">Simple moulded fibre tray formats for tray-first applications.</p></div>
-                    <div class="bg-white p-[22px_24px]"><h3 class="font-serif text-[20px] text-ink mb-2">RTE & Meat Trays</h3><p class="font-sans text-[14px] text-ink-70 leading-[1.6]">Tray programs for ready meals, fresh protein, and processor lines.</p></div>
+                    <div class="bg-white p-[22px_24px]"><h3 class="font-serif text-[20px] text-ink mb-2">RTE & Meat Trays</h3><p class="font-sans text-[14px] text-ink-70 leading-[1.6]">Tray programs for prepared foods, fresh protein, and processor lines.</p></div>
                     <div class="bg-white p-[22px_24px]"><h3 class="font-serif text-[20px] text-ink mb-2">Special Trays</h3><p class="font-sans text-[14px] text-ink-70 leading-[1.6]">Custom tray pathways matched to product-specific needs.</p></div>
                 </div>
             </div>

@@ -2,7 +2,7 @@
     $pageTitle = 'Special Trays - COPAR';
     $metaDescription = 'COPAR special trays for moisture-aware, divided, and custom food packaging applications.';
     $activePage = 'map-vsp';
-    $layoutVariant = 'seafood';
+    $layoutVariant = 'special-support';
     $hero = [
         'eyebrow' => 'Special Trays',
         'title' => 'Special tray formats <em>for non-standard applications.</em>',

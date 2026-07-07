@@ -600,26 +600,26 @@
     max-width: 620px;
 }
 
-.copar-product-page--barrier .copar-solution-hero {
+.copar-product-page--laminated .copar-solution-hero {
     background: #f8faf5;
 }
 
-.copar-product-page--barrier .copar-solution-hero::before {
+.copar-product-page--laminated .copar-solution-hero::before {
     inset: 15% -12% auto 52%;
     background: radial-gradient(circle, rgba(180, 214, 216, 0.35), rgba(180, 214, 216, 0));
 }
 
-.copar-product-page--barrier .copar-kicker {
+.copar-product-page--laminated .copar-kicker {
     background: #fff;
     color: #008e90;
 }
 
-.copar-product-page--barrier .copar-solution-hero__title,
-.copar-product-page--barrier .copar-solution-hero__text {
+.copar-product-page--laminated .copar-solution-hero__title,
+.copar-product-page--laminated .copar-solution-hero__text {
     color: #505050;
 }
 
-.copar-product-page--barrier .copar-solution-hero__pills span {
+.copar-product-page--laminated .copar-solution-hero__pills span {
     border-color: #cbdcde;
     color: rgba(80, 80, 80, 0.72);
 }
@@ -726,15 +726,15 @@
     margin: 0;
 }
 
-.copar-product-page--seafood .copar-solution-hero {
+.copar-product-page--special-support .copar-solution-hero {
     background: linear-gradient(135deg, #06434f, #217c8d);
 }
 
-.copar-product-page--seafood .copar-benefits-section {
+.copar-product-page--special-support .copar-benefits-section {
     background: #eff8f8;
 }
 
-.copar-product-page--seafood .copar-product-showcase__media {
+.copar-product-page--special-support .copar-product-showcase__media {
     background: #eff8f8;
 }
 

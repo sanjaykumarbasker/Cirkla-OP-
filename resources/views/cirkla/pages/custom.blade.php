@@ -34,7 +34,7 @@
             'image' => '/images/copar/tray.png',
             'imageAlt' => 'COPAR special tray top view',
             'features' => [
-                'Bespoke builds for meat, produce, RTE, pet care, and specialty food.',
+                'Bespoke builds for meat, produce, RTE, bakery, and specialty food.',
                 'Designed around compliance, cost, and performance goals.',
                 'Moves from assessment to prototype and production planning.',
             ],

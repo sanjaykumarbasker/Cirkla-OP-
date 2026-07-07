@@ -120,19 +120,13 @@
 }
 
 .copar-brand-logo--nav {
-    max-height: 50px;
-    width: 190px;
+    max-height: 42px;
+    width: 114px;
 }
 
 .copar-brand-logo--footer {
-    max-height: 66px;
-    width: 250px;
-}
-
-.copar-footer-brand-link {
-    background: rgba(248, 250, 245, 0.94);
-    border-radius: 8px;
-    padding: 0.5rem 0.75rem;
+    max-height: 52px;
+    width: 140px;
 }
 
 .copar-main-nav {
@@ -154,21 +148,6 @@
 .copar-nav-dropdown {
     min-width: 240px !important;
     width: max-content;
-}
-
-@media (min-width: 768px) and (max-width: 900px) {
-    .copar-brand-logo--nav {
-        width: 160px;
-    }
-
-    .copar-main-nav {
-        gap: 1rem !important;
-    }
-
-    .copar-nav-cta {
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
-    }
 }
 
 .copar-home-hero-grid {

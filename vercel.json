@@ -29,6 +29,14 @@
       "dest": "/public/_astro/$1"
     },
     {
+      "src": "/css/(.*)",
+      "dest": "/public/css/$1"
+    },
+    {
+      "src": "/documents/(.*)",
+      "dest": "/public/documents/$1"
+    },
+    {
       "src": "/images/(.*)",
       "dest": "/public/images/$1"
     },
@@ -50,7 +58,7 @@
     }
   ],
   "env": {
-    "APP_NAME": "Cirkla",
+    "APP_NAME": "COPAR",
     "APP_ENV": "production",
     "APP_DEBUG": "false",
     "APP_URL": "https://cirkla-op.vercel.app",

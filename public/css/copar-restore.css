@@ -109,6 +109,31 @@
     color: #008e90 !important;
 }
 
+.copar-site-nav__inner {
+    gap: 1.5rem;
+}
+
+.copar-main-nav {
+    flex: 0 0 auto;
+    flex-wrap: nowrap;
+    gap: clamp(1.25rem, 3vw, 2.25rem) !important;
+}
+
+.copar-main-nav > li {
+    flex: 0 0 auto;
+}
+
+.copar-main-nav__item,
+.copar-nav-cta,
+.copar-nav-dropdown__link {
+    white-space: nowrap;
+}
+
+.copar-nav-dropdown {
+    min-width: 240px !important;
+    width: max-content;
+}
+
 .copar-home-hero-grid {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 520px;

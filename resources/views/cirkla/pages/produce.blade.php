@@ -24,8 +24,31 @@
         ['label' => 'Food service', 'title' => 'Rigid fibre bases', 'copy' => 'Durable fibre formats for counters, takeaway, and prepared food programs.'],
         ['label' => 'Retail', 'title' => 'Shelf-ready presentation', 'copy' => 'Clean, moulded forms that support premium merchandising while reducing plastic dependence.'],
     ];
-    $documents = [
-        ['title' => 'COPAR Product List', 'href' => '/documents/copar/copar-product-list.pdf'],
+    $productDetails = [
+        [
+            'label' => 'Agri-Fibre Packaging',
+            'title' => 'Moulded fibre trays made from circular materials',
+            'copy' => 'Agri-fibre packaging transforms wheat straw, bagasse and bamboo into durable food packaging that supports a lower-footprint retail format.',
+            'image' => '/images/copar/tray-hero.png',
+            'imageAlt' => 'Full agri-fibre tray',
+            'features' => [
+                'Made from agricultural waste materials.',
+                'Compostable and recyclable material options.',
+                'Suitable for fresh produce, food service and retail shelves.',
+            ],
+        ],
+        [
+            'label' => 'Produce formats',
+            'title' => 'Tray and punnet options for fresh produce programs',
+            'copy' => 'The product structure is designed for fresh goods that need clean merchandising, strength through the supply chain and a practical end-of-life story.',
+            'image' => '/images/copar/tray.png',
+            'imageAlt' => 'COPAR fibre tray top view',
+            'features' => [
+                'Supports vegetables, mushrooms, fruits and prepared produce.',
+                'Rigid fibre bases keep the pack looking premium.',
+                'Can be customised around product fit and wrapping requirements.',
+            ],
+        ],
     ];
 @endphp
 

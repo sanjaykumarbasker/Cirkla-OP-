@@ -25,9 +25,31 @@
         ['label' => 'Step 03', 'title' => 'Prototyping and validation', 'copy' => 'Test fit, strength, and functional performance before production.'],
         ['label' => 'Step 04', 'title' => 'Transition to production', 'copy' => 'Move from sample to production while keeping the supply chain transparent.'],
     ];
-    $documents = [
-        ['title' => 'COPAR Product List', 'href' => '/documents/copar/copar-product-list.pdf'],
-        ['title' => 'TDS - COPAR Presentation', 'href' => '/documents/copar/tds-copar.pptx', 'label' => 'Open PPTX'],
+    $productDetails = [
+        [
+            'label' => 'Custom build',
+            'title' => 'Material-led packaging designed around your product',
+            'copy' => 'A custom COPAR project starts with the pack challenge, then selects the right pathway across HyperBarrier paper, agri-fibre and related material options.',
+            'image' => '/images/copar/open-pouch.png',
+            'imageAlt' => 'Open custom COPAR pouch',
+            'features' => [
+                'Bespoke builds for meat, produce, dairy, pet care and food service.',
+                'Designed around compliance, cost and performance goals.',
+                'Moves from assessment to prototype and production planning.',
+            ],
+        ],
+        [
+            'label' => 'Format mix',
+            'title' => 'Pouches, trays and paper serviceware in one program',
+            'copy' => 'COPAR can combine the right shape and material for the use case, rather than forcing a standard SKU into a custom requirement.',
+            'image' => '/images/copar/pouch-half.png',
+            'imageAlt' => 'COPAR pouch format',
+            'features' => [
+                'HyperBarrier packaging for shelf-life protection.',
+                'Agri-fibre packaging for circular rigid formats.',
+                'ServeSmart paper cutlery for complete food service programs.',
+            ],
+        ],
     ];
 @endphp
 

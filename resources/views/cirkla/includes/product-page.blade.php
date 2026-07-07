@@ -3,7 +3,8 @@
     $hero = $hero ?? [];
     $benefits = $benefits ?? [];
     $applications = $applications ?? [];
-    $documents = $documents ?? [];
+    $productDetails = $productDetails ?? [];
+    $gallery = $gallery ?? [];
     $featureTitle = $featureTitle ?? 'Why it matters';
     $featureHeading = $featureHeading ?? 'Built for performance, <em class="italic text-green font-light">not compromise.</em>';
     $featureCopy = $featureCopy ?? null;
@@ -27,13 +28,10 @@
                         Customise packaging
                         <svg width="14" height="14" viewbox="0 0 14 14" fill="none"><path d="M2 7h10m0 0L7 2m5 5L7 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                     </a>
-                    @if(!empty($documents))
-                        <a href="#downloads" class="font-sans font-medium text-[15px] no-underline inline-flex items-center gap-2 transition-all duration-200 bg-transparent text-cream px-7 py-3.5 rounded-pill border border-cream/[0.08] hover:text-butter">View resources</a>
-                    @endif
                 </div>
             </div>
             <div class="hidden md:flex items-center justify-center">
-                <img src="{{ $hero['image'] ?? '/images/copar/tray-hero.png' }}" alt="{{ $hero['imageAlt'] ?? 'COPAR packaging' }}" class="max-w-full max-h-[480px] object-contain">
+                <img src="{{ $hero['image'] ?? '/images/copar/tray-hero.png' }}" alt="{{ $hero['imageAlt'] ?? 'COPAR packaging' }}" class="copar-product-hero-image">
             </div>
         </div>
     </section>
@@ -80,6 +78,38 @@
         </section>
     @endif
 
+    @if(!empty($productDetails))
+        <section class="bg-paper py-20 md:py-[120px]">
+            <div class="max-w-site mx-auto px-6 md:px-12">
+                <header class="mb-14 reveal">
+                    <p class="font-mono text-[13px] tracking-[0.1em] uppercase font-medium text-green-mid mb-4">Product Details</p>
+                    <h2 class="font-serif font-normal text-[clamp(32px,4vw,48px)] leading-[1.1] tracking-[-0.5px] text-ink">Product formats and <em class="italic text-green font-light">features.</em></h2>
+                </header>
+                <div class="flex flex-col gap-12 reveal">
+                    @foreach($productDetails as $detail)
+                        <article class="copar-product-showcase">
+                            <div class="copar-product-showcase__media">
+                                <img src="{{ $detail['image'] ?? '/images/copar/meal-tray-2c-transparent.png' }}" alt="{{ $detail['imageAlt'] ?? $detail['title'] }}">
+                            </div>
+                            <div class="copar-product-showcase__body">
+                                <p class="font-mono text-[10px] tracking-[0.12em] uppercase text-green-mid mb-4">{{ $detail['label'] ?? 'COPAR product' }}</p>
+                                <h3 class="font-serif font-normal text-[clamp(28px,3vw,38px)] leading-[1.1] tracking-[-0.5px] text-ink mb-5">{{ $detail['title'] }}</h3>
+                                <p class="font-sans text-[16px] text-ink-70 leading-[1.6]">{{ $detail['copy'] }}</p>
+                                @if(!empty($detail['features']))
+                                    <ul>
+                                        @foreach($detail['features'] as $feature)
+                                            <li>{{ $feature }}</li>
+                                        @endforeach
+                                    </ul>
+                                @endif
+                            </div>
+                        </article>
+                    @endforeach
+                </div>
+            </div>
+        </section>
+    @endif
+
     @if($video)
         <section class="bg-white py-20 md:py-[120px]">
             <div class="max-w-site mx-auto px-6 md:px-12">
@@ -97,19 +127,19 @@
         </section>
     @endif
 
-    @if(!empty($documents))
-        <section class="bg-paper py-20 md:py-[120px]" id="downloads">
+    @if(!empty($gallery))
+        <section class="bg-cream py-20 md:py-[120px]">
             <div class="max-w-site mx-auto px-6 md:px-12">
-                <header class="mb-12 reveal">
-                    <p class="font-mono text-[13px] tracking-[0.1em] uppercase font-medium text-green-mid mb-4">Technical Resources</p>
-                    <h2 class="font-serif font-normal text-[clamp(32px,4vw,48px)] leading-[1.1] tracking-[-0.5px] text-ink">Product files ready for <em class="italic text-green font-light">client review.</em></h2>
+                <header class="mb-14 reveal">
+                    <p class="font-mono text-[13px] tracking-[0.1em] uppercase font-medium text-green-mid mb-4">Product Views</p>
+                    <h2 class="font-serif font-normal text-[clamp(32px,4vw,48px)] leading-[1.1] tracking-[-0.5px] text-ink">Full-size imagery, <em class="italic text-green font-light">not cropped previews.</em></h2>
                 </header>
-                <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 reveal">
-                    @foreach($documents as $document)
-                        <a href="{{ $document['href'] }}" target="_blank" rel="noopener" class="bg-white border border-rule rounded-card p-5 no-underline hover:border-green hover:bg-cream transition-colors duration-200">
-                            <p class="font-serif text-[18px] text-ink leading-[1.3] mb-4">{{ $document['title'] }}</p>
-                            <span class="font-mono text-[10px] tracking-[0.12em] uppercase text-green-mid">{{ $document['label'] ?? 'Open PDF' }}</span>
-                        </a>
+                <div class="copar-product-gallery reveal">
+                    @foreach($gallery as $item)
+                        <figure>
+                            <img src="{{ $item['image'] }}" alt="{{ $item['title'] }}">
+                            <figcaption><strong>{{ $item['title'] }}</strong><br>{{ $item['copy'] }}</figcaption>
+                        </figure>
                     @endforeach
                 </div>
             </div>

@@ -25,13 +25,43 @@
         ['label' => 'Custom protein', 'title' => 'Bespoke builds', 'copy' => 'Custom formats for shelf life, pack fit, lidding, and distribution needs.'],
     ];
     $video = '/videos/copar/meal-tray-2c.mp4';
-    $documents = [
-        ['title' => 'Meat Tray TDS', 'href' => '/documents/copar/meat-tray-tds.pdf'],
-        ['title' => 'Pork Tray Product', 'href' => '/documents/copar/pork-tray-product-copar.pdf'],
-        ['title' => 'Sausage Tray Product', 'href' => '/documents/copar/sausage-tray-product-copar.pdf'],
-        ['title' => 'Drylock Tray Product', 'href' => '/documents/copar/drylock-tray-product-copar.pdf'],
-        ['title' => 'MSO Tray Product Type 3', 'href' => '/documents/copar/mso-tray-product-type-3-copar.pdf'],
-        ['title' => 'COPAR Product List', 'href' => '/documents/copar/copar-product-list.pdf'],
+    $productDetails = [
+        [
+            'label' => 'Meat tray TDS',
+            'title' => 'Fresh protein tray formats for chilled retail',
+            'copy' => 'The meat tray documentation is represented as a fibre tray pathway for fresh beef, pork, poultry and similar chilled retail packs.',
+            'image' => '/images/copar/meal-tray-2c-transparent.png',
+            'imageAlt' => 'Full COPAR fibre tray',
+            'features' => [
+                'Designed for strength, presentation and product fit.',
+                'Supports chilled display and processor line conversations.',
+                'Can pair with HyperBarrier paper where barrier performance is required.',
+            ],
+        ],
+        [
+            'label' => 'Pork and sausage trays',
+            'title' => 'Protein-specific pack options',
+            'copy' => 'The pork and sausage product files inform a flexible protein packaging story for different cuts, shapes and merchandising requirements.',
+            'image' => '/images/copar/tray-hero.png',
+            'imageAlt' => 'Full agri-fibre tray for protein packs',
+            'features' => [
+                'Customisable for cut size, fill weight and shelf presentation.',
+                'Suitable for butcher case and retail protein programs.',
+                'Supports lower-plastic packaging goals.',
+            ],
+        ],
+        [
+            'label' => 'Drylock and MSO trays',
+            'title' => 'Moisture-aware tray formats for fresh food',
+            'copy' => 'Drylock and MSO tray resources point to formats where strength, moisture handling and pack stability matter in the supply chain.',
+            'image' => '/images/copar/ppt-image2.png',
+            'imageAlt' => 'COPAR tray render for fresh food',
+            'features' => [
+                'Built for product protection during distribution.',
+                'Supports moisture-sensitive fresh food applications.',
+                'Useful for trial planning with QA and operations teams.',
+            ],
+        ],
     ];
 @endphp
 

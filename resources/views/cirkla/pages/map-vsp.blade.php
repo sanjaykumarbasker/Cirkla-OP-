@@ -6,8 +6,8 @@
         'eyebrow' => 'Seafood',
         'title' => 'Chilled seafood packaging <em>with barrier intent.</em>',
         'copy' => 'Seafood applications need freshness, moisture control, and clean retail presentation. COPAR combines barrier papers and fibre formats around those performance needs.',
-        'image' => '/images/copar/solutions/seafood.png',
-        'imageAlt' => 'Seafood packaging',
+        'image' => '/images/copar/meal-tray-2c-transparent.png',
+        'imageAlt' => 'Full COPAR tray for seafood and MAP applications',
         'pills' => ['Seafood', 'MAP applications', 'Moisture control'],
     ];
     $featureTitle = 'Freshness-led design';
@@ -24,10 +24,31 @@
         ['label' => 'MAP', 'title' => 'Modified-atmosphere packs', 'copy' => 'Barrier material pathways for applications that need shelf-life protection.'],
         ['label' => 'VSP', 'title' => 'Vacuum skin pack planning', 'copy' => 'Custom projects can assess fit, strength, and barrier needs before production tooling.'],
     ];
-    $documents = [
-        ['title' => 'Drylock Tray Product', 'href' => '/documents/copar/drylock-tray-product-copar.pdf'],
-        ['title' => 'Meat Tray TDS', 'href' => '/documents/copar/meat-tray-tds.pdf'],
-        ['title' => 'TDS - 2C Meal Tray', 'href' => '/documents/copar/tds-2c.pdf'],
+    $productDetails = [
+        [
+            'label' => 'Seafood trays',
+            'title' => 'Fresh seafood and chilled food tray pathways',
+            'copy' => 'Seafood packaging needs moisture control, chilled shelf appeal and a clean material story. COPAR can pair fibre tray formats with barrier paper strategies where required.',
+            'image' => '/images/copar/meal-tray-2c-transparent.png',
+            'imageAlt' => 'Full COPAR tray for seafood',
+            'features' => [
+                'Supports chilled seafood portions and retail display.',
+                'Designed around freshness, fit and lidding requirements.',
+                'Can be evaluated for MAP-compliant applications.',
+            ],
+        ],
+        [
+            'label' => 'Drylock tray',
+            'title' => 'Moisture-aware tray structure',
+            'copy' => 'The Drylock tray product file informs packaging for products where absorption, moisture management and pack stability are part of the decision.',
+            'image' => '/images/copar/tray-hero.png',
+            'imageAlt' => 'Full fibre tray for moisture-aware packs',
+            'features' => [
+                'Useful for seafood and fresh chilled food trials.',
+                'Supports product protection through handling.',
+                'Can be customised by fit, volume and buyer requirements.',
+            ],
+        ],
     ];
 @endphp
 

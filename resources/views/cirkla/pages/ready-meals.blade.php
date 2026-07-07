@@ -25,11 +25,43 @@
         ['label' => 'Food service', 'title' => 'Durable paper utensils', 'copy' => 'Paper cutlery designed for strength, clean taste, and a better end-of-life story.'],
     ];
     $video = '/videos/copar/meal-tray-2c.mp4';
-    $documents = [
-        ['title' => 'TDS - 2C Meal Tray', 'href' => '/documents/copar/tds-2c.pdf'],
-        ['title' => 'SG1C Product Sheet', 'href' => '/documents/copar/sg1c.pdf'],
-        ['title' => 'SG2C 6040 Product Sheet', 'href' => '/documents/copar/sg2c-6040.pdf'],
-        ['title' => 'SG 2C 7030 Product Sheet', 'href' => '/documents/copar/sg-2c-7030.pdf'],
+    $productDetails = [
+        [
+            'label' => '2C meal tray',
+            'title' => 'Two-compartment meal tray for ready meals',
+            'copy' => 'The supplied 2C meal tray material supports portion separation, meal presentation and a clear path for ready-to-serve convenience programs.',
+            'image' => '/images/copar/meal-tray-2c-transparent.png',
+            'imageAlt' => 'Full two-compartment COPAR meal tray',
+            'features' => [
+                'Two-compartment layout for separated meal components.',
+                'Fibre tray structure for convenience food programs.',
+                'Designed for buyer review, QA checks and production conversations.',
+            ],
+        ],
+        [
+            'label' => 'SG tray range',
+            'title' => 'SG1C, SG2C 6040 and SG 2C 7030 formats',
+            'copy' => 'The SG tray range is presented as a practical product family for single and divided meal formats.',
+            'image' => '/images/copar/ppt-image2.png',
+            'imageAlt' => 'COPAR meal tray render',
+            'features' => [
+                'Single and divided tray pathways.',
+                'Format options for chilled, ready-to-heat and takeaway meals.',
+                'Supports discussions around dimensions, lidding and serving use.',
+            ],
+        ],
+        [
+            'label' => 'ServeSmart cutlery',
+            'title' => '9-ply FSC paper cutlery for food service',
+            'copy' => 'ServeSmart paper cutlery brings strength, clean taste and a biodegradable end-of-life story into the same convenience food program.',
+            'image' => '/images/copar/spoons.png',
+            'imageAlt' => 'Full ServeSmart paper cutlery set',
+            'features' => [
+                'No splinters or aftertaste.',
+                'Strong multi-ply paper construction.',
+                'Complements tray, pouch and food service packaging programs.',
+            ],
+        ],
     ];
 @endphp
 

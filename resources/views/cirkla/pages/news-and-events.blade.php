@@ -2,7 +2,7 @@
 <html lang="en">
 @php
 $pageTitle = 'Recognition & Resources - COPAR';
-$metaDescription = 'COPAR recognition, product resources, and technical documents for sustainable packaging solutions.';
+$metaDescription = 'COPAR recognition, product highlights, and technical capabilities for sustainable packaging solutions.';
 $pageScript = '/_astro/hoisted.CCIidRwJ.js';
 $activePage = 'news';
 @endphp
@@ -45,23 +45,23 @@ $activePage = 'news';
     <section class="bg-white py-20 md:py-[120px]">
         <div class="max-w-site mx-auto px-6 md:px-12">
             <header class="mb-12 reveal">
-                <p class="font-mono text-[13px] tracking-[0.1em] uppercase font-medium text-green-mid mb-4">Product Resources</p>
-                <h2 class="font-serif font-normal text-[clamp(32px,4vw,48px)] leading-[1.1] tracking-[-0.5px] text-ink mb-5">Supplied COPAR files for client review.</h2>
-                <p class="font-sans text-[16px] text-ink-70 leading-[1.6] max-w-2xl">The product list, technical sheets, and sample video are published from the local folder supplied for this project.</p>
+                <p class="font-mono text-[13px] tracking-[0.1em] uppercase font-medium text-green-mid mb-4">Product Families</p>
+                <h2 class="font-serif font-normal text-[clamp(32px,4vw,48px)] leading-[1.1] tracking-[-0.5px] text-ink mb-5">Product information from supplied COPAR files.</h2>
+                <p class="font-sans text-[16px] text-ink-70 leading-[1.6] max-w-2xl">The supplied product list, TDS files, tray sheets and video are represented here as product families with full, uncropped imagery.</p>
             </header>
-            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 reveal">
-                <a href="/documents/copar/copar-product-list.pdf" target="_blank" rel="noopener" class="bg-paper border border-rule rounded-card p-5 no-underline hover:bg-cream hover:border-green transition-colors duration-200">
-                    <p class="font-serif text-[18px] text-ink leading-[1.3] mb-4">COPAR Product List</p>
-                    <span class="font-mono text-[10px] tracking-[0.12em] uppercase text-green-mid">Open PDF</span>
-                </a>
-                <a href="/documents/copar/tds-2c.pdf" target="_blank" rel="noopener" class="bg-paper border border-rule rounded-card p-5 no-underline hover:bg-cream hover:border-green transition-colors duration-200">
-                    <p class="font-serif text-[18px] text-ink leading-[1.3] mb-4">TDS - 2C Meal Tray</p>
-                    <span class="font-mono text-[10px] tracking-[0.12em] uppercase text-green-mid">Open PDF</span>
-                </a>
-                <a href="/videos/copar/meal-tray-2c.mp4" target="_blank" rel="noopener" class="bg-paper border border-rule rounded-card p-5 no-underline hover:bg-cream hover:border-green transition-colors duration-200">
-                    <p class="font-serif text-[18px] text-ink leading-[1.3] mb-4">Product Video - 2C Meal Tray</p>
-                    <span class="font-mono text-[10px] tracking-[0.12em] uppercase text-green-mid">Watch MP4</span>
-                </a>
+            <div class="copar-product-gallery reveal">
+                <figure>
+                    <img src="/images/copar/meal-tray-2c-transparent.png" alt="2C meal tray full product view">
+                    <figcaption><strong>2C Meal Tray</strong><br>Two-compartment fibre tray format for ready meals, sample trials and buyer review.</figcaption>
+                </figure>
+                <figure>
+                    <img src="/images/copar/tray-hero.png" alt="Agri-fibre tray full product view">
+                    <figcaption><strong>Agri-Fibre Trays</strong><br>Tray pathways for produce, food service, meat, pork, sausage, drylock and MSO formats.</figcaption>
+                </figure>
+                <figure>
+                    <img src="/images/copar/spoons.png" alt="ServeSmart paper cutlery full product view">
+                    <figcaption><strong>ServeSmart Cutlery</strong><br>9-ply FSC paper cutlery with strength, clean taste and biodegradable end of life.</figcaption>
+                </figure>
             </div>
         </div>
     </section>

@@ -24,9 +24,31 @@
         ['label' => 'Retail', 'title' => 'Recyclable flowwrap', 'copy' => 'Paper-based pack structures for retail shelves where recyclability and presentation both matter.'],
         ['label' => 'Converters', 'title' => 'Flexible production paths', 'copy' => 'Designed for teams that need extrusion, lamination, thermoforming, or coating-ready material options.'],
     ];
-    $documents = [
-        ['title' => 'COPAR Product List', 'href' => '/documents/copar/copar-product-list.pdf'],
-        ['title' => 'TDS - COPAR Presentation', 'href' => '/documents/copar/tds-copar.pptx', 'label' => 'Open PPTX'],
+    $productDetails = [
+        [
+            'label' => 'HyperBarrier Paper',
+            'title' => 'Recyclable mono-barrier paper packaging',
+            'copy' => 'HyperBarrier is designed for food brands and converters that need shelf-life protection without trapping the pack in multilayer plastic structures.',
+            'image' => '/images/copar/pouch.png',
+            'imageAlt' => 'Full HyperBarrier paper pouch',
+            'features' => [
+                'FSC minimum fibre content pathway for recyclable paper streams.',
+                'Oxygen and moisture barrier performance in the range of EVOH without using EVOH.',
+                'Suitable for meat, dairy, produce, ready meals, flowwrap and pouch formats.',
+            ],
+        ],
+        [
+            'label' => 'Converter-ready',
+            'title' => 'Built for extrusion, lamination and thermoforming teams',
+            'copy' => 'The material pathway is intended for practical conversion workflows, helping packaging teams move from proof of concept to commercial format decisions.',
+            'image' => '/images/copar/open-pouch.png',
+            'imageAlt' => 'Open COPAR paper pouch',
+            'features' => [
+                'Supports custom coatings and barrier structures.',
+                'Helps replace plastic layers in flexible and formed applications.',
+                'Designed around compliance, cost and pack-performance targets.',
+            ],
+        ],
     ];
 @endphp
 

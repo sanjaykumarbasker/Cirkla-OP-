@@ -90,7 +90,7 @@ $products = [
     [
         'title' => 'Custom Molded Fibre Packaging',
         'copy' => 'Tailored solutions developed for specific customer requirements.',
-        'image' => '/images/pdf-extracted/embedded/mso-tray-product-type-3-copar/mso-tray-product-type-3-copar-p01-img01-848x619.png',
+        'image' => '/images/pdf-extracted/embedded/tds-2c/tds-2c-p01-img03-480x325.png',
         'href' => '/solutions/custom',
     ],
 ];

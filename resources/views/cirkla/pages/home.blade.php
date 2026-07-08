@@ -90,7 +90,7 @@ $products = [
     [
         'title' => 'Custom Molded Fibre Packaging',
         'copy' => 'Tailored solutions developed for specific customer requirements.',
-        'image' => '/images/pdf-extracted/embedded/tds-2c/tds-2c-p01-img03-480x325.png',
+        'image' => '/images/pdf-extracted/embedded/confectionery/mince-pie-six-cavity-tray.png',
         'href' => '/solutions/custom',
     ],
 ];

@@ -3,7 +3,7 @@
         <div class="grid md:grid-cols-3 gap-12">
             <div>
                 <a href="/" class="inline-flex items-center no-underline mb-5 copar-footer-brand-link">
-                    <img src="/images/finalogo.jpeg" alt="QRCOPAR" class="copar-brand-logo copar-brand-logo--footer">
+                    <img src="/images/finalogo-transparent.png" alt="QRCOPAR" class="copar-brand-logo copar-brand-logo--footer">
                 </a>
                 <p class="font-sans text-[14px] text-paper/60 leading-[1.6] max-w-xs">
                     Advanced molded fibre packaging engineered for performance and designed for sustainability.

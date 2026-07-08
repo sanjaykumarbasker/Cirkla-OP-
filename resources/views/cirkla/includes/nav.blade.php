@@ -22,7 +22,7 @@
 <nav class="fixed top-0 left-0 right-0 z-50 bg-paper/90 backdrop-blur-nav border-b border-rule">
     <div class="max-w-site mx-auto px-6 md:px-12 h-nav flex items-center justify-between copar-site-nav__inner">
         <a href="/" class="flex items-center no-underline flex-shrink-0 copar-brand-link">
-            <img src="/images/finalogo.jpeg" alt="QRCOPAR" class="copar-brand-logo copar-brand-logo--nav">
+            <img src="/images/finalogo-transparent.png" alt="QRCOPAR" class="copar-brand-logo copar-brand-logo--nav">
         </a>
 
         <ul class="hidden md:flex items-center gap-9 list-none m-0 p-0 copar-main-nav">

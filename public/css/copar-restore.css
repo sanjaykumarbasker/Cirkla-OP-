@@ -111,6 +111,11 @@
 
 .copar-site-nav__inner {
     gap: 1.5rem;
+    height: 88px !important;
+}
+
+.pt-nav {
+    padding-top: 88px !important;
 }
 
 .copar-brand-logo {
@@ -120,15 +125,15 @@
 }
 
 .copar-brand-logo--nav {
-    height: 54px;
-    max-height: 54px;
-    width: 54px;
+    height: 78px;
+    max-height: 78px;
+    width: 80px;
 }
 
 .copar-brand-logo--footer {
-    height: 118px;
-    max-height: 118px;
-    width: 118px;
+    height: 170px;
+    max-height: 170px;
+    width: 174px;
 }
 
 .copar-main-nav {

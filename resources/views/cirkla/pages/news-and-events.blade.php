@@ -59,8 +59,8 @@ $activePage = 'news';
                     <figcaption><strong>Fresh Produce Trays</strong><br>Tray pathways for produce, retail display and food service formats.</figcaption>
                 </figure>
                 <figure>
-                    <img src="/images/pdf-extracted/embedded/mso-tray-product-type-3-copar/mso-tray-product-type-3-copar-p01-img01-848x619.png" alt="Special QRCOPAR tray full product view">
-                    <figcaption><strong>Special Trays</strong><br>Custom tray structures for laminated, unlaminated, divided and moisture-aware formats.</figcaption>
+                    <img src="/images/pdf-extracted/embedded/mso-tray-product-type-3-copar/mso-tray-product-type-3-copar-p01-img01-848x619.png" alt="Confectionery QRCOPAR tray full product view">
+                    <figcaption><strong>Confectionery Trays</strong><br>Custom tray structures for laminated, unlaminated, divided and moisture-aware formats.</figcaption>
                 </figure>
             </div>
         </div>

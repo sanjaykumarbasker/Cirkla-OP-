@@ -3,7 +3,7 @@
         <div class="grid md:grid-cols-3 gap-12">
             <div>
                 <a href="/" class="inline-flex items-center no-underline mb-5 copar-footer-brand-link">
-                    <img src="/images/finalogo-transparent.png" alt="QRCOPAR" class="copar-brand-logo copar-brand-logo--footer">
+                    <img src="/images/logo.svg" alt="QRCOPAR" class="copar-brand-logo copar-brand-logo--footer">
                 </a>
                 <p class="font-sans text-[14px] text-paper/60 leading-[1.6] max-w-xs">
                     Advanced molded fibre packaging engineered for performance and designed for sustainability.
@@ -17,7 +17,7 @@
                         <a href="/solutions/meat-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Meat Trays</a>
                         <a href="/solutions/rte-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">RTE Trays</a>
                         <a href="/solutions/fresh-produce" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Fresh Produce Trays</a>
-                        <a href="/solutions/special-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Special Trays</a>
+                        <a href="/solutions/confectionery-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Confectionery Trays</a>
                         <a href="/solutions/laminated-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Laminated Trays</a>
                         <a href="/solutions/unlaminated-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Unlaminated Trays</a>
                         <a href="/standard-trays" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Standard Trays</a>

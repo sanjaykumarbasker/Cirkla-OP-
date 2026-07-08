@@ -27,7 +27,7 @@ const materialLabels = {
     EPS: "EPS",
     PP: "PP",
     PET: "PET",
-    "Molded Fiber": "COPAR (Molded Fiber)",
+    "Molded Fiber": "QRCOPAR (Molded Fiber)",
 };
 
 function comparisonMaterials(referenceMaterial) {

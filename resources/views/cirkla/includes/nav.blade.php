@@ -22,7 +22,7 @@
 <nav class="fixed top-0 left-0 right-0 z-50 bg-paper/90 backdrop-blur-nav border-b border-rule">
     <div class="max-w-site mx-auto px-6 md:px-12 h-nav flex items-center justify-between copar-site-nav__inner">
         <a href="/" class="flex items-center no-underline flex-shrink-0 copar-brand-link">
-            <img src="/images/finalogo-transparent.png" alt="QRCOPAR" class="copar-brand-logo copar-brand-logo--nav">
+            <img src="/images/logo.svg" alt="QRCOPAR" class="copar-brand-logo copar-brand-logo--nav">
         </a>
 
         <ul class="hidden md:flex items-center gap-9 list-none m-0 p-0 copar-main-nav">
@@ -34,26 +34,16 @@
                     </svg>
                 </button>
                 <div class="absolute top-full left-0 pt-2 hidden group-hover:block">
-                    <ul class="bg-white border border-rule rounded-card shadow-lg list-none m-0 p-1.5 min-w-[220px] copar-nav-dropdown">
+                    <ul class="bg-white border border-rule rounded-card shadow-lg list-none m-0 p-1.5 min-w-[220px] copar-nav-dropdown copar-solutions-dropdown">
+                        <li class="copar-nav-dropdown__section-title">Tray Products</li>
                         <li><a href="/solutions/meat-trays" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150 copar-nav-dropdown__link">Meat Trays</a></li>
                         <li><a href="/solutions/rte-trays" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150 copar-nav-dropdown__link">RTE Trays</a></li>
                         <li><a href="/solutions/fresh-produce" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150 copar-nav-dropdown__link">Fresh Produce Trays</a></li>
-                        <li><a href="/solutions/special-trays" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150 copar-nav-dropdown__link">Special Trays</a></li>
+                        <li><a href="/solutions/confectionery-trays" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150 copar-nav-dropdown__link">Confectionery Trays</a></li>
                         <li><a href="/solutions/laminated-trays" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150 copar-nav-dropdown__link">Laminated Trays</a></li>
                         <li><a href="/solutions/unlaminated-trays" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150 copar-nav-dropdown__link">Unlaminated Trays</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li class="relative group">
-                <button class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none transition-colors duration-200 flex items-center gap-1.5 bg-transparent border-none cursor-pointer p-0 copar-main-nav__item {{ ($activePage ?? null) === 'standard-trays' ? 'text-ink' : 'text-ink-50 hover:text-ink' }}">
-                    Standard Trays
-                    <svg width="8" height="5" viewbox="0 0 8 5" fill="currentColor" class="opacity-60">
-                        <path d="M0 0.5L4 4.5L8 0.5H0Z"></path>
-                    </svg>
-                </button>
-                <div class="absolute top-full left-0 pt-2 hidden group-hover:block">
-                    <ul class="bg-white border border-rule rounded-card shadow-lg list-none m-0 p-1.5 min-w-[220px] copar-nav-dropdown copar-standard-trays-dropdown">
-                        <li><a href="/standard-trays" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150 copar-nav-dropdown__link copar-standard-trays-dropdown__overview">All Standard Trays</a></li>
+                        <li class="copar-nav-dropdown__section-title copar-nav-dropdown__section-title--standard">Standard Trays</li>
+                        <li class="copar-solutions-dropdown__wide"><a href="/standard-trays" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150 copar-nav-dropdown__link copar-standard-trays-dropdown__overview">All Standard Trays</a></li>
                         @foreach($standardTrayMenu as $trayMenuItem)
                             <li><a href="{{ $trayMenuItem['href'] }}" class="block px-3 py-2.5 font-sans text-[14px] font-medium rounded-[8px] text-ink-70 hover:text-green hover:bg-cream no-underline transition-colors duration-150 copar-nav-dropdown__link">{{ $trayMenuItem['label'] }}</a></li>
                         @endforeach
@@ -86,16 +76,16 @@
                 <a href="/solutions/meat-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Meat Trays</a>
                 <a href="/solutions/rte-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">RTE Trays</a>
                 <a href="/solutions/fresh-produce" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Fresh Produce Trays</a>
-                <a href="/solutions/special-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Special Trays</a>
+                <a href="/solutions/confectionery-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Confectionery Trays</a>
                 <a href="/solutions/laminated-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Laminated Trays</a>
                 <a href="/solutions/unlaminated-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">Unlaminated Trays</a>
-            </div>
-            <p class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-50 py-3 border-b border-rule">Standard Trays</p>
-            <div class="pl-4 grid grid-cols-2 gap-x-4">
+                <p class="font-mono text-[11px] tracking-[0.1em] uppercase font-medium text-ink-50 pt-5 pb-2 border-b border-rule">Standard Trays</p>
                 <a href="/standard-trays" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">All Standard Trays</a>
-                @foreach($standardTrayMenu as $trayMenuItem)
-                    <a href="{{ $trayMenuItem['href'] }}" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">{{ $trayMenuItem['label'] }}</a>
-                @endforeach
+                <div class="grid grid-cols-2 gap-x-4">
+                    @foreach($standardTrayMenu as $trayMenuItem)
+                        <a href="{{ $trayMenuItem['href'] }}" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">{{ $trayMenuItem['label'] }}</a>
+                    @endforeach
+                </div>
             </div>
             <a href="/technology" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70 py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150">Technology</a>
             <a href="/epr" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70 py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150">EPR Calculator</a>

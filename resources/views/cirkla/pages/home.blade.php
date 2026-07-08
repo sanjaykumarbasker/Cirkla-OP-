@@ -85,7 +85,7 @@ $products = [
         'title' => 'Food Service Packaging',
         'copy' => 'Engineered fibre packaging for retail and food service.',
         'image' => '/images/pdf-extracted/embedded/pet-food-tray-1000ml-copar/pet-food-tray-1000ml-copar-p01-img01-636x586.png',
-        'href' => '/solutions/special-trays',
+        'href' => '/solutions/confectionery-trays',
     ],
     [
         'title' => 'Custom Molded Fibre Packaging',

@@ -59,7 +59,7 @@ $activePage = 'contact';
                         PIN Code: 641662
                     </address>
                     <div class="rounded-card overflow-hidden bg-white p-6 flex items-center justify-center">
-                        <img src="/images/copar/footer-image.png" alt="QRCOPAR tray packaging" class="max-h-[480px] object-contain">
+                        <img src="/images/pdf-extracted/embedded/pet-food-tray-1000ml-copar/pet-food-tray-1000ml-copar-p02-img01-848x457.png" alt="QRCOPAR tray packaging" class="max-h-[480px] object-contain">
                     </div>
                 </div>
             </div>

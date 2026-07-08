@@ -7,7 +7,7 @@
         'eyebrow' => 'Unlaminated Trays',
         'title' => 'Unlaminated trays <em>for straightforward fibre packaging.</em>',
         'copy' => 'QRCOPAR unlaminated trays support tray-first applications where a clean molded fibre format, rigidity, and product fit are the priority.',
-        'image' => '/images/copar/tray-hero.png',
+        'image' => '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p04-img01-957x641.png',
         'imageAlt' => 'Full QRCOPAR unlaminated tray',
         'pills' => ['Moulded fibre', 'Retail trays', 'Custom dimensions'],
     ];
@@ -30,7 +30,7 @@
             'label' => 'Unlaminated tray',
             'title' => 'Moulded fibre tray without laminated surface',
             'copy' => 'Unlaminated trays give packaging teams a simple tray format for products where fibre structure, shape, and presentation are the key requirements.',
-            'image' => '/images/copar/tray-hero.png',
+            'image' => '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p04-img02-901x611.png',
             'imageAlt' => 'Full unlaminated tray format',
             'features' => [
                 'Suitable for selected fresh, dry, and retail tray applications.',
@@ -42,7 +42,7 @@
             'label' => 'Tray fit planning',
             'title' => 'Custom sizing for product compatibility',
             'copy' => 'Tray dimensions, rim design, and depth can be developed around the product rather than forcing a standard format.',
-            'image' => '/images/copar/tray.png',
+            'image' => '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p02-img03-904x594.png',
             'imageAlt' => 'QRCOPAR unlaminated tray top view',
             'features' => [
                 'Designed around product fit and display requirements.',

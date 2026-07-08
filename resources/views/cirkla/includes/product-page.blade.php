@@ -37,7 +37,7 @@
                 </a>
             </div>
             <div class="copar-solution-hero__media">
-                <img src="{{ $hero['image'] ?? '/images/copar/tray-hero.png' }}" alt="{{ $hero['imageAlt'] ?? 'QRCOPAR tray' }}" class="copar-product-hero-image">
+                <img src="{{ $hero['image'] ?? '/images/pdf-extracted/embedded/sg1c/sg1c-p01-img01-824x584.png' }}" alt="{{ $hero['imageAlt'] ?? 'QRCOPAR tray' }}" class="copar-product-hero-image">
             </div>
         </div>
     </section>
@@ -95,7 +95,7 @@
                     @foreach($productDetails as $detail)
                         <article class="copar-product-showcase">
                             <div class="copar-product-showcase__media">
-                                <img src="{{ $detail['image'] ?? '/images/copar/meal-tray-2c-transparent.png' }}" alt="{{ $detail['imageAlt'] ?? $detail['title'] }}">
+                                <img src="{{ $detail['image'] ?? '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p01-img01-871x590.png' }}" alt="{{ $detail['imageAlt'] ?? $detail['title'] }}">
                             </div>
                             <div class="copar-product-showcase__body">
                                 <p class="copar-section-label">{{ $detail['label'] ?? 'QRCOPAR product' }}</p>

@@ -6,10 +6,23 @@ $metaDescription = 'QRCOPAR standard laminated pulp trays converted from plastic
 $pageScript = '/_astro/hoisted.CCIidRwJ.js';
 $activePage = 'standard-trays';
 $trayImages = [
-    '/images/copar/meal-tray-2c-transparent.png',
-    '/images/copar/tray-hero.png',
-    '/images/copar/ppt-image2.png',
-    '/images/copar/tray.png',
+    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p01-img01-871x590.png',
+    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p01-img02-953x708.png',
+    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p01-img03-892x634.png',
+    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p02-img01-922x745.png',
+    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p02-img02-937x667.png',
+    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p02-img03-904x594.png',
+    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p03-img01-997x1280.png',
+    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p03-img02-909x1280.png',
+    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p04-img01-957x641.png',
+    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p04-img02-901x611.png',
+    '/images/pdf-extracted/embedded/sg1c/sg1c-p01-img01-824x584.png',
+    '/images/pdf-extracted/embedded/sg-2c-7030/sg-2c-7030-p01-img01-824x584.png',
+    '/images/pdf-extracted/embedded/sg2c-6040/sg2c-6040-p01-img01-824x584.png',
+    '/images/pdf-extracted/embedded/meat-tray-tds/meat-tray-tds-p01-img02-619x363.png',
+    '/images/pdf-extracted/embedded/pork-tray-product-copar/pork-tray-product-copar-p01-img01-988x714.png',
+    '/images/pdf-extracted/embedded/sausage-tray-product-copar/sausage-tray-product-copar-p01-img01-1000x730.png',
+    '/images/pdf-extracted/embedded/drylock-tray-product-copar/drylock-tray-product-copar-p01-img01-868x629.png',
 ];
 $standardTrays = [
     [
@@ -138,7 +151,7 @@ $standardTrays = [
                 </div>
             </div>
             <div class="copar-standard-hero__media reveal">
-                <img src="/images/copar/meal-tray-2c-transparent.png" alt="QRCOPAR laminated pulp tray">
+                <img src="/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p02-img01-922x745.png" alt="QRCOPAR laminated pulp tray">
                 <div class="copar-standard-hero__badge">
                     <span>Plastic tray</span>
                     <strong>to</strong>

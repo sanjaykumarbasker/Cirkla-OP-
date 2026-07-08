@@ -7,7 +7,7 @@
         'eyebrow' => 'Fresh Produce Trays',
         'title' => 'Sustainable trays for <em>fresh produce.</em>',
         'copy' => 'Sustainable molded fibre trays designed for fruits, vegetables, mushrooms, and fresh produce applications where presentation, strength, and reduced plastic dependency matter.',
-        'image' => '/images/copar/tray-hero.png',
+        'image' => '/images/pdf-extracted/embedded/sg1c/sg1c-p01-img01-824x584.png',
         'imageAlt' => 'QRCOPAR fresh produce tray',
         'pills' => ['Fruits', 'Vegetables', 'Mushrooms', 'Retail produce'],
     ];
@@ -30,7 +30,7 @@
             'label' => 'Produce tray',
             'title' => 'Sustainable trays for fresh produce programs',
             'copy' => 'QRCOPAR fresh produce trays are designed for products that need clean merchandising, consistent shape, and a lower-plastic packaging pathway.',
-            'image' => '/images/copar/tray-hero.png',
+            'image' => '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p01-img03-892x634.png',
             'imageAlt' => 'Full QRCOPAR fresh produce tray',
             'features' => [
                 'Fruits, vegetables, mushrooms, and fresh produce applications.',
@@ -42,7 +42,7 @@
             'label' => 'Fibre blend',
             'title' => 'Selected materials for strength and consistency',
             'copy' => 'Primary fibres such as bagasse, bamboo, hardwood, and softwood can be supported by premium recycled paper fibres for practical performance and sustainability.',
-            'image' => '/images/copar/tray.png',
+            'image' => '/images/pdf-extracted/embedded/drylock-tray-product-copar/drylock-tray-product-copar-p01-img01-868x629.png',
             'imageAlt' => 'QRCOPAR molded fibre produce tray top view',
             'features' => [
                 'Carefully selected fibre blends.',

@@ -7,7 +7,7 @@
         'eyebrow' => 'Custom Molded Fibre Packaging',
         'title' => 'Tailored solutions for <em>specific requirements.</em>',
         'copy' => 'Custom engineered molded fibre packaging developed from concept to full-scale production for food service, retail packaging, bakery, pet food, and specialized food applications.',
-        'image' => '/images/copar/tray-hero.png',
+        'image' => '/images/pdf-extracted/embedded/mso-tray-product-type-3-copar/mso-tray-product-type-3-copar-p01-img01-848x619.png',
         'imageAlt' => 'QRCOPAR custom molded fibre tray',
         'pills' => ['Packaging design', 'Mold design', 'Rapid prototyping', 'Industrial trials'],
     ];
@@ -31,7 +31,7 @@
             'label' => 'Food service packaging',
             'title' => 'Engineered fibre packaging for retail and food service',
             'copy' => 'QRCOPAR supports food service and retail packaging programs with custom molded fibre formats designed around performance and manufacturability.',
-            'image' => '/images/copar/tray.png',
+            'image' => '/images/pdf-extracted/embedded/pet-food-tray-1000ml-copar/pet-food-tray-1000ml-copar-p01-img01-636x586.png',
             'imageAlt' => 'QRCOPAR custom food service tray',
             'features' => [
                 'Food service, retail packaging, bakery, and pet food applications.',
@@ -43,7 +43,7 @@
             'label' => 'Custom format',
             'title' => 'Tailored molded fibre packaging solutions',
             'copy' => 'From renewable resources to global packaging solutions, QRCOPAR develops custom formats that keep sustainability and functionality working together.',
-            'image' => '/images/copar/ppt-image2.png',
+            'image' => '/images/pdf-extracted/embedded/pet-food-lid-copar-83/pet-food-lid-copar-83-p01-img01-832x530.png',
             'imageAlt' => 'QRCOPAR custom molded fibre tray render',
             'features' => [
                 'Prototype-led development process.',

@@ -7,7 +7,7 @@
         'eyebrow' => 'Ready Meal Trays',
         'title' => 'Ready meal trays for <em>chilled and frozen meals.</em>',
         'copy' => 'Ovenable and microwave-compatible molded fibre solutions for ready meal applications requiring barrier performance, seal integrity, and commercial production reliability.',
-        'image' => '/images/copar/meal-tray-2c-transparent.png',
+        'image' => '/images/pdf-extracted/embedded/sg2c-6040/sg2c-6040-p01-img01-824x584.png',
         'imageAlt' => 'QRCOPAR ready meal tray',
         'pills' => ['Ready meals', 'Frozen foods', 'Ovenable options', 'Microwave-compatible'],
     ];
@@ -31,7 +31,7 @@
             'label' => 'Ready meal tray',
             'title' => 'Ovenable and microwave-compatible tray pathways',
             'copy' => 'QRCOPAR ready meal trays support chilled and frozen meals with tray structures planned around heat resistance, barrier needs, and production reliability.',
-            'image' => '/images/copar/meal-tray-2c-transparent.png',
+            'image' => '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p01-img01-871x590.png',
             'imageAlt' => 'Full QRCOPAR ready meal tray',
             'features' => [
                 'Ovenable and microwave-compatible directions.',
@@ -43,7 +43,7 @@
             'label' => 'CPET barrier option',
             'title' => 'High heat resistance for ready meals',
             'copy' => 'CPET lamination is designed for ovenable and ready meal applications requiring high heat resistance.',
-            'image' => '/images/copar/ppt-image2.png',
+            'image' => '/images/pdf-extracted/embedded/tds-2c/tds-2c-p01-img02-480x325.png',
             'imageAlt' => 'QRCOPAR ready meal tray render',
             'features' => [
                 'Supports ready-to-heat meal programs.',

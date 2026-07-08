@@ -7,7 +7,7 @@
         'eyebrow' => 'Special Trays',
         'title' => 'Special tray formats <em>for non-standard applications.</em>',
         'copy' => 'QRCOPAR develops special tray options for products that need custom fit, divided layouts, moisture-aware handling, or buyer-specific presentation.',
-        'image' => '/images/copar/meal-tray-2c-transparent.png',
+        'image' => '/images/pdf-extracted/embedded/mso-tray-product-type-3-copar/mso-tray-product-type-3-copar-p01-img01-848x619.png',
         'imageAlt' => 'Full QRCOPAR special tray',
         'pills' => ['Drylock trays', 'MSO trays', 'Custom tray formats'],
     ];
@@ -30,7 +30,7 @@
             'label' => 'Special tray',
             'title' => 'Custom tray pathways for non-standard packs',
             'copy' => 'Special trays support projects where the product, pack line, or retail display requires a tray outside a standard format.',
-            'image' => '/images/copar/meal-tray-2c-transparent.png',
+            'image' => '/images/pdf-extracted/embedded/sg-2c-7030/sg-2c-7030-p01-img01-824x584.png',
             'imageAlt' => 'Full QRCOPAR special tray',
             'features' => [
                 'Supports divided, deep, shallow, and moisture-aware tray needs.',
@@ -42,7 +42,7 @@
             'label' => 'Drylock tray',
             'title' => 'Moisture-aware tray structure',
             'copy' => 'The Drylock tray product file informs packaging for products where absorption, moisture management and pack stability are part of the decision.',
-            'image' => '/images/copar/tray-hero.png',
+            'image' => '/images/pdf-extracted/embedded/drylock-tray-product-copar/drylock-tray-product-copar-p01-img01-868x629.png',
             'imageAlt' => 'Full fibre tray for moisture-aware packs',
             'features' => [
                 'Useful for fresh chilled food trials.',

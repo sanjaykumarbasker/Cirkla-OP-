@@ -31,8 +31,8 @@ $trayPages = [
     'solutions/rte-trays.html' => 'ready-meals',
     'solutions/fresh-produce' => 'produce',
     'solutions/fresh-produce.html' => 'produce',
-    'solutions/special-trays' => 'custom',
-    'solutions/special-trays.html' => 'custom',
+    'solutions/special-trays' => 'map-vsp',
+    'solutions/special-trays.html' => 'map-vsp',
     'solutions/unlaminated-trays' => 'overwrap',
     'solutions/unlaminated-trays.html' => 'overwrap',
 ];

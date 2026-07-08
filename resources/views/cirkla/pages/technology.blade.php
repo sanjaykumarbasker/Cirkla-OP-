@@ -57,7 +57,7 @@ $qualityFocus = [
                 </p>
             </div>
             <div class="hidden md:flex items-center justify-center">
-                <img src="/images/technology/hero-technology.png" alt="QRCOPAR molded fibre technology" class="max-w-full max-h-[480px] object-contain">
+                <img src="/images/pdf-extracted/embedded/sg-2c-7030/sg-2c-7030-p01-img01-824x584.png" alt="QRCOPAR molded fibre technology tray" class="max-w-full max-h-[480px] object-contain">
             </div>
         </div>
     </section>

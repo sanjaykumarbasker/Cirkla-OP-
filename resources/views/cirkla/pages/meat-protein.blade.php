@@ -7,7 +7,7 @@
         'eyebrow' => 'Meat & Poultry Trays',
         'title' => 'Barrier-coated trays for <em>fresh protein applications.</em>',
         'copy' => 'Molded fibre trays engineered for fresh meat, poultry, seafood, and protein applications that demand strength, rigidity, barrier performance, and existing-line compatibility.',
-        'image' => '/images/copar/meal-tray-2c-transparent.png',
+        'image' => '/images/pdf-extracted/embedded/meat-tray-tds/meat-tray-tds-p01-img02-619x363.png',
         'imageAlt' => 'QRCOPAR meat and poultry tray',
         'pills' => ['Fresh meat', 'Poultry', 'Seafood', 'Protein applications'],
     ];
@@ -31,7 +31,7 @@
             'label' => 'Fresh protein',
             'title' => 'Meat and poultry trays for commercial food packaging',
             'copy' => 'QRCOPAR trays are designed for fresh protein categories that require consistent dimensions, dependable strength, barrier performance, and retail-ready presentation.',
-            'image' => '/images/copar/meal-tray-2c-transparent.png',
+            'image' => '/images/pdf-extracted/embedded/pork-tray-product-copar/pork-tray-product-copar-p01-img01-988x714.png',
             'imageAlt' => 'Full QRCOPAR meat tray',
             'features' => [
                 'Fresh meat, poultry, seafood, and protein applications.',
@@ -43,7 +43,7 @@
             'label' => 'Barrier options',
             'title' => 'Lamination tailored to protein applications',
             'copy' => 'Multiple lamination options support the moisture, oxygen, and durability requirements of modern protein packaging.',
-            'image' => '/images/copar/tray-hero.png',
+            'image' => '/images/pdf-extracted/embedded/sausage-tray-product-copar/sausage-tray-product-copar-p01-img01-1000x730.png',
             'imageAlt' => 'Molded fibre tray for protein packaging',
             'features' => [
                 'PE for reliable moisture barrier needs.',

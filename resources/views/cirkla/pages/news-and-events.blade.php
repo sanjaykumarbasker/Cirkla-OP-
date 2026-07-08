@@ -23,7 +23,7 @@ $activePage = 'news';
                 </p>
             </div>
             <div class="hidden md:flex items-center justify-center">
-                <img src="/images/copar/footer-image.png" alt="QRCOPAR sustainable tray packaging" class="max-w-full max-h-[480px] object-contain">
+                <img src="/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p03-img01-997x1280.png" alt="QRCOPAR sustainable tray packaging" class="max-w-full max-h-[480px] object-contain">
             </div>
         </div>
     </section>
@@ -51,15 +51,15 @@ $activePage = 'news';
             </header>
             <div class="copar-product-gallery reveal">
                 <figure>
-                    <img src="/images/copar/meal-tray-2c-transparent.png" alt="2C meal tray full product view">
+                    <img src="/images/pdf-extracted/embedded/sg2c-6040/sg2c-6040-p01-img01-824x584.png" alt="2C meal tray full product view">
                     <figcaption><strong>RTE Tray</strong><br>Two-compartment fibre tray format for RTE foods, sample trials and buyer review.</figcaption>
                 </figure>
                 <figure>
-                    <img src="/images/copar/tray-hero.png" alt="Agri-fibre tray full product view">
+                    <img src="/images/pdf-extracted/embedded/sg1c/sg1c-p01-img01-824x584.png" alt="Agri-fibre tray full product view">
                     <figcaption><strong>Fresh Produce Trays</strong><br>Tray pathways for produce, retail display and food service formats.</figcaption>
                 </figure>
                 <figure>
-                    <img src="/images/copar/ppt-image2.png" alt="Special QRCOPAR tray full product view">
+                    <img src="/images/pdf-extracted/embedded/mso-tray-product-type-3-copar/mso-tray-product-type-3-copar-p01-img01-848x619.png" alt="Special QRCOPAR tray full product view">
                     <figcaption><strong>Special Trays</strong><br>Custom tray structures for laminated, unlaminated, divided and moisture-aware formats.</figcaption>
                 </figure>
             </div>

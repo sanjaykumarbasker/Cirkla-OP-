@@ -66,32 +66,32 @@ $products = [
     [
         'title' => 'Fresh Produce Trays',
         'copy' => 'Sustainable trays designed for fruits, vegetables, mushrooms, and fresh produce.',
-        'image' => '/images/copar/solutions/fresh-products.png',
+        'image' => '/images/pdf-extracted/embedded/sg1c/sg1c-p01-img01-824x584.png',
         'href' => '/solutions/fresh-produce',
     ],
     [
         'title' => 'Meat & Poultry Trays',
         'copy' => 'Barrier-coated trays for fresh meat, poultry, seafood, and protein applications.',
-        'image' => '/images/copar/solutions/meat.png',
+        'image' => '/images/pdf-extracted/embedded/meat-tray-tds/meat-tray-tds-p01-img02-619x363.png',
         'href' => '/solutions/meat-trays',
     ],
     [
         'title' => 'Ready Meal Trays',
         'copy' => 'Ovenable and microwave-compatible solutions for chilled and frozen meals.',
-        'image' => '/images/copar/solutions/ready-meal.png',
+        'image' => '/images/pdf-extracted/embedded/sg2c-6040/sg2c-6040-p01-img01-824x584.png',
         'href' => '/solutions/rte-trays',
     ],
     [
         'title' => 'Food Service Packaging',
         'copy' => 'Engineered fibre packaging for retail and food service.',
-        'image' => '/images/copar/tray-hero.png',
+        'image' => '/images/pdf-extracted/embedded/pet-food-tray-1000ml-copar/pet-food-tray-1000ml-copar-p01-img01-636x586.png',
         'href' => '/solutions/special-trays',
     ],
     [
         'title' => 'Custom Molded Fibre Packaging',
         'copy' => 'Tailored solutions developed for specific customer requirements.',
-        'image' => '/images/copar/ppt-image2.png',
-        'href' => '/solutions/special-trays',
+        'image' => '/images/pdf-extracted/embedded/mso-tray-product-type-3-copar/mso-tray-product-type-3-copar-p01-img01-848x619.png',
+        'href' => '/solutions/custom',
     ],
 ];
 $whyItems = [
@@ -136,9 +136,9 @@ $whyItems = [
             </div>
             <div class="hidden md:flex items-center justify-center reveal">
                 <div class="bg-white rounded-card border border-rule p-8 shadow-lg copar-home-visual overflow-hidden">
-                    <img src="/images/copar/tray-hero.png" alt="QRCOPAR molded fibre tray" class="copar-visual-tray-top">
-                    <img src="/images/copar/meal-tray-2c-transparent.png" alt="QRCOPAR two-compartment laminated tray" class="copar-visual-tray">
-                    <img src="/images/copar/ppt-image2.png" alt="QRCOPAR molded fibre tray render" class="copar-visual-tray-small">
+                    <img src="/images/pdf-extracted/embedded/pork-tray-product-copar/pork-tray-product-copar-p01-img01-988x714.png" alt="QRCOPAR meat tray render" class="copar-visual-tray-top">
+                    <img src="/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p01-img01-871x590.png" alt="QRCOPAR two-compartment laminated tray" class="copar-visual-tray">
+                    <img src="/images/pdf-extracted/embedded/drylock-tray-product-copar/drylock-tray-product-copar-p01-img01-868x629.png" alt="QRCOPAR drylock tray render" class="copar-visual-tray-small">
                 </div>
             </div>
         </div>

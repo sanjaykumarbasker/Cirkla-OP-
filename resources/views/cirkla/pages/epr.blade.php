@@ -23,7 +23,7 @@ $activePage = 'epr';
                 </p>
             </div>
             <div class="hidden md:flex items-center justify-center">
-                <img src="/images/copar/tray-hero.png" alt="QRCOPAR molded fibre tray" class="max-w-full max-h-[480px] object-contain drop-shadow">
+                <img src="/images/pdf-extracted/embedded/pet-food-tray-500ml-copar/pet-food-tray-500ml-copar-p01-img01-636x496.png" alt="QRCOPAR molded fibre tray" class="max-w-full max-h-[480px] object-contain drop-shadow">
             </div>
         </div>
     </section>

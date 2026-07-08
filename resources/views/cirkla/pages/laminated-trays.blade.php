@@ -30,7 +30,7 @@
             'label' => 'PE lamination',
             'title' => 'Reliable moisture barrier for fresh food packaging',
             'copy' => 'PE laminated molded fibre trays support food categories where moisture protection, tray rigidity, and shelf presentation are key.',
-            'image' => '/images/pdf-extracted/embedded/pet-food-tray-500ml-copar/pet-food-tray-500ml-copar-p01-img01-636x496.png',
+            'image' => '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p02-img02-937x667.png',
             'imageAlt' => 'Laminated molded fibre meal tray',
             'features' => [
                 'Supports fresh produce, meat, poultry, and seafood applications.',
@@ -42,7 +42,7 @@
             'label' => 'EVOH, PP and CPET',
             'title' => 'Advanced barrier options for demanding applications',
             'copy' => 'Multiple lamination pathways can be selected around oxygen barrier, durability, ovenability, and commercial performance requirements.',
-            'image' => '/images/pdf-extracted/embedded/pet-food-tray-1000ml-copar/pet-food-tray-1000ml-copar-p01-img01-636x586.png',
+            'image' => '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p02-img03-904x594.png',
             'imageAlt' => 'QRCOPAR laminated tray render',
             'features' => [
                 'EVOH for extended shelf-life conversations.',

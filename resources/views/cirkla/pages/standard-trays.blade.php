@@ -151,7 +151,7 @@ $standardTrays = [
                 </div>
             </div>
             <div class="copar-standard-hero__media reveal">
-                <img src="/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p02-img01-922x745.png" alt="QRCOPAR laminated pulp tray">
+                <img src="/images/plastic-to-fiber-transition.png" alt="Plastic tray converting into QRCOPAR fibre tray">
                 <div class="copar-standard-hero__badge">
                     <span>Plastic tray</span>
                     <strong>to</strong>

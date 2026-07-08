@@ -66,7 +66,7 @@ $products = [
     [
         'title' => 'Fresh Produce Trays',
         'copy' => 'Sustainable trays designed for fruits, vegetables, mushrooms, and fresh produce.',
-        'image' => '/images/pdf-extracted/embedded/sg1c/sg1c-p01-img01-824x584.png',
+        'image' => '/images/pdf-extracted/embedded/confectionery/mince-pie-six-cavity-tray.png',
         'href' => '/solutions/fresh-produce',
     ],
     [

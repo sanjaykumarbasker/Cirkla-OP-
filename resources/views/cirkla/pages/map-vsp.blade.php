@@ -6,49 +6,95 @@
     $hero = [
         'eyebrow' => 'Confectionery Trays',
         'title' => 'Confectionery tray formats <em>for delicate applications.</em>',
-        'copy' => 'QRCOPAR develops confectionery tray options for products that need custom fit, divided layouts, moisture-aware handling, or buyer-specific presentation.',
-        'image' => '/images/pdf-extracted/embedded/mso-tray-product-type-3-copar/mso-tray-product-type-3-copar-p01-img01-848x619.png',
-        'imageAlt' => 'Full QRCOPAR confectionery tray',
-        'pills' => ['Drylock trays', 'MSO trays', 'Custom tray formats'],
+        'copy' => 'QRCOPAR develops confectionery tray options for bakery, sweet, and specialty presentation formats that need a precise fit, smooth handling, and shelf-ready product protection.',
+        'image' => '/images/pdf-extracted/embedded/confectionery/mince-pie-six-cavity-tray.png',
+        'imageAlt' => 'QRCOPAR six-cavity mince pie confectionery tray',
+        'pills' => ['Mince pie trays', 'FT 3 trays', 'Custom cavity formats'],
     ];
     $featureTitle = 'Application-led design';
     $featureHeading = 'Built around handling, fit, <em>and shelf appeal.</em>';
-    $featureCopy = 'Confectionery tray projects can be specified for products where strength, moisture handling, and pack compatibility must work together.';
+    $featureCopy = 'Confectionery tray projects can be specified for products where cavity shape, presentation, strength, and pack compatibility must work together.';
     $benefits = [
-        'Supports moisture-aware tray applications.',
-        'Designed for chilled retail display and distribution.',
-        'Material and structure options can be combined by tray requirement.',
-        'Customised for product fit, lidding, and processor needs.',
+        'Cavity-led tray structures for pies, sweets, bakery, and specialty packs.',
+        'Designed around product fit, denesting, handling, and presentation.',
+        'Molded fibre structures support rigid protection with a premium natural finish.',
+        'Can be customised for lidding, retail display, and processor requirements.',
     ];
     $applications = [
-        ['label' => 'Drylock', 'title' => 'Moisture-aware trays', 'copy' => 'Formats for products where absorption, moisture handling, and stability matter.'],
-        ['label' => 'MSO', 'title' => 'Confectionery tray structures', 'copy' => 'Tray options for products that need specific shape, depth, and pack handling.'],
-        ['label' => 'Custom', 'title' => 'Confectionery project planning', 'copy' => 'Custom projects can assess fit, strength, and surface needs before production tooling.'],
+        ['label' => 'Mince pie', 'title' => 'Six-cavity bakery trays', 'copy' => 'Individual formed cavities help separate, protect, and present delicate baked products.'],
+        ['label' => 'FT 3', 'title' => 'Three-zone confectionery formats', 'copy' => 'Multi-cavity layouts can be shaped around sweets, snacks, and gifting formats.'],
+        ['label' => 'Custom', 'title' => 'Specialty molded structures', 'copy' => 'Custom molded designs can be developed for carrying, nesting, lidding, and retail display needs.'],
     ];
     $productDetails = [
         [
-            'label' => 'Confectionery tray',
-            'title' => 'Custom tray pathways for non-standard packs',
-            'copy' => 'Confectionery trays support projects where the product, pack line, or retail display requires a tray outside a standard format.',
-            'image' => '/images/pdf-extracted/embedded/sg-2c-7030/sg-2c-7030-p01-img01-824x584.png',
-            'imageAlt' => 'Full QRCOPAR confectionery tray',
+            'label' => 'Mince pie tray',
+            'title' => 'Six-cavity tray for delicate bakery packs',
+            'copy' => 'The mince pie tray format uses six formed cavities to hold individual products securely while maintaining a clean molded fibre presentation.',
+            'image' => '/images/pdf-extracted/embedded/confectionery/mince-pie-six-cavity-tray.png',
+            'imageAlt' => 'Six-cavity molded fibre mince pie tray',
             'features' => [
-                'Supports divided, deep, shallow, and moisture-aware tray needs.',
-                'Designed around fit, lidding and presentation requirements.',
-                'Can be evaluated for buyer and production trials.',
+                'Six individual cavities for separation and presentation.',
+                'Rounded cavity geometry for delicate bakery and sweet products.',
+                'Designed for custom tooling, retail display, and buyer trials.',
             ],
         ],
         [
-            'label' => 'Drylock tray',
-            'title' => 'Moisture-aware tray structure',
-            'copy' => 'The Drylock tray product file informs packaging for products where absorption, moisture management and pack stability are part of the decision.',
-            'image' => '/images/pdf-extracted/embedded/drylock-tray-product-copar/drylock-tray-product-copar-p01-img01-868x629.png',
-            'imageAlt' => 'Full fibre tray for moisture-aware packs',
+            'label' => 'FT 3 product',
+            'title' => 'Three-compartment molded fibre format',
+            'copy' => 'The FT 3 product layout shows how shaped compartments can be used for specialty confectionery, snack, and presentation packs.',
+            'image' => '/images/pdf-extracted/embedded/confectionery/ft3-compartment-tray.png',
+            'imageAlt' => 'Three-compartment molded fibre confectionery tray',
             'features' => [
-                'Useful for fresh chilled food trials.',
-                'Supports product protection through handling.',
-                'Can be customised by fit, volume and buyer requirements.',
+                'Three formed zones for product separation.',
+                'Smooth cavity surfaces for premium presentation.',
+                'Adaptable to product dimensions and pack-line handling.',
             ],
+        ],
+        [
+            'label' => 'Specialty carrier',
+            'title' => 'Custom carrying tray structures',
+            'copy' => 'Specialty carrying tray designs show how molded fibre can be engineered around stability, nested geometry, and handling requirements.',
+            'image' => '/images/pdf-extracted/embedded/confectionery/flower-pot-carrying-tray.png',
+            'imageAlt' => 'Specialty molded fibre carrying tray',
+            'features' => [
+                'Deep molded pockets for stable product placement.',
+                'Reinforced geometry for handling and transport.',
+                'Useful reference for custom molded tray programs.',
+            ],
+        ],
+        [
+            'label' => 'Lidded assembly',
+            'title' => 'Lidded molded fibre packaging assembly',
+            'copy' => 'The lidded assembly format demonstrates closed-pack possibilities for products that need a complete molded fibre presentation system.',
+            'image' => '/images/pdf-extracted/embedded/confectionery/textile-packaging-assembly-tray.png',
+            'imageAlt' => 'Lidded molded fibre packaging assembly',
+            'features' => [
+                'Integrated lid-style structure for closed presentation.',
+                'Stackable geometry for storage and logistics.',
+                'Can be adapted for retail, gifting, and specialty pack needs.',
+            ],
+        ],
+    ];
+    $gallery = [
+        [
+            'title' => 'Six-Cavity Mince Pie Tray',
+            'copy' => 'Confectionery PDF render with six formed product cavities.',
+            'image' => '/images/pdf-extracted/embedded/confectionery/mince-pie-six-cavity-tray.png',
+        ],
+        [
+            'title' => 'FT 3 Product Tray',
+            'copy' => 'Three-zone molded fibre tray format for specialty packs.',
+            'image' => '/images/pdf-extracted/embedded/confectionery/ft3-compartment-tray.png',
+        ],
+        [
+            'title' => 'Specialty Carrying Tray',
+            'copy' => 'Molded carrier geometry extracted from the supplied folder PDFs.',
+            'image' => '/images/pdf-extracted/embedded/confectionery/flower-pot-carrying-tray.png',
+        ],
+        [
+            'title' => 'Lidded Packaging Assembly',
+            'copy' => 'Closed molded fibre packaging assembly for specialty presentations.',
+            'image' => '/images/pdf-extracted/embedded/confectionery/textile-packaging-assembly-tray.png',
         ],
     ];
 @endphp

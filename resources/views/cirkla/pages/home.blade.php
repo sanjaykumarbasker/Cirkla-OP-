@@ -134,12 +134,10 @@ $whyItems = [
                     </a>
                 </div>
             </div>
-            <div class="hidden md:flex items-center justify-center reveal">
-                <div class="bg-white rounded-card border border-rule p-8 shadow-lg copar-home-visual overflow-hidden">
-                    <img src="/images/pdf-extracted/embedded/pork-tray-product-copar/pork-tray-product-copar-p01-img01-988x714.png" alt="QRCOPAR meat tray render" class="copar-visual-tray-top">
-                    <img src="/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p01-img01-871x590.png" alt="QRCOPAR two-compartment laminated tray" class="copar-visual-tray">
-                    <img src="/images/pdf-extracted/embedded/drylock-tray-product-copar/drylock-tray-product-copar-p01-img01-868x629.png" alt="QRCOPAR drylock tray render" class="copar-visual-tray-small">
-                </div>
+            <div class="flex items-center justify-center reveal copar-home-hero-media">
+                <figure class="copar-home-hero-banner">
+                    <img src="/images/home-hero-sustainable-packaging.png" alt="Sustainable molded fibre tray packaging collection">
+                </figure>
             </div>
         </div>
     </section>

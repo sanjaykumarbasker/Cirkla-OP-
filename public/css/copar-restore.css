@@ -214,43 +214,31 @@
 
 .copar-home-hero-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 520px;
-    gap: 3rem;
+    grid-template-columns: minmax(0, 0.86fr) minmax(420px, 1.14fr);
+    gap: clamp(2rem, 4vw, 4.5rem);
     align-items: center;
 }
 
-.copar-home-visual {
-    min-height: 500px;
-    width: min(100%, 520px);
-    aspect-ratio: 1 / 1;
-    position: relative;
-    overflow: visible !important;
+.copar-home-hero-media {
+    min-width: 0;
 }
 
-.copar-home-visual img {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
+.copar-home-hero-banner {
+    width: min(100%, 760px);
+    aspect-ratio: 16 / 9;
+    margin: 0;
+    border: 1px solid #d8d2c3;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f3f0e7;
+    box-shadow: 0 24px 54px rgba(26, 29, 21, 0.14);
+}
+
+.copar-home-hero-banner img {
+    display: block;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
-    filter: drop-shadow(0 22px 28px rgba(26, 29, 21, 0.16));
-}
-
-.copar-visual-tray-top {
-    top: 2rem;
-    right: 2.25rem;
-    width: 11.75rem;
-}
-
-.copar-visual-tray {
-    bottom: 5.25rem;
-    left: 1rem;
-    width: 370px;
-}
-
-.copar-visual-tray-small {
-    right: 3.25rem;
-    bottom: 2.25rem;
-    width: 9.5rem;
 }
 
 .copar-sector-card img {
@@ -1332,9 +1320,12 @@
         grid-template-columns: 1fr;
     }
 
-    .copar-home-visual {
-        width: min(100%, 560px);
+    .copar-home-hero-media {
         margin: 2rem auto 0;
+    }
+
+    .copar-home-hero-banner {
+        width: min(100%, 760px);
     }
 
     .copar-product-showcase,
@@ -1409,8 +1400,12 @@
 }
 
 @media (max-width: 767px) {
-    .copar-home-visual {
-        display: none;
+    .copar-home-hero-media {
+        margin-top: 1.5rem;
+    }
+
+    .copar-home-hero-banner {
+        width: 100%;
     }
 
     .copar-standard-hero__title {

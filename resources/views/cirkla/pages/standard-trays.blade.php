@@ -6,23 +6,23 @@ $metaDescription = 'QRCOPAR standard laminated pulp trays converted from plastic
 $pageScript = '/_astro/hoisted.CCIidRwJ.js';
 $activePage = 'standard-trays';
 $trayImages = [
-    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p01-img01-871x590.png',
-    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p01-img02-953x708.png',
-    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p01-img03-892x634.png',
-    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p02-img01-922x745.png',
-    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p02-img02-937x667.png',
-    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p02-img03-904x594.png',
-    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p03-img01-997x1280.png',
-    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p03-img02-909x1280.png',
-    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p04-img01-957x641.png',
-    '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p04-img02-901x611.png',
-    '/images/pdf-extracted/embedded/sg1c/sg1c-p01-img01-824x584.png',
-    '/images/pdf-extracted/embedded/sg-2c-7030/sg-2c-7030-p01-img01-824x584.png',
-    '/images/pdf-extracted/embedded/sg2c-6040/sg2c-6040-p01-img01-824x584.png',
-    '/images/pdf-extracted/embedded/meat-tray-tds/meat-tray-tds-p01-img02-619x363.png',
-    '/images/pdf-extracted/embedded/pork-tray-product-copar/pork-tray-product-copar-p01-img01-988x714.png',
-    '/images/pdf-extracted/embedded/sausage-tray-product-copar/sausage-tray-product-copar-p01-img01-1000x730.png',
-    '/images/pdf-extracted/embedded/drylock-tray-product-copar/drylock-tray-product-copar-p01-img01-868x629.png',
+    '3D Tray' => '/images/standard-trays/3d-tray.jpeg',
+    '3SC Tray' => '/images/standard-trays/3sc-tray.jpeg',
+    '3P Tray' => '/images/standard-trays/3p-tray.jpeg',
+    '8P Tray' => '/images/standard-trays/8p-tray.jpeg',
+    'US-3 Tray' => '/images/standard-trays/us-3-tray.jpeg',
+    '11S Tray' => '/images/standard-trays/11s-tray.jpeg',
+    '11DC Tray' => '/images/standard-trays/11dc-tray.jpeg',
+    '7P Tray' => '/images/standard-trays/7p-tray.jpeg',
+    '1P Tray' => '/images/standard-trays/1p-tray.jpeg',
+    '5P Tray' => '/images/standard-trays/5p-tray.jpeg',
+    '25P T2 Tray' => '/images/standard-trays/25p-t2-tray.jpeg',
+    '2D Tray' => '/images/standard-trays/2d-tray.jpeg',
+    'V3 Tray' => '/images/standard-trays/v3-tray.jpeg',
+    'V4 Tray' => '/images/standard-trays/v4-tray.jpeg',
+    '8PB Tray' => '/images/standard-trays/8pb-tray.jpeg',
+    'V5 Tray' => '/images/standard-trays/v5-tray.jpeg',
+    'V7 Tray' => '/images/standard-trays/v7-tray.jpeg',
 ];
 $standardTrays = [
     [
@@ -111,7 +111,7 @@ $standardTrays = [
     ],
     [
         'number' => '15',
-        'name' => '8 PB Tray',
+        'name' => '8PB Tray',
         'plastic' => ['dimensions' => '274 x 219 x 35 mm', 'weight' => '50 g', 'thickness' => '0.45 mm', 'volume' => '1450 ml'],
         'pulp' => ['dimensions' => '274 x 219 x 35 mm', 'weight' => '27.5 g', 'thickness' => '0.6 mm', 'volume' => '1450 ml'],
     ],
@@ -182,7 +182,7 @@ $standardTrays = [
                     <article id="tray-{{ $tray['number'] }}" class="copar-standard-card">
                         <div class="copar-standard-card__media">
                             <span>{{ $tray['number'] }}</span>
-                            <img src="{{ $trayImages[$loop->index % count($trayImages)] }}" alt="{{ $tray['name'] }} laminated pulp tray">
+                            <img src="{{ $trayImages[$tray['name']] }}" alt="{{ $tray['name'] }} laminated pulp tray">
                         </div>
                         <div class="copar-standard-card__body">
                             <p class="copar-section-label">Standard tray {{ $tray['number'] }}</p>

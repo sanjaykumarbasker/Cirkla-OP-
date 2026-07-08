@@ -30,8 +30,8 @@
             'label' => 'Unlaminated tray',
             'title' => 'Moulded fibre tray without laminated surface',
             'copy' => 'Unlaminated trays give packaging teams a simple tray format for products where fibre structure, shape, and presentation are the key requirements.',
-            'image' => '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p04-img02-901x611.png',
-            'imageAlt' => 'Full unlaminated tray format',
+            'image' => '/images/standard-trays/3d-tray.jpeg',
+            'imageAlt' => 'Natural fibre unlaminated tray format',
             'features' => [
                 'Suitable for selected fresh, dry, and retail tray applications.',
                 'Can be reviewed with stacking and product-fit needs.',

@@ -7,8 +7,8 @@
         'eyebrow' => 'Unlaminated Trays',
         'title' => 'Unlaminated trays <em>for straightforward fibre packaging.</em>',
         'copy' => 'QRCOPAR unlaminated trays support tray-first applications where a clean molded fibre format, rigidity, and product fit are the priority.',
-        'image' => '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p04-img01-957x641.png',
-        'imageAlt' => 'Full QRCOPAR unlaminated tray',
+        'image' => '/images/standard-trays/3d-tray.jpeg',
+        'imageAlt' => 'Natural fibre unlaminated tray',
         'pills' => ['Moulded fibre', 'Retail trays', 'Custom dimensions'],
     ];
     $featureTitle = 'Tray-first material';

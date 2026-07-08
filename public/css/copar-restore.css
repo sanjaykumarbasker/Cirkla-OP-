@@ -1838,3 +1838,36 @@ body {
 .copar-standard-card:hover {
     box-shadow: 0 18px 42px #1f3d2a1a !important;
 }
+
+/* Simplified content mode: keep headings/labels, hide supporting sublines. */
+main h1 + p,
+main h2 + p,
+main h3 + p,
+main strong + p,
+main .copar-solution-hero__text,
+main .copar-standard-hero__text,
+main .copar-section-intro > p:not(.copar-section-label),
+main .copar-section-heading > p:not(.copar-section-label),
+main .copar-application-card span,
+main .copar-product-showcase__body > p:not(.copar-section-label),
+main .copar-product-cta p,
+main .copar-video-layout > div > p:not(.copar-section-label),
+main .copar-standalone-hero p:not(.inline-flex):not(.copar-kicker),
+main label p + p {
+    display: none !important;
+}
+
+main .copar-product-gallery figcaption {
+    font-size: 0 !important;
+    line-height: 0 !important;
+}
+
+main .copar-product-gallery figcaption strong {
+    display: block;
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+main .copar-product-gallery figcaption br {
+    display: none !important;
+}

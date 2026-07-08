@@ -6,14 +6,14 @@
     $hero = [
         'eyebrow' => 'Meat & Poultry Trays',
         'title' => 'Barrier-coated trays for <em>fresh protein applications.</em>',
-        'copy' => 'Molded fibre trays engineered for fresh meat, poultry, seafood, and protein applications that demand strength, rigidity, barrier performance, and existing-line compatibility.',
+        'copy' => '',
         'image' => '/images/pdf-extracted/embedded/meat-tray-tds/meat-tray-tds-p01-img02-619x363.png',
         'imageAlt' => 'QRCOPAR meat and poultry tray',
         'pills' => ['Fresh meat', 'Poultry', 'Seafood', 'Protein applications'],
     ];
     $featureTitle = 'Drop-in performance';
     $featureHeading = 'A true replacement for <em>plastic protein trays.</em>';
-    $featureCopy = 'Designed to integrate with existing sealing and packaging equipment without major line modifications.';
+    $featureCopy = null;
     $benefits = [
         'Barrier-coated tray options for fresh meat, poultry, seafood, and protein applications.',
         'Engineered for the strength, rigidity, and barrier performance demanded by food processors.',

@@ -122,7 +122,7 @@ $whyItems = [
                     Designed for Sustainability.
                 </h1>
                 <p class="font-sans text-[19px] text-ink-70 leading-[1.55] max-w-2xl mb-10">
-                    Premium laminated and unlaminated molded fibre trays for meat, poultry, seafood, fresh produce, ready meals, and food service applications. Designed to seamlessly integrate into existing packaging lines while delivering superior performance and a lower environmental impact.
+                    <!-- Premium laminated and unlaminated molded fibre trays for meat, poultry, seafood, fresh produce, ready meals, and food service applications. Designed to seamlessly integrate into existing packaging lines while delivering superior performance and a lower environmental impact. -->
                 </p>
                 <div class="flex flex-wrap gap-3">
                     <a href="#products" class="font-sans font-medium text-[15px] no-underline inline-flex items-center gap-2 transition-all duration-200 bg-green text-paper px-7 py-3.5 rounded-pill hover:bg-green-mid">
@@ -150,7 +150,7 @@ $whyItems = [
                     Advanced molded fibre packaging solutions.
                 </h2>
                 <p class="font-sans text-[19px] text-ink-70 leading-[1.55] max-w-3xl">
-                    Engineered for performance. Designed for sustainability. QRCOPAR develops laminated, unlaminated, and custom molded fibre trays for demanding food packaging environments.
+                    <!-- Engineered for performance. Designed for sustainability. QRCOPAR develops laminated, unlaminated, and custom molded fibre trays for demanding food packaging environments. -->
                 </p>
             </header>
 
@@ -197,7 +197,6 @@ $whyItems = [
                     Why leading brands choose <em class="italic text-butter font-light">QRCOPAR.</em>
                 </h2>
                 <p class="font-sans text-[17px] text-cream/70 leading-[1.6] max-w-3xl">
-                    Engineered to deliver the same barrier protection and performance as plastic trays without modifying existing production lines or investing in new tooling.
                 </p>
             </header>
             <div class="grid md:grid-cols-3 gap-4 reveal">
@@ -207,81 +206,6 @@ $whyItems = [
                         <h3 class="font-serif text-[22px] text-cream mb-3">{{ $item['title'] }}</h3>
                         <p class="font-sans text-[14px] text-cream/70 leading-[1.5]">{{ $item['copy'] }}</p>
                     </div>
-                @endforeach
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-paper py-20 md:py-[120px]">
-        <div class="max-w-site mx-auto px-6 md:px-12">
-            <div class="grid md:grid-cols-2 gap-12 items-start">
-                <header class="reveal">
-                    <p class="font-mono text-[14px] tracking-[0.12em] uppercase font-medium text-green-mid mb-4">Manufacturing</p>
-                    <h2 class="font-serif font-normal text-[clamp(36px,4vw,48px)] leading-[1.1] tracking-[-0.5px] text-ink mb-5">
-                        Advanced manufacturing excellence.
-                    </h2>
-                    <p class="font-sans text-[17px] text-ink-70 leading-[1.6]">
-                        QRCOPAR combines advanced thermoforming, precision tooling, lamination, and automated finishing processes to produce consistent, high-quality molded fibre packaging.
-                    </p>
-                </header>
-                <div class="grid sm:grid-cols-2 gap-4 reveal">
-                    @foreach($manufacturingCapabilities as $capability)
-                        <div class="bg-white border border-rule rounded-card p-6 hover:border-green transition-colors duration-200">
-                            <p class="font-mono text-[11px] tracking-[0.12em] uppercase text-green-mid mb-3">Capability</p>
-                            <h3 class="font-serif text-[24px] text-ink leading-[1.2]">{{ $capability }}</h3>
-                        </div>
-                    @endforeach
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-white py-20 md:py-[120px]">
-        <div class="max-w-site mx-auto px-6 md:px-12">
-            <div class="grid md:grid-cols-3 gap-5 reveal">
-                <article class="bg-white border border-rule rounded-card p-8 hover:border-green transition-colors duration-200">
-                    <p class="font-mono text-[13px] tracking-[0.12em] uppercase text-green-mid mb-4">Research & Development</p>
-                    <h2 class="font-serif font-normal text-[32px] leading-[1.1] text-ink mb-4">Innovation through engineering.</h2>
-                    <p class="font-sans text-[15px] text-ink-70 leading-[1.6] mb-6">Our in-house engineering team develops packaging solutions that balance sustainability, functionality, manufacturability, and commercial performance.</p>
-                    <ul class="font-sans text-[14px] text-ink-70 leading-[1.8]">
-                        @foreach($rdServices as $service)
-                            <li>{{ $service }}</li>
-                        @endforeach
-                    </ul>
-                </article>
-                <article class="bg-white border border-rule rounded-card p-8 hover:border-green transition-colors duration-200">
-                    <p class="font-mono text-[13px] tracking-[0.12em] uppercase text-green-mid mb-4">Sustainability</p>
-                    <h2 class="font-serif font-normal text-[32px] leading-[1.1] text-ink mb-4">Building a circular future.</h2>
-                    <p class="font-sans text-[15px] text-ink-70 leading-[1.6] mb-6">At QRCOPAR, sustainability extends beyond replacing plastic. We develop fibre-based packaging solutions that reduce environmental impact while maintaining food packaging performance.</p>
-                    <ul class="font-sans text-[14px] text-ink-70 leading-[1.8]">
-                        @foreach($sustainabilityFocus as $item)
-                            <li>{{ $item }}</li>
-                        @endforeach
-                    </ul>
-                </article>
-                <article class="bg-white border border-rule rounded-card p-8 hover:border-green transition-colors duration-200">
-                    <p class="font-mono text-[13px] tracking-[0.12em] uppercase text-green-mid mb-4">Quality</p>
-                    <h2 class="font-serif font-normal text-[32px] leading-[1.1] text-ink mb-4">Quality you can trust.</h2>
-                    <p class="font-sans text-[15px] text-ink-70 leading-[1.6] mb-6">Every product is manufactured under stringent quality controls to ensure consistent performance and reliability.</p>
-                    <ul class="font-sans text-[14px] text-ink-70 leading-[1.8]">
-                        @foreach($qualityFocus as $item)
-                            <li>{{ $item }}</li>
-                        @endforeach
-                    </ul>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-cream py-20 md:py-[120px]">
-        <div class="max-w-site mx-auto px-6 md:px-12 text-center reveal">
-            <p class="font-mono text-[14px] tracking-[0.12em] uppercase font-medium text-green-mid mb-4">QRCOPAR taglines</p>
-            <h2 class="font-serif font-normal text-[clamp(36px,4vw,52px)] leading-[1.05] tracking-[-1px] text-ink mb-10">
-                Advanced molded fibre packaging solutions.
-            </h2>
-            <div class="flex flex-wrap justify-center gap-3">
-                @foreach($taglines as $tagline)
-                    <span class="bg-white border border-rule rounded-pill px-5 py-3 font-sans text-[14px] font-medium text-ink-70">{{ $tagline }}</span>
                 @endforeach
             </div>
         </div>

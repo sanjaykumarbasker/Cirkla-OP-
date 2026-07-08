@@ -7,8 +7,8 @@
         'eyebrow' => 'Laminated Trays',
         'title' => 'Laminated trays <em>for barrier performance.</em>',
         'copy' => 'Premium laminated molded fibre trays designed for fresh food packaging applications that need moisture control, oxygen barrier options, seal integrity, and reliable line performance.',
-        'image' => '/images/pdf-extracted/embedded/copar-product-list/copar-product-list-p02-img02-937x667.png',
-        'imageAlt' => 'Full laminated QRCOPAR tray',
+        'image' => '/images/plastic-to-fiber-transition.png',
+        'imageAlt' => 'Plastic tray converting into QRCOPAR fibre tray',
         'pills' => ['PE', 'EVOH', 'PP', 'CPET'],
     ];
     $featureTitle = 'Barrier technologies';

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 @php
-$pageTitle = 'Recognition & Resources - COPAR';
-$metaDescription = 'COPAR recognition, tray product highlights, and technical capabilities for sustainable tray packaging solutions.';
+$pageTitle = 'Recognition & Resources - QRCOPAR';
+$metaDescription = 'QRCOPAR recognition, tray product highlights, and technical capabilities for sustainable tray packaging solutions.';
 $pageScript = '/_astro/hoisted.CCIidRwJ.js';
 $activePage = 'news';
 @endphp
@@ -19,11 +19,11 @@ $activePage = 'news';
                     Material innovation <em class="italic font-light">made visible.</em>
                 </h1>
                 <p class="font-sans text-[19px] text-paper/70 leading-[1.6] max-w-2xl">
-                    COPAR's tray innovations support recyclable and compostable tray formats while maintaining functional performance.
+                    QRCOPAR's tray innovations support recyclable and compostable tray formats while maintaining functional performance.
                 </p>
             </div>
             <div class="hidden md:flex items-center justify-center">
-                <img src="/images/copar/footer-image.png" alt="COPAR sustainable tray packaging" class="max-w-full max-h-[480px] object-contain">
+                <img src="/images/copar/footer-image.png" alt="QRCOPAR sustainable tray packaging" class="max-w-full max-h-[480px] object-contain">
             </div>
         </div>
     </section>
@@ -46,7 +46,7 @@ $activePage = 'news';
         <div class="max-w-site mx-auto px-6 md:px-12">
             <header class="mb-12 reveal">
                 <p class="font-mono text-[13px] tracking-[0.1em] uppercase font-medium text-green-mid mb-4">Product Families</p>
-                <h2 class="font-serif font-normal text-[clamp(32px,4vw,48px)] leading-[1.1] tracking-[-0.5px] text-ink mb-5">Product information from supplied COPAR files.</h2>
+                <h2 class="font-serif font-normal text-[clamp(32px,4vw,48px)] leading-[1.1] tracking-[-0.5px] text-ink mb-5">Product information from supplied QRCOPAR files.</h2>
                 <p class="font-sans text-[16px] text-ink-70 leading-[1.6] max-w-2xl">The supplied product list, TDS files, tray sheets and video are represented here as product families with full, uncropped imagery.</p>
             </header>
             <div class="copar-product-gallery reveal">
@@ -59,7 +59,7 @@ $activePage = 'news';
                     <figcaption><strong>Fresh Produce Trays</strong><br>Tray pathways for produce, retail display and food service formats.</figcaption>
                 </figure>
                 <figure>
-                    <img src="/images/copar/ppt-image2.png" alt="Special COPAR tray full product view">
+                    <img src="/images/copar/ppt-image2.png" alt="Special QRCOPAR tray full product view">
                     <figcaption><strong>Special Trays</strong><br>Custom tray structures for laminated, unlaminated, divided and moisture-aware formats.</figcaption>
                 </figure>
             </div>

@@ -22,7 +22,7 @@
 <nav class="fixed top-0 left-0 right-0 z-50 bg-paper/90 backdrop-blur-nav border-b border-rule">
     <div class="max-w-site mx-auto px-6 md:px-12 h-nav flex items-center justify-between copar-site-nav__inner">
         <a href="/" class="flex items-center no-underline flex-shrink-0 copar-brand-link">
-            <img src="/images/logo.svg" alt="COPAR" class="copar-brand-logo copar-brand-logo--nav">
+            <img src="/images/logo.svg" alt="QRCOPAR" class="copar-brand-logo copar-brand-logo--nav">
         </a>
 
         <ul class="hidden md:flex items-center gap-9 list-none m-0 p-0 copar-main-nav">
@@ -60,11 +60,11 @@
                     </ul>
                 </div>
             </li>
-            <li><a href="/certifications" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none flex items-center no-underline transition-colors duration-200 copar-main-nav__item {{ ($activePage ?? null) === 'standards' ? 'text-ink' : 'text-ink-50 hover:text-ink' }}">Technology</a></li>
+            <li><a href="/technology" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none flex items-center no-underline transition-colors duration-200 copar-main-nav__item {{ ($activePage ?? null) === 'technology' ? 'text-ink' : 'text-ink-50 hover:text-ink' }}">Technology</a></li>
             <li><a href="/epr" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium leading-none flex items-center no-underline transition-colors duration-200 copar-main-nav__item {{ ($activePage ?? null) === 'epr' ? 'text-ink' : 'text-ink-50 hover:text-ink' }}">EPR Calculator</a></li>
             <li>
                 <a href="/contact" class="font-sans font-medium text-[15px] bg-green text-paper px-5 py-2.5 rounded-pill no-underline transition-colors duration-200 hover:bg-green-mid inline-flex items-center gap-2 copar-nav-cta">
-                    Customise trays
+                    Request Samples
                     <svg width="14" height="14" viewbox="0 0 14 14" fill="none">
                         <path d="M2 7h10m0 0L7 2m5 5L7 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
@@ -97,9 +97,9 @@
                     <a href="{{ $trayMenuItem['href'] }}" class="font-sans text-[14px] font-medium text-ink-70 py-2.5 border-b border-rule/50 no-underline hover:text-green transition-colors duration-150">{{ $trayMenuItem['label'] }}</a>
                 @endforeach
             </div>
-            <a href="/certifications" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70 py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150">Technology</a>
+            <a href="/technology" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70 py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150">Technology</a>
             <a href="/epr" class="font-mono text-[12px] tracking-[0.08em] uppercase font-medium text-ink-70 py-3 border-b border-rule no-underline hover:text-green transition-colors duration-150">EPR Calculator</a>
-            <a href="/contact" class="mt-4 font-sans font-medium text-[15px] bg-green text-paper px-5 py-3.5 rounded-pill no-underline text-center hover:bg-green-mid transition-colors duration-200 flex items-center justify-center gap-2">Customise trays</a>
+            <a href="/contact" class="mt-4 font-sans font-medium text-[15px] bg-green text-paper px-5 py-3.5 rounded-pill no-underline text-center hover:bg-green-mid transition-colors duration-200 flex items-center justify-center gap-2">Request Samples</a>
         </div>
     </div>
 </nav>

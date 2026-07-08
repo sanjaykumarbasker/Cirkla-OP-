@@ -1,10 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 @php
-$pageTitle = 'COPAR - Custom Sustainable Tray Packaging';
-$metaDescription = 'COPAR builds custom sustainable tray packaging for meat, RTE meals, fresh produce, special, laminated, and unlaminated tray programs.';
+$pageTitle = 'QRCOPAR - Advanced Molded Fibre Packaging';
+$metaDescription = 'QRCOPAR manufactures premium laminated and unlaminated molded fibre trays for food packaging applications.';
 $pageScript = '/_astro/hoisted.CCIidRwJ.js';
 $activePage = 'home';
+$industries = [
+    'Fresh Produce',
+    'Fresh Meat',
+    'Poultry',
+    'Seafood',
+    'Ready Meals',
+    'Frozen Foods',
+    'Pet Food',
+    'Bakery',
+    'Food Service',
+    'Retail Packaging',
+    'Manufacturing',
+];
+$manufacturingCapabilities = [
+    'Pulp Preparation',
+    'Precision Thermoforming',
+    'High-Speed Trimming',
+    'Advanced Lamination',
+    'Quality Assurance',
+    'Packaging & Logistics',
+];
+$rdServices = [
+    'Packaging Design',
+    '3D Product Development',
+    'Mold Design',
+    'Rapid Prototyping',
+    'Industrial Trials',
+    'Product Validation',
+    'Commercial Scale Manufacturing',
+];
+$sustainabilityFocus = [
+    'Renewable Raw Materials',
+    'Responsible Fibre Sourcing',
+    'Reduced Plastic Dependency',
+    'Resource-Efficient Manufacturing',
+    'Recyclable Packaging Solutions',
+    'Continuous Product Innovation',
+];
+$qualityFocus = [
+    'Dimensional Accuracy',
+    'Weight Consistency',
+    'Barrier Performance',
+    'Seal Integrity',
+    'Mechanical Strength',
+    'Product Appearance',
+    'Food Contact Compliance',
+];
+$taglines = [
+    'Where Fibre Meets Innovation.',
+    'Building the Future of Food Packaging.',
+    'Sustainable Packaging Without Compromise.',
+    'Natural Fibres. Engineered Performance.',
+    'From Renewable Resources to Global Packaging Solutions.',
+    'Precision Engineered. Sustainably Manufactured.',
+    'Innovation Molded Into Every Tray.',
+    'The Future of Food Packaging Starts Here.',
+];
+$products = [
+    [
+        'title' => 'Fresh Produce Trays',
+        'copy' => 'Sustainable trays designed for fruits, vegetables, mushrooms, and fresh produce.',
+        'image' => '/images/copar/solutions/fresh-products.png',
+        'href' => '/solutions/fresh-produce',
+    ],
+    [
+        'title' => 'Meat & Poultry Trays',
+        'copy' => 'Barrier-coated trays for fresh meat, poultry, seafood, and protein applications.',
+        'image' => '/images/copar/solutions/meat.png',
+        'href' => '/solutions/meat-trays',
+    ],
+    [
+        'title' => 'Ready Meal Trays',
+        'copy' => 'Ovenable and microwave-compatible solutions for chilled and frozen meals.',
+        'image' => '/images/copar/solutions/ready-meal.png',
+        'href' => '/solutions/rte-trays',
+    ],
+    [
+        'title' => 'Food Service Packaging',
+        'copy' => 'Engineered fibre packaging for retail and food service.',
+        'image' => '/images/copar/tray-hero.png',
+        'href' => '/solutions/special-trays',
+    ],
+    [
+        'title' => 'Custom Molded Fibre Packaging',
+        'copy' => 'Tailored solutions developed for specific customer requirements.',
+        'image' => '/images/copar/ppt-image2.png',
+        'href' => '/solutions/special-trays',
+    ],
+];
+$whyItems = [
+    ['title' => 'Drop-in Replacement for Plastic', 'copy' => 'Designed to integrate with existing sealing and packaging equipment without major line modifications.'],
+    ['title' => 'Commercially Validated', 'copy' => 'Proven through industrial production and commercial food packaging applications.'],
+    ['title' => 'High-Performance Packaging', 'copy' => 'Engineered to deliver the strength, rigidity, and barrier performance demanded by today\'s food industry.'],
+    ['title' => 'Sustainable by Design', 'copy' => 'Manufactured using renewable and recycled fibres to support a circular packaging economy.'],
+    ['title' => 'Advanced Barrier Technologies', 'copy' => 'Multiple lamination options tailored to specific food applications.'],
+    ['title' => 'Custom Engineered Solutions', 'copy' => 'From concept development to full-scale production.'],
+];
 @endphp
 @include('cirkla.includes.head')
 
@@ -17,77 +114,61 @@ $activePage = 'home';
             <div class="reveal">
                 <div class="inline-flex items-center gap-2.5 px-4 py-2 bg-white border border-ink-15 rounded-pill text-[13px] text-ink-70 mb-10">
                     <span class="w-1.5 h-1.5 rounded-full bg-green-mid flex-shrink-0"></span>
-                    Customise your tray packaging
+                    A True Drop-in Replacement for Plastic.
                 </div>
                 <h1 class="font-serif font-normal text-[clamp(44px,5.5vw,72px)] leading-[1.02] tracking-[-2px] text-ink mb-6">
-                    Trays that are <em class="italic text-green font-light">custom made.</em><br>
-                    sustainable. practical.
+                    Advanced Molded Fibre Packaging.<br>
+                    <em class="italic text-green font-light">Engineered for Performance.</em><br>
+                    Designed for Sustainability.
                 </h1>
                 <p class="font-sans text-[19px] text-ink-70 leading-[1.55] max-w-2xl mb-10">
-                    Tray-only packaging programs designed around your food category, product fit, and production requirements.
+                    Premium laminated and unlaminated molded fibre trays for meat, poultry, seafood, fresh produce, ready meals, and food service applications. Designed to seamlessly integrate into existing packaging lines while delivering superior performance and a lower environmental impact.
                 </p>
                 <div class="flex flex-wrap gap-3">
-                    <a href="/contact" class="font-sans font-medium text-[15px] no-underline inline-flex items-center gap-2 transition-all duration-200 bg-green text-paper px-7 py-3.5 rounded-pill hover:bg-green-mid">
-                        Get started
+                    <a href="#products" class="font-sans font-medium text-[15px] no-underline inline-flex items-center gap-2 transition-all duration-200 bg-green text-paper px-7 py-3.5 rounded-pill hover:bg-green-mid">
+                        Explore Products
                         <svg width="14" height="14" viewbox="0 0 14 14" fill="none"><path d="M2 7h10m0 0L7 2m5 5L7 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                     </a>
-                    <a href="/solutions/meat-trays" class="font-sans font-medium text-[15px] no-underline inline-flex items-center gap-2 transition-all duration-200 bg-white text-green px-7 py-3.5 rounded-pill border border-ink-15 hover:bg-butter">
-                        Explore trays
+                    <a href="/contact" class="font-sans font-medium text-[15px] no-underline inline-flex items-center gap-2 transition-all duration-200 bg-white text-green px-7 py-3.5 rounded-pill border border-ink-15 hover:bg-butter">
+                        Request Samples
                     </a>
                 </div>
             </div>
             <div class="hidden md:flex items-center justify-center reveal">
                 <div class="bg-white rounded-card border border-rule p-8 shadow-lg copar-home-visual overflow-hidden">
-                    <img src="/images/copar/tray-hero.png" alt="COPAR moulded fibre tray" class="copar-visual-tray-top">
-                    <img src="/images/copar/meal-tray-2c-transparent.png" alt="COPAR two-compartment tray" class="copar-visual-tray">
-                    <img src="/images/copar/ppt-image2.png" alt="COPAR tray render" class="copar-visual-tray-small">
+                    <img src="/images/copar/tray-hero.png" alt="QRCOPAR molded fibre tray" class="copar-visual-tray-top">
+                    <img src="/images/copar/meal-tray-2c-transparent.png" alt="QRCOPAR two-compartment laminated tray" class="copar-visual-tray">
+                    <img src="/images/copar/ppt-image2.png" alt="QRCOPAR molded fibre tray render" class="copar-visual-tray-small">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-white py-20 md:py-[120px] border-t border-rule">
+    <section id="products" class="bg-white py-20 md:py-[120px] border-t border-rule">
         <div class="max-w-site mx-auto px-6 md:px-12">
             <header class="mb-14 reveal">
-                <p class="font-mono text-[14px] tracking-[0.12em] uppercase font-medium text-green-mid mb-4">Tray programs</p>
+                <p class="font-mono text-[14px] tracking-[0.12em] uppercase font-medium text-green-mid mb-4">Products</p>
                 <h2 class="font-serif font-normal text-[clamp(36px,4vw,48px)] leading-[1.1] tracking-[-0.5px] text-ink mb-5">
-                    Tray structures, <em class="italic text-green font-light">matched to the product.</em>
+                    Advanced molded fibre packaging solutions.
                 </h2>
-                <p class="font-sans text-[19px] text-ink-70 leading-[1.55] max-w-2xl">
-                    COPAR focuses on trays: laminated, unlaminated, special, RTE, meat, and fresh produce formats for real packing requirements.
+                <p class="font-sans text-[19px] text-ink-70 leading-[1.55] max-w-3xl">
+                    Engineered for performance. Designed for sustainability. QRCOPAR develops laminated, unlaminated, and custom molded fibre trays for demanding food packaging environments.
                 </p>
             </header>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-5 reveal">
-                <article class="bg-white border border-rule rounded-card overflow-hidden hover:border-green transition-colors duration-200">
-                    <div class="h-64 bg-cream flex items-center justify-center p-6 overflow-hidden">
-                        <img src="/images/copar/meal-tray-2c-transparent.png" alt="Laminated tray" class="max-h-full max-w-full object-contain">
-                    </div>
-                    <div class="p-8">
-                        <h3 class="font-serif text-[26px] font-medium leading-[1.2] text-ink mb-3">Laminated Trays</h3>
-                        <p class="font-sans text-[15px] text-ink-70 leading-[1.5]">Tray formats with laminated surface options for sealing, presentation, and handling needs.</p>
-                    </div>
-                </article>
-
-                <article class="bg-white border border-rule rounded-card overflow-hidden hover:border-green transition-colors duration-200">
-                    <div class="h-64 bg-cream flex items-center justify-center p-6 overflow-hidden">
-                        <img src="/images/copar/tray-hero.png" alt="Unlaminated tray" class="max-h-full max-w-full object-contain">
-                    </div>
-                    <div class="p-8">
-                        <h3 class="font-serif text-[26px] font-medium leading-[1.2] text-ink mb-3">Unlaminated Trays</h3>
-                        <p class="font-sans text-[15px] text-ink-70 leading-[1.5]">Simple moulded fibre tray structures for products where rigidity and fit are the priority.</p>
-                    </div>
-                </article>
-
-                <article class="bg-white border border-rule rounded-card overflow-hidden hover:border-green transition-colors duration-200">
-                    <div class="h-64 bg-cream flex items-center justify-center p-6 overflow-hidden">
-                        <img src="/images/copar/ppt-image2.png" alt="Special tray" class="max-h-full max-w-full object-contain">
-                    </div>
-                    <div class="p-8">
-                        <h3 class="font-serif text-[26px] font-medium leading-[1.2] text-ink mb-3">Special Trays</h3>
-                        <p class="font-sans text-[15px] text-ink-70 leading-[1.5]">Custom tray dimensions, compartments, depths, and material paths for non-standard requirements.</p>
-                    </div>
-                </article>
+                @foreach($products as $product)
+                    <article class="bg-white border border-rule rounded-card overflow-hidden hover:border-green transition-colors duration-200">
+                        <div class="h-64 bg-cream flex items-center justify-center p-6 overflow-hidden">
+                            <img src="{{ $product['image'] }}" alt="{{ $product['title'] }}" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <div class="p-8">
+                            <h3 class="font-serif text-[26px] font-medium leading-[1.2] text-ink mb-3">{{ $product['title'] }}</h3>
+                            <p class="font-sans text-[15px] text-ink-70 leading-[1.5] mb-6">{{ $product['copy'] }}</p>
+                            <a href="{{ $product['href'] }}" class="font-sans font-medium text-[15px] no-underline inline-flex items-center gap-2 transition-all duration-200 bg-cream text-green px-5 py-3 rounded-pill border border-ink-15 hover:bg-butter">Explore</a>
+                        </div>
+                    </article>
+                @endforeach
             </div>
         </div>
     </section>
@@ -95,36 +176,17 @@ $activePage = 'home';
     <section class="bg-cream py-20 md:py-[120px]">
         <div class="max-w-site mx-auto px-6 md:px-12">
             <header class="mb-14 reveal">
-                <p class="font-mono text-[14px] tracking-[0.12em] uppercase font-medium text-green-mid mb-4">Tray categories</p>
-                <h2 class="font-serif font-normal text-[clamp(36px,4vw,48px)] leading-[1.1] tracking-[-0.5px] text-ink">
-                    Six tray pathways for food and retail programs.
+                <p class="font-mono text-[14px] tracking-[0.12em] uppercase font-medium text-green-mid mb-4">Industries We Serve</p>
+                <h2 class="font-serif font-normal text-[clamp(36px,4vw,48px)] leading-[1.1] tracking-[-0.5px] text-ink mb-5">
+                    Packaging solutions for every food category.
                 </h2>
             </header>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 reveal">
-                <a href="/solutions/meat-trays" class="relative rounded-card overflow-hidden bg-green-deep no-underline copar-sector-card">
-                    <img src="/images/copar/solutions/meat.png" alt="Meat tray packaging" class="opacity-80">
-                    <span class="absolute left-0 right-0 bottom-0 p-6 font-serif text-[26px] text-paper bg-green-deep/70">Meat Trays</span>
-                </a>
-                <a href="/solutions/rte-trays" class="relative rounded-card overflow-hidden bg-green-deep no-underline copar-sector-card">
-                    <img src="/images/copar/solutions/ready-meal.png" alt="RTE tray packaging" class="opacity-80">
-                    <span class="absolute left-0 right-0 bottom-0 p-6 font-serif text-[26px] text-paper bg-green-deep/70">RTE Trays</span>
-                </a>
-                <a href="/solutions/fresh-produce" class="relative rounded-card overflow-hidden bg-green-deep no-underline copar-sector-card">
-                    <img src="/images/copar/solutions/fresh-products.png" alt="Fresh produce tray packaging" class="opacity-80">
-                    <span class="absolute left-0 right-0 bottom-0 p-6 font-serif text-[26px] text-paper bg-green-deep/70">Fresh Produce</span>
-                </a>
-                <a href="/solutions/special-trays" class="relative rounded-card overflow-hidden bg-green-deep no-underline copar-sector-card">
-                    <img src="/images/copar/tray.png" alt="Special tray packaging" class="opacity-80">
-                    <span class="absolute left-0 right-0 bottom-0 p-6 font-serif text-[26px] text-paper bg-green-deep/70">Special Trays</span>
-                </a>
-                <a href="/solutions/laminated-trays" class="relative rounded-card overflow-hidden bg-green-deep no-underline copar-sector-card">
-                    <img src="/images/copar/meal-tray-2c-transparent.png" alt="Laminated tray packaging" class="opacity-80">
-                    <span class="absolute left-0 right-0 bottom-0 p-6 font-serif text-[26px] text-paper bg-green-deep/70">Laminated Trays</span>
-                </a>
-                <a href="/solutions/unlaminated-trays" class="relative rounded-card overflow-hidden bg-green-deep no-underline copar-sector-card">
-                    <img src="/images/copar/tray-hero.png" alt="Unlaminated tray packaging" class="opacity-80">
-                    <span class="absolute left-0 right-0 bottom-0 p-6 font-serif text-[26px] text-paper bg-green-deep/70">Unlaminated Trays</span>
-                </a>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 reveal">
+                @foreach($industries as $industry)
+                    <div class="bg-white border border-rule rounded-card p-6 hover:border-green transition-colors duration-200">
+                        <p class="font-serif text-[22px] font-medium leading-[1.2] text-ink">{{ $industry }}</p>
+                    </div>
+                @endforeach
             </div>
         </div>
     </section>
@@ -132,19 +194,97 @@ $activePage = 'home';
     <section class="bg-green py-20 md:py-[120px]">
         <div class="max-w-site mx-auto px-6 md:px-12">
             <header class="mb-14 reveal">
-                <p class="font-mono text-[14px] tracking-[0.12em] uppercase font-medium text-butter/60 mb-4">Custom Tray Development</p>
+                <p class="font-mono text-[14px] tracking-[0.12em] uppercase font-medium text-butter/60 mb-4">Why QRCOPAR</p>
                 <h2 class="font-serif font-normal text-[clamp(36px,4vw,52px)] leading-[1.05] tracking-[-1px] text-cream mb-5">
-                    Not a one-size tray. <em class="italic text-butter font-light">A custom-made format.</em>
+                    Why leading brands choose <em class="italic text-butter font-light">QRCOPAR.</em>
                 </h2>
-                <p class="font-sans text-[17px] text-cream/70 leading-[1.6] max-w-2xl">
-                    COPAR is tray-led and problem-led. Whether it is shelf presentation for meat, a recyclable tray for produce, or a special format for RTE meals, the solution is designed around the product.
+                <p class="font-sans text-[17px] text-cream/70 leading-[1.6] max-w-3xl">
+                    Engineered to deliver the same barrier protection and performance as plastic trays without modifying existing production lines or investing in new tooling.
                 </p>
             </header>
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 reveal">
-                <div class="bg-paper/[0.08] border border-cream/[0.08] rounded-card p-6"><p class="font-mono text-[13px] text-butter mb-4">01</p><h3 class="font-serif text-[20px] text-cream mb-3">Tray assessment</h3><p class="font-sans text-[14px] text-cream/70 leading-[1.5]">Understand product fit, current tray format, and performance requirements.</p></div>
-                <div class="bg-paper/[0.08] border border-cream/[0.08] rounded-card p-6"><p class="font-mono text-[13px] text-butter mb-4">02</p><h3 class="font-serif text-[20px] text-cream mb-3">Format direction</h3><p class="font-sans text-[14px] text-cream/70 leading-[1.5]">Choose laminated, unlaminated, or special tray pathways.</p></div>
-                <div class="bg-paper/[0.08] border border-cream/[0.08] rounded-card p-6"><p class="font-mono text-[13px] text-butter mb-4">03</p><h3 class="font-serif text-[20px] text-cream mb-3">Prototype validation</h3><p class="font-sans text-[14px] text-cream/70 leading-[1.5]">Test fit, strength, lidding, and handling before production.</p></div>
-                <div class="bg-paper/[0.08] border border-cream/[0.08] rounded-card p-6"><p class="font-mono text-[13px] text-butter mb-4">04</p><h3 class="font-serif text-[20px] text-cream mb-3">Production transition</h3><p class="font-sans text-[14px] text-cream/70 leading-[1.5]">Move from sample to production with a transparent supply chain.</p></div>
+            <div class="grid md:grid-cols-3 gap-4 reveal">
+                @foreach($whyItems as $index => $item)
+                    <div class="bg-paper/[0.08] border border-cream/[0.08] rounded-card p-6">
+                        <p class="font-mono text-[13px] text-butter mb-4">{{ str_pad((string) ($index + 1), 2, '0', STR_PAD_LEFT) }}</p>
+                        <h3 class="font-serif text-[22px] text-cream mb-3">{{ $item['title'] }}</h3>
+                        <p class="font-sans text-[14px] text-cream/70 leading-[1.5]">{{ $item['copy'] }}</p>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-paper py-20 md:py-[120px]">
+        <div class="max-w-site mx-auto px-6 md:px-12">
+            <div class="grid md:grid-cols-2 gap-12 items-start">
+                <header class="reveal">
+                    <p class="font-mono text-[14px] tracking-[0.12em] uppercase font-medium text-green-mid mb-4">Manufacturing</p>
+                    <h2 class="font-serif font-normal text-[clamp(36px,4vw,48px)] leading-[1.1] tracking-[-0.5px] text-ink mb-5">
+                        Advanced manufacturing excellence.
+                    </h2>
+                    <p class="font-sans text-[17px] text-ink-70 leading-[1.6]">
+                        QRCOPAR combines advanced thermoforming, precision tooling, lamination, and automated finishing processes to produce consistent, high-quality molded fibre packaging.
+                    </p>
+                </header>
+                <div class="grid sm:grid-cols-2 gap-4 reveal">
+                    @foreach($manufacturingCapabilities as $capability)
+                        <div class="bg-white border border-rule rounded-card p-6 hover:border-green transition-colors duration-200">
+                            <p class="font-mono text-[11px] tracking-[0.12em] uppercase text-green-mid mb-3">Capability</p>
+                            <h3 class="font-serif text-[24px] text-ink leading-[1.2]">{{ $capability }}</h3>
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-20 md:py-[120px]">
+        <div class="max-w-site mx-auto px-6 md:px-12">
+            <div class="grid md:grid-cols-3 gap-5 reveal">
+                <article class="bg-white border border-rule rounded-card p-8 hover:border-green transition-colors duration-200">
+                    <p class="font-mono text-[13px] tracking-[0.12em] uppercase text-green-mid mb-4">Research & Development</p>
+                    <h2 class="font-serif font-normal text-[32px] leading-[1.1] text-ink mb-4">Innovation through engineering.</h2>
+                    <p class="font-sans text-[15px] text-ink-70 leading-[1.6] mb-6">Our in-house engineering team develops packaging solutions that balance sustainability, functionality, manufacturability, and commercial performance.</p>
+                    <ul class="font-sans text-[14px] text-ink-70 leading-[1.8]">
+                        @foreach($rdServices as $service)
+                            <li>{{ $service }}</li>
+                        @endforeach
+                    </ul>
+                </article>
+                <article class="bg-white border border-rule rounded-card p-8 hover:border-green transition-colors duration-200">
+                    <p class="font-mono text-[13px] tracking-[0.12em] uppercase text-green-mid mb-4">Sustainability</p>
+                    <h2 class="font-serif font-normal text-[32px] leading-[1.1] text-ink mb-4">Building a circular future.</h2>
+                    <p class="font-sans text-[15px] text-ink-70 leading-[1.6] mb-6">At QRCOPAR, sustainability extends beyond replacing plastic. We develop fibre-based packaging solutions that reduce environmental impact while maintaining food packaging performance.</p>
+                    <ul class="font-sans text-[14px] text-ink-70 leading-[1.8]">
+                        @foreach($sustainabilityFocus as $item)
+                            <li>{{ $item }}</li>
+                        @endforeach
+                    </ul>
+                </article>
+                <article class="bg-white border border-rule rounded-card p-8 hover:border-green transition-colors duration-200">
+                    <p class="font-mono text-[13px] tracking-[0.12em] uppercase text-green-mid mb-4">Quality</p>
+                    <h2 class="font-serif font-normal text-[32px] leading-[1.1] text-ink mb-4">Quality you can trust.</h2>
+                    <p class="font-sans text-[15px] text-ink-70 leading-[1.6] mb-6">Every product is manufactured under stringent quality controls to ensure consistent performance and reliability.</p>
+                    <ul class="font-sans text-[14px] text-ink-70 leading-[1.8]">
+                        @foreach($qualityFocus as $item)
+                            <li>{{ $item }}</li>
+                        @endforeach
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-cream py-20 md:py-[120px]">
+        <div class="max-w-site mx-auto px-6 md:px-12 text-center reveal">
+            <p class="font-mono text-[14px] tracking-[0.12em] uppercase font-medium text-green-mid mb-4">QRCOPAR taglines</p>
+            <h2 class="font-serif font-normal text-[clamp(36px,4vw,52px)] leading-[1.05] tracking-[-1px] text-ink mb-10">
+                Advanced molded fibre packaging solutions.
+            </h2>
+            <div class="flex flex-wrap justify-center gap-3">
+                @foreach($taglines as $tagline)
+                    <span class="bg-white border border-rule rounded-pill px-5 py-3 font-sans text-[14px] font-medium text-ink-70">{{ $tagline }}</span>
+                @endforeach
             </div>
         </div>
     </section>
@@ -152,12 +292,12 @@ $activePage = 'home';
     <section class="bg-paper py-20 md:py-[120px]">
         <div class="max-w-site mx-auto px-6 md:px-12 text-center reveal">
             <h2 class="font-serif font-normal text-[clamp(40px,5vw,64px)] leading-[1.05] tracking-[-1.5px] text-ink mb-5">
-                Let's make your trays <em class="italic text-green font-light">work for you.</em>
+                Request samples for your <em class="italic text-green font-light">next tray program.</em>
             </h2>
-            <p class="font-sans text-[19px] text-ink-70 leading-[1.55] max-w-xl mx-auto mb-10">
-                Share your sector, tray type, dimensions, and performance goals. COPAR can help assess the tray path and next prototype.
+            <p class="font-sans text-[19px] text-ink-70 leading-[1.55] max-w-2xl mx-auto mb-10">
+                Share your application, current plastic tray format, barrier requirements, and line conditions. QRCOPAR can help review the right molded fibre pathway.
             </p>
-            <a href="/contact" class="font-sans font-medium text-[15px] no-underline inline-flex items-center gap-2 transition-all duration-200 bg-green text-paper px-7 py-3.5 rounded-pill hover:bg-green-mid">Customise trays</a>
+            <a href="/contact" class="font-sans font-medium text-[15px] no-underline inline-flex items-center gap-2 transition-all duration-200 bg-green text-paper px-7 py-3.5 rounded-pill hover:bg-green-mid">Request Samples</a>
         </div>
     </section>
 </main>

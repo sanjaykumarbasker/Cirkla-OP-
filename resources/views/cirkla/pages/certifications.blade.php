@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 @php
-$pageTitle = 'Standards & Recognition - COPAR';
-$metaDescription = 'COPAR develops packaging in line with recognised safety and regulatory standards, with industry recognition for material innovation.';
+$pageTitle = 'Standards & Recognition - QRCOPAR';
+$metaDescription = 'QRCOPAR develops packaging in line with recognised safety and regulatory standards, with industry recognition for material innovation.';
 $pageScript = '/_astro/hoisted.CCIidRwJ.js';
 $activePage = 'standards';
 @endphp
@@ -19,7 +19,7 @@ $activePage = 'standards';
                     In line with <em class="italic font-light">industry standards.</em>
                 </h1>
                 <p class="font-sans text-[19px] text-paper/70 leading-[1.6] max-w-2xl">
-                    COPAR solutions are developed in alignment with recognised safety and regulatory standards, with additional accreditations progressing as solutions scale across markets.
+                    QRCOPAR solutions are developed in alignment with recognised safety and regulatory standards, with additional accreditations progressing as solutions scale across markets.
                 </p>
             </div>
             <div class="hidden md:flex items-center justify-center">
@@ -50,7 +50,7 @@ $activePage = 'standards';
                 <article class="bg-white border border-rule rounded-card p-8 hover:border-green transition-colors duration-200">
                     <p class="font-mono text-[10px] tracking-[0.12em] uppercase text-green-mid mb-4">Scale</p>
                     <h3 class="font-serif text-[24px] font-medium leading-[1.2] text-ink mb-3">Accreditation pathway</h3>
-                    <p class="font-sans text-[14px] text-ink-70 leading-[1.6]">COPAR continues to progress toward additional accreditations as solutions scale across food, retail, and export packaging.</p>
+                    <p class="font-sans text-[14px] text-ink-70 leading-[1.6]">QRCOPAR continues to progress toward additional accreditations as solutions scale across food, retail, and export packaging.</p>
                 </article>
             </div>
         </div>
@@ -64,7 +64,7 @@ $activePage = 'standards';
                     Recognised for material innovation <em class="italic text-green font-light">and performance.</em>
                 </h2>
                 <p class="font-sans text-[16px] text-ink-70 leading-[1.6] max-w-2xl">
-                    COPAR's tray innovations are being recognised for supporting recyclable and compostable tray formats while maintaining functional performance.
+                    QRCOPAR's tray innovations are being recognised for supporting recyclable and compostable tray formats while maintaining functional performance.
                 </p>
             </header>
             <div class="grid md:grid-cols-3 gap-5 reveal">

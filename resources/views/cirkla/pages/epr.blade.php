@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 @php
-$pageTitle = 'EPR Savings Calculator - COPAR';
-$metaDescription = 'Estimate annual EPR fee savings when switching from EPS, PET, or PP plastic trays to COPAR molded fiber tray packaging.';
+$pageTitle = 'EPR Savings Calculator - QRCOPAR';
+$metaDescription = 'Estimate annual EPR fee savings when switching from EPS, PET, or PP plastic trays to QRCOPAR molded fibre tray packaging.';
 $pageScript = '/_astro/hoisted.CCIidRwJ.js';
 $activePage = 'epr';
 @endphp
@@ -23,7 +23,7 @@ $activePage = 'epr';
                 </p>
             </div>
             <div class="hidden md:flex items-center justify-center">
-                <img src="/images/copar/tray-hero.png" alt="COPAR molded fiber tray" class="max-w-full max-h-[480px] object-contain drop-shadow">
+                <img src="/images/copar/tray-hero.png" alt="QRCOPAR molded fibre tray" class="max-w-full max-h-[480px] object-contain drop-shadow">
             </div>
         </div>
     </section>
@@ -58,7 +58,7 @@ $activePage = 'epr';
             <div class="reveal" id="resultsBlock">
                 <header class="mb-8">
                     <p class="font-mono text-[13px] tracking-[0.1em] uppercase font-medium text-green-mid mb-3">Annual EPR Fee</p>
-                    <h2 class="font-serif font-normal text-[clamp(32px,4vw,48px)] leading-[1.1] tracking-[-0.5px] text-ink">Compare your current tray against <em class="italic text-green font-light">COPAR molded fiber.</em></h2>
+                    <h2 class="font-serif font-normal text-[clamp(32px,4vw,48px)] leading-[1.1] tracking-[-0.5px] text-ink">Compare your current tray against <em class="italic text-green font-light">QRCOPAR molded fibre.</em></h2>
                 </header>
 
                 <div class="overflow-x-auto mb-4">
@@ -95,7 +95,7 @@ $activePage = 'epr';
                 <p class="font-sans text-[12px] text-ink-50">Fee per tray in cents.</p>
 
                 <div class="mt-10 bg-green rounded-card p-8 md:p-10" id="savingsCallout">
-                    <p class="font-mono text-[13px] tracking-[0.1em] uppercase font-medium text-butter mb-3">Your Estimated Savings with COPAR</p>
+                    <p class="font-mono text-[13px] tracking-[0.1em] uppercase font-medium text-butter mb-3">Your Estimated Savings with QRCOPAR</p>
                     <div class="grid md:grid-cols-3 gap-6">
                         <div>
                             <p class="font-sans text-[13px] text-paper/60 mb-1">vs. Oregon avg</p>
@@ -110,7 +110,7 @@ $activePage = 'epr';
                             <p class="font-serif text-[36px] font-normal text-paper leading-none" id="savingsCA">-</p>
                         </div>
                     </div>
-                    <p class="font-sans text-[13px] text-paper/50 mt-6">Savings = your current material fee minus COPAR molded fiber fee. California savings are shown as the midpoint of the low/high range.</p>
+                    <p class="font-sans text-[13px] text-paper/50 mt-6">Savings = your current material fee minus QRCOPAR molded fibre fee. California savings are shown as the midpoint of the low/high range.</p>
                 </div>
             </div>
         </div>

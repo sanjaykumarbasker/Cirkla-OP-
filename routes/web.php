@@ -23,8 +23,8 @@ foreach ($pages as $uri => $view) {
 }
 
 $trayPages = [
-    'solutions/laminated-trays' => 'technology',
-    'solutions/laminated-trays.html' => 'technology',
+    'solutions/laminated-trays' => 'laminated-trays',
+    'solutions/laminated-trays.html' => 'laminated-trays',
     'solutions/meat-trays' => 'meat-protein',
     'solutions/meat-trays.html' => 'meat-protein',
     'solutions/rte-trays' => 'ready-meals',

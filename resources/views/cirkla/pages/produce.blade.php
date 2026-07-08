@@ -1,53 +1,53 @@
 @php
-    $pageTitle = 'Fresh Produce Trays - COPAR';
-    $metaDescription = 'COPAR fresh produce trays for vegetables, fruits, mushrooms, and prepared produce packaging.';
+    $pageTitle = 'Fresh Produce Trays - QRCOPAR';
+    $metaDescription = 'QRCOPAR sustainable molded fibre trays for fruits, vegetables, mushrooms, and fresh produce packaging.';
     $activePage = 'produce';
     $layoutVariant = 'fibre';
     $hero = [
         'eyebrow' => 'Fresh Produce Trays',
-        'title' => 'Fresh produce trays <em>with clean shelf presentation.</em>',
-        'copy' => 'COPAR develops fibre tray formats for produce programs that need product protection, retail presentation, and a lower-plastic packaging path.',
+        'title' => 'Sustainable trays for <em>fresh produce.</em>',
+        'copy' => 'Sustainable molded fibre trays designed for fruits, vegetables, mushrooms, and fresh produce applications where presentation, strength, and reduced plastic dependency matter.',
         'image' => '/images/copar/tray-hero.png',
-        'imageAlt' => 'Fresh produce COPAR tray',
-        'pills' => ['Produce trays', 'Punnets', 'Retail-ready'],
+        'imageAlt' => 'QRCOPAR fresh produce tray',
+        'pills' => ['Fruits', 'Vegetables', 'Mushrooms', 'Retail produce'],
     ];
-    $featureTitle = 'Produce-ready design';
-    $featureHeading = 'A produce tray that supports <em>strength and presentation.</em>';
-    $featureCopy = 'Fresh produce trays are designed for food and retail teams that need responsible materials with practical strength, shaping, and shelf appeal.';
+    $featureTitle = 'Sustainable fibre solutions';
+    $featureHeading = 'Natural fibres. <em>Engineered performance.</em>';
+    $featureCopy = 'Carefully selected fibre blends ensure optimal strength, consistency, and sustainability for produce packaging programs.';
     $benefits = [
-        'Suitable for vegetables, fruit, mushrooms, and fresh prepared produce.',
-        'Rigid fibre bases help keep the pack looking premium.',
-        'Supports retail display, handling, and wrapping requirements.',
-        'Can be customised around product fit and pack dimensions.',
+        'Designed for fruits, vegetables, mushrooms, and fresh produce.',
+        'Supports renewable raw materials and responsible fibre sourcing.',
+        'Rigid molded fibre bases help protect product appearance through handling and display.',
+        'Built around recyclable packaging solutions and continuous product innovation.',
     ];
     $applications = [
-        ['label' => 'Fresh produce', 'title' => 'Punnets and trays', 'copy' => 'Tray and punnet formats for vegetables, fruit, mushrooms, and fresh prepared produce.'],
-        ['label' => 'Retail', 'title' => 'Shelf-ready presentation', 'copy' => 'Clean, moulded forms that support merchandising while reducing plastic dependence.'],
-        ['label' => 'Food service', 'title' => 'Prepared produce bases', 'copy' => 'Durable tray formats for counters, takeaway, and prepared produce programs.'],
+        ['label' => 'Fresh produce', 'title' => 'Fruit and vegetable trays', 'copy' => 'Tray formats for retail produce categories requiring reliable presentation and handling.'],
+        ['label' => 'Mushrooms', 'title' => 'Molded fibre produce bases', 'copy' => 'Durable fibre trays for mushroom packs and other delicate fresh produce applications.'],
+        ['label' => 'Retail packaging', 'title' => 'Shelf-ready produce formats', 'copy' => 'Sustainable tray formats developed for modern produce merchandising.'],
     ];
     $productDetails = [
         [
             'label' => 'Produce tray',
-            'title' => 'Moulded fibre trays for fresh produce',
-            'copy' => 'Fresh produce trays are made for products that need clean merchandising, strength through the supply chain, and a practical tray format.',
+            'title' => 'Sustainable trays for fresh produce programs',
+            'copy' => 'QRCOPAR fresh produce trays are designed for products that need clean merchandising, consistent shape, and a lower-plastic packaging pathway.',
             'image' => '/images/copar/tray-hero.png',
-            'imageAlt' => 'Full fresh produce fibre tray',
+            'imageAlt' => 'Full QRCOPAR fresh produce tray',
             'features' => [
-                'Supports vegetables, mushrooms, fruits and prepared produce.',
-                'Rigid fibre bases keep the pack looking premium.',
-                'Can be customised around product fit and wrapping requirements.',
+                'Fruits, vegetables, mushrooms, and fresh produce applications.',
+                'Renewable and recycled fibre pathways.',
+                'Resource-efficient manufacturing and recyclable packaging solutions.',
             ],
         ],
         [
-            'label' => 'Produce formats',
-            'title' => 'Tray and punnet options for retail programs',
-            'copy' => 'The tray structure can be reviewed around pack size, fill weight, stacking, display, and transport needs.',
+            'label' => 'Fibre blend',
+            'title' => 'Selected materials for strength and consistency',
+            'copy' => 'Primary fibres such as bagasse, bamboo, hardwood, and softwood can be supported by premium recycled paper fibres for practical performance and sustainability.',
             'image' => '/images/copar/tray.png',
-            'imageAlt' => 'COPAR fresh produce tray top view',
+            'imageAlt' => 'QRCOPAR molded fibre produce tray top view',
             'features' => [
-                'Shallow and deeper tray pathways.',
-                'Retail presentation with a tray-first material story.',
-                'Sample options for buyer and operations review.',
+                'Carefully selected fibre blends.',
+                'Designed for strength, consistency, and sustainability.',
+                'Supports product validation before commercial scale manufacturing.',
             ],
         ],
     ];

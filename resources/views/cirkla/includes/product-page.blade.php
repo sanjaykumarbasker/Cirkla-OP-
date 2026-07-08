@@ -21,9 +21,9 @@
     <section class="copar-solution-hero pt-nav">
         <div class="max-w-site mx-auto px-6 md:px-12 py-20 md:py-28 copar-solution-hero__grid">
             <div class="copar-solution-hero__copy">
-                <p class="copar-kicker">{{ $hero['eyebrow'] ?? 'COPAR solution' }}</p>
-                <h1 class="copar-solution-hero__title">{!! $hero['title'] ?? 'Sustainable trays, <em>customised.</em>' !!}</h1>
-                <p class="copar-solution-hero__text">{{ $hero['copy'] ?? 'Made from circular materials and designed around the performance needs of food tray programs.' }}</p>
+                <p class="copar-kicker">{{ $hero['eyebrow'] ?? 'QRCOPAR solution' }}</p>
+                <h1 class="copar-solution-hero__title">{!! $hero['title'] ?? 'Advanced trays, <em>engineered.</em>' !!}</h1>
+                <p class="copar-solution-hero__text">{{ $hero['copy'] ?? 'Made from renewable and recycled fibres, engineered around the performance needs of food packaging programs.' }}</p>
                 @if(!empty($hero['pills']))
                     <div class="copar-solution-hero__pills">
                         @foreach($hero['pills'] as $pill)
@@ -32,12 +32,12 @@
                     </div>
                 @endif
                 <a href="/contact" class="copar-primary-link">
-                    Customise trays
+                    Request Samples
                     <svg width="14" height="14" viewbox="0 0 14 14" fill="none"><path d="M2 7h10m0 0L7 2m5 5L7 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                 </a>
             </div>
             <div class="copar-solution-hero__media">
-                <img src="{{ $hero['image'] ?? '/images/copar/tray-hero.png' }}" alt="{{ $hero['imageAlt'] ?? 'COPAR tray' }}" class="copar-product-hero-image">
+                <img src="{{ $hero['image'] ?? '/images/copar/tray-hero.png' }}" alt="{{ $hero['imageAlt'] ?? 'QRCOPAR tray' }}" class="copar-product-hero-image">
             </div>
         </div>
     </section>
@@ -98,7 +98,7 @@
                                 <img src="{{ $detail['image'] ?? '/images/copar/meal-tray-2c-transparent.png' }}" alt="{{ $detail['imageAlt'] ?? $detail['title'] }}">
                             </div>
                             <div class="copar-product-showcase__body">
-                                <p class="copar-section-label">{{ $detail['label'] ?? 'COPAR product' }}</p>
+                                <p class="copar-section-label">{{ $detail['label'] ?? 'QRCOPAR product' }}</p>
                                 <h3>{{ $detail['title'] }}</h3>
                                 <p>{{ $detail['copy'] }}</p>
                                 @if(!empty($detail['features']))
@@ -154,9 +154,9 @@
 
     <section class="copar-product-cta py-20 md:py-[120px]">
         <div class="max-w-site mx-auto px-6 md:px-12 text-center reveal">
-            <h2>Let's make your trays <em>work for you.</em></h2>
-            <p>Tell us your product category, tray type, dimensions, and performance requirements. COPAR can help move from assessment to prototype and production.</p>
-            <a href="/contact">Start a project</a>
+            <h2>Request samples for your <em>next tray program.</em></h2>
+            <p>Tell us your product category, tray type, dimensions, barrier requirements, and production-line needs. QRCOPAR can help move from assessment to prototype and commercial scale manufacturing.</p>
+            <a href="/contact">Request Samples</a>
         </div>
     </section>
 </main>

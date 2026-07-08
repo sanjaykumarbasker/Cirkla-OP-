@@ -1,14 +1,14 @@
 @php
-    $pageTitle = 'Unlaminated Trays - COPAR';
-    $metaDescription = 'COPAR unlaminated trays for tray-first fibre packaging programs and custom food applications.';
+    $pageTitle = 'Unlaminated Trays - QRCOPAR';
+    $metaDescription = 'QRCOPAR unlaminated trays for tray-first fibre packaging programs and custom food applications.';
     $activePage = 'overwrap';
     $layoutVariant = 'specialty';
     $hero = [
         'eyebrow' => 'Unlaminated Trays',
         'title' => 'Unlaminated trays <em>for straightforward fibre packaging.</em>',
-        'copy' => 'COPAR unlaminated trays support tray-first applications where a clean moulded fibre format, rigidity, and product fit are the priority.',
+        'copy' => 'QRCOPAR unlaminated trays support tray-first applications where a clean molded fibre format, rigidity, and product fit are the priority.',
         'image' => '/images/copar/tray-hero.png',
-        'imageAlt' => 'Full COPAR unlaminated tray',
+        'imageAlt' => 'Full QRCOPAR unlaminated tray',
         'pills' => ['Moulded fibre', 'Retail trays', 'Custom dimensions'],
     ];
     $featureTitle = 'Tray-first material';
@@ -43,7 +43,7 @@
             'title' => 'Custom sizing for product compatibility',
             'copy' => 'Tray dimensions, rim design, and depth can be developed around the product rather than forcing a standard format.',
             'image' => '/images/copar/tray.png',
-            'imageAlt' => 'COPAR unlaminated tray top view',
+            'imageAlt' => 'QRCOPAR unlaminated tray top view',
             'features' => [
                 'Designed around product fit and display requirements.',
                 'Supports finished-pack presentation.',

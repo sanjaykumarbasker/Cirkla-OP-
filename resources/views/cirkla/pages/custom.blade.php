@@ -1,54 +1,54 @@
 @php
-    $pageTitle = 'Special Trays - COPAR';
-    $metaDescription = 'COPAR special trays for custom tray requirements, product fit, and production planning.';
+    $pageTitle = 'Custom Molded Fibre Packaging - QRCOPAR';
+    $metaDescription = 'QRCOPAR custom molded fibre packaging solutions developed for specific customer requirements and commercial manufacturing.';
     $activePage = 'custom';
     $layoutVariant = 'custom';
     $hero = [
-        'eyebrow' => 'Special Trays',
-        'title' => 'Special trays <em>made around your product.</em>',
-        'copy' => 'COPAR develops special tray formats for products that need non-standard dimensions, compartment layouts, moisture handling, or presentation requirements.',
+        'eyebrow' => 'Custom Molded Fibre Packaging',
+        'title' => 'Tailored solutions for <em>specific requirements.</em>',
+        'copy' => 'Custom engineered molded fibre packaging developed from concept to full-scale production for food service, retail packaging, bakery, pet food, and specialized food applications.',
         'image' => '/images/copar/tray-hero.png',
-        'imageAlt' => 'Special COPAR tray',
-        'pills' => ['Custom dimensions', 'Prototype to production', 'Tray-first development'],
+        'imageAlt' => 'QRCOPAR custom molded fibre tray',
+        'pills' => ['Packaging design', 'Mold design', 'Rapid prototyping', 'Industrial trials'],
     ];
-    $featureTitle = 'Why it matters';
-    $featureHeading = 'Tray formats tailored to <em>specific product needs.</em>';
-    $featureCopy = 'A special tray project starts with product fit, handling, and display expectations, then works toward the right tray structure and sample path.';
+    $featureTitle = 'Custom engineering';
+    $featureHeading = 'Innovation molded into <em>every tray.</em>';
+    $featureCopy = 'Our in-house engineering team develops packaging solutions that balance sustainability, functionality, manufacturability, and commercial performance.';
     $benefits = [
-        'Bespoke tray builds for food sectors.',
-        'Custom depth, shape, compartments, and rim planning.',
-        'Designed to meet compliance, cost, and performance goals.',
-        'Streamlined path from prototype to production.',
+        'Packaging design, 3D product development, mold design, and rapid prototyping.',
+        'Industrial trials, product validation, and commercial scale manufacturing.',
+        'Custom engineered solutions from concept development to full-scale production.',
+        'Tailored for food service packaging, retail packaging, bakery, pet food, and specialized applications.',
     ];
     $applications = [
-        ['label' => 'Step 01', 'title' => 'Tray assessment', 'copy' => 'Understand the product, current pack, application, and performance requirements.'],
-        ['label' => 'Step 02', 'title' => 'Tray format proposal', 'copy' => 'Select a tray structure, size, material pathway, and production direction.'],
-        ['label' => 'Step 03', 'title' => 'Prototyping and validation', 'copy' => 'Test fit, strength, lidding, and handling before production.'],
-        ['label' => 'Step 04', 'title' => 'Production transition', 'copy' => 'Move from sample to production while keeping the supply chain transparent.'],
+        ['label' => 'Step 01', 'title' => 'Packaging design', 'copy' => 'Define the product, dimensions, use case, barrier needs, and manufacturing direction.'],
+        ['label' => 'Step 02', 'title' => '3D development and mold design', 'copy' => 'Move from concept to engineered tray geometry and tooling strategy.'],
+        ['label' => 'Step 03', 'title' => 'Rapid prototyping', 'copy' => 'Build samples for fit, appearance, handling, and line review.'],
+        ['label' => 'Step 04', 'title' => 'Industrial trials and validation', 'copy' => 'Validate performance before moving into commercial scale manufacturing.'],
     ];
     $productDetails = [
         [
-            'label' => 'Special build',
-            'title' => 'Custom tray design around product geometry',
-            'copy' => 'Special tray projects support product lines that do not fit a standard tray, including unusual fill weights, divided spaces, or retail presentation goals.',
+            'label' => 'Food service packaging',
+            'title' => 'Engineered fibre packaging for retail and food service',
+            'copy' => 'QRCOPAR supports food service and retail packaging programs with custom molded fibre formats designed around performance and manufacturability.',
             'image' => '/images/copar/tray.png',
-            'imageAlt' => 'COPAR special tray top view',
+            'imageAlt' => 'QRCOPAR custom food service tray',
             'features' => [
-                'Bespoke builds for meat, produce, RTE, bakery, and specialty food.',
-                'Designed around compliance, cost, and performance goals.',
-                'Moves from assessment to prototype and production planning.',
+                'Food service, retail packaging, bakery, and pet food applications.',
+                'Custom tray depth, rim, compartment, and presentation planning.',
+                'Designed for production reliability and commercial performance.',
             ],
         ],
         [
-            'label' => 'Format mix',
-            'title' => 'Single, divided, deep, and shallow tray options',
-            'copy' => 'COPAR can combine tray shape, depth, rim design, and surface requirements to suit the product instead of forcing a standard SKU.',
+            'label' => 'Custom format',
+            'title' => 'Tailored molded fibre packaging solutions',
+            'copy' => 'From renewable resources to global packaging solutions, QRCOPAR develops custom formats that keep sustainability and functionality working together.',
             'image' => '/images/copar/ppt-image2.png',
-            'imageAlt' => 'COPAR special tray render',
+            'imageAlt' => 'QRCOPAR custom molded fibre tray render',
             'features' => [
-                'Single and divided tray structures.',
-                'Custom handling, stacking, and display requirements.',
-                'Sample-led pathway for buyer and production review.',
+                'Prototype-led development process.',
+                'Performance validation before launch.',
+                'Full-scale production planning for repeatable quality.',
             ],
         ],
     ];

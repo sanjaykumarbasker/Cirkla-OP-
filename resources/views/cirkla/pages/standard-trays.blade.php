@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 @php
-$pageTitle = 'Standard Laminated Trays - COPAR';
-$metaDescription = 'COPAR standard laminated pulp trays converted from plastic tray formats, with dimensions, weight, thickness, and volume comparisons.';
+$pageTitle = 'Standard Laminated Trays - QRCOPAR';
+$metaDescription = 'QRCOPAR standard laminated pulp trays converted from plastic tray formats, with dimensions, weight, thickness, and volume comparisons.';
 $pageScript = '/_astro/hoisted.CCIidRwJ.js';
 $activePage = 'standard-trays';
 $trayImages = [
@@ -138,7 +138,7 @@ $standardTrays = [
                 </div>
             </div>
             <div class="copar-standard-hero__media reveal">
-                <img src="/images/copar/meal-tray-2c-transparent.png" alt="COPAR laminated pulp tray">
+                <img src="/images/copar/meal-tray-2c-transparent.png" alt="QRCOPAR laminated pulp tray">
                 <div class="copar-standard-hero__badge">
                     <span>Plastic tray</span>
                     <strong>to</strong>
@@ -224,7 +224,7 @@ $standardTrays = [
     <section class="copar-product-cta py-20 md:py-[120px]">
         <div class="max-w-site mx-auto px-6 md:px-12 text-center reveal">
             <h2>Need one of these trays <em>sampled?</em></h2>
-            <p>Share the tray number, food category, and packing requirement. COPAR can use the standard laminated tray row as the starting point.</p>
+            <p>Share the tray number, food category, and packing requirement. QRCOPAR can use the standard laminated tray row as the starting point.</p>
             <a href="/contact">Start a tray project</a>
         </div>
     </section>

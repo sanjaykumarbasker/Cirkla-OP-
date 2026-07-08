@@ -1,14 +1,14 @@
 @php
-    $pageTitle = 'Special Trays - COPAR';
-    $metaDescription = 'COPAR special trays for moisture-aware, divided, and custom food packaging applications.';
+    $pageTitle = 'Special Trays - QRCOPAR';
+    $metaDescription = 'QRCOPAR special trays for moisture-aware, divided, and custom food packaging applications.';
     $activePage = 'map-vsp';
     $layoutVariant = 'special-support';
     $hero = [
         'eyebrow' => 'Special Trays',
         'title' => 'Special tray formats <em>for non-standard applications.</em>',
-        'copy' => 'COPAR develops special tray options for products that need custom fit, divided layouts, moisture-aware handling, or buyer-specific presentation.',
+        'copy' => 'QRCOPAR develops special tray options for products that need custom fit, divided layouts, moisture-aware handling, or buyer-specific presentation.',
         'image' => '/images/copar/meal-tray-2c-transparent.png',
-        'imageAlt' => 'Full COPAR special tray',
+        'imageAlt' => 'Full QRCOPAR special tray',
         'pills' => ['Drylock trays', 'MSO trays', 'Custom tray formats'],
     ];
     $featureTitle = 'Application-led design';
@@ -31,7 +31,7 @@
             'title' => 'Custom tray pathways for non-standard packs',
             'copy' => 'Special trays support projects where the product, pack line, or retail display requires a tray outside a standard format.',
             'image' => '/images/copar/meal-tray-2c-transparent.png',
-            'imageAlt' => 'Full COPAR special tray',
+            'imageAlt' => 'Full QRCOPAR special tray',
             'features' => [
                 'Supports divided, deep, shallow, and moisture-aware tray needs.',
                 'Designed around fit, lidding and presentation requirements.',

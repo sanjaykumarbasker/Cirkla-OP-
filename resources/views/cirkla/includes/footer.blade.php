@@ -3,10 +3,10 @@
         <div class="grid md:grid-cols-3 gap-12">
             <div>
                 <a href="/" class="inline-flex items-center no-underline mb-5 copar-footer-brand-link">
-                    <img src="/images/logo.svg" alt="COPAR" class="copar-brand-logo copar-brand-logo--footer">
+                    <img src="/images/logo.svg" alt="QRCOPAR" class="copar-brand-logo copar-brand-logo--footer">
                 </a>
                 <p class="font-sans text-[14px] text-paper/60 leading-[1.6] max-w-xs">
-                    Tray packaging that is custom made, sustainable, and circular.
+                    Advanced molded fibre packaging engineered for performance and designed for sustainability.
                 </p>
             </div>
 
@@ -26,7 +26,7 @@
                 <div>
                     <p class="font-mono text-[10px] tracking-[0.14em] uppercase text-butter/60 mb-5">Company</p>
                     <div class="flex flex-col gap-3">
-                        <a href="/certifications" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Technology</a>
+                        <a href="/technology" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Technology</a>
                         <a href="/news-and-events" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Recognition</a>
                         <a href="/epr" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">EPR Calculator</a>
                         <a href="/contact" class="font-sans text-[14px] text-paper/70 hover:text-butter no-underline transition-colors">Contact</a>
@@ -50,7 +50,7 @@
     </div>
     <div class="border-t border-cream/[0.08]">
         <div class="max-w-site mx-auto px-6 md:px-12 py-5">
-            <p class="font-mono text-[10px] tracking-[0.06em] text-paper/50">© 2026 COPAR. All rights reserved.</p>
+            <p class="font-mono text-[10px] tracking-[0.06em] text-paper/50">&copy; 2026 QRCOPAR. All rights reserved.</p>
         </div>
     </div>
 </footer>

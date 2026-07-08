@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 @php
-$pageTitle = 'Contact COPAR';
+$pageTitle = 'Contact QRCOPAR';
 $metaDescription = 'Contact QRCOPAR AGROFIBER PRIVATE LIMITED for tray packaging projects and custom tray requirements.';
 $pageScript = '/_astro/hoisted.CcJimr40.js';
 $activePage = 'contact';
@@ -25,7 +25,7 @@ $activePage = 'contact';
                     <div class="mb-8">
                         <p class="font-sans font-medium text-[15px] text-ink mb-4">What would you like to do?</p>
                         <div class="flex flex-col gap-3">
-                            <label class="flex items-start gap-3 border-[1.5px] border-rule rounded-[8px] p-4 cursor-pointer hover:border-green transition-colors has-[:checked]:border-green has-[:checked]:bg-[#F4FAF0]"><input type="radio" name="intent" value="custom" class="mt-0.5 accent-green" checked=""><div><p class="font-sans font-medium text-[14px] text-ink">Customise trays</p><p class="font-sans text-[12px] text-ink-50 mt-0.5">Tell us your product and tray requirements.</p></div></label>
+                            <label class="flex items-start gap-3 border-[1.5px] border-rule rounded-[8px] p-4 cursor-pointer hover:border-green transition-colors has-[:checked]:border-green has-[:checked]:bg-[#F4FAF0]"><input type="radio" name="intent" value="custom" class="mt-0.5 accent-green" checked=""><div><p class="font-sans font-medium text-[14px] text-ink">Request samples</p><p class="font-sans text-[12px] text-ink-50 mt-0.5">Tell us your product and tray requirements.</p></div></label>
                             <label class="flex items-start gap-3 border-[1.5px] border-rule rounded-[8px] p-4 cursor-pointer hover:border-green transition-colors has-[:checked]:border-green has-[:checked]:bg-[#F4FAF0]"><input type="radio" name="intent" value="samples" class="mt-0.5 accent-green"><div><p class="font-sans font-medium text-[14px] text-ink">Request product files or samples</p><p class="font-sans text-[12px] text-ink-50 mt-0.5">Ask for trays, specifications, or technical information.</p></div></label>
                             <label class="flex items-start gap-3 border-[1.5px] border-rule rounded-[8px] p-4 cursor-pointer hover:border-green transition-colors has-[:checked]:border-green has-[:checked]:bg-[#F4FAF0]"><input type="radio" name="intent" value="team" class="mt-0.5 accent-green"><div><p class="font-sans font-medium text-[14px] text-ink">Talk to our team</p><p class="font-sans text-[12px] text-ink-50 mt-0.5">A direct conversation about materials and applications.</p></div></label>
                         </div>
@@ -59,7 +59,7 @@ $activePage = 'contact';
                         PIN Code: 641662
                     </address>
                     <div class="rounded-card overflow-hidden bg-white p-6 flex items-center justify-center">
-                        <img src="/images/copar/footer-image.png" alt="COPAR tray packaging" class="max-h-[480px] object-contain">
+                        <img src="/images/copar/footer-image.png" alt="QRCOPAR tray packaging" class="max-h-[480px] object-contain">
                     </div>
                 </div>
             </div>

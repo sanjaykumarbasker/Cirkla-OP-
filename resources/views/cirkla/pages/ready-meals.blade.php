@@ -1,54 +1,54 @@
 @php
-    $pageTitle = 'RTE Trays - COPAR';
-    $metaDescription = 'COPAR RTE trays for ready-to-eat, ready-to-heat, and convenience food packaging programs.';
+    $pageTitle = 'Ready Meal Trays - QRCOPAR';
+    $metaDescription = 'QRCOPAR ready meal trays for chilled, frozen, microwave-compatible, and ovenable meal packaging applications.';
     $activePage = 'ready-meals';
     $layoutVariant = 'service';
     $hero = [
-        'eyebrow' => 'RTE Trays',
-        'title' => 'RTE trays <em>for prepared meal programs.</em>',
-        'copy' => 'COPAR supports convenience food programs with fibre tray formats designed around portion separation, presentation, and production requirements.',
+        'eyebrow' => 'Ready Meal Trays',
+        'title' => 'Ready meal trays for <em>chilled and frozen meals.</em>',
+        'copy' => 'Ovenable and microwave-compatible molded fibre solutions for ready meal applications requiring barrier performance, seal integrity, and commercial production reliability.',
         'image' => '/images/copar/meal-tray-2c-transparent.png',
-        'imageAlt' => 'Two-compartment COPAR RTE tray',
-        'pills' => ['Ready-to-eat', 'Ready-to-heat', 'Single and divided trays'],
+        'imageAlt' => 'QRCOPAR ready meal tray',
+        'pills' => ['Ready meals', 'Frozen foods', 'Ovenable options', 'Microwave-compatible'],
     ];
-    $featureTitle = 'RTE formats';
-    $featureHeading = 'Meal trays built for <em>serving, packing, and display.</em>';
-    $featureCopy = 'RTE tray options help brands plan around portion control, tray rigidity, fill weight, and finished-pack appearance.';
+    $featureTitle = 'Heat-ready performance';
+    $featureHeading = 'Engineered for <em>ready meal applications.</em>';
+    $featureCopy = 'CPET and other lamination pathways support ovenable and ready meal applications requiring high heat resistance.';
     $benefits = [
-        'Single and divided tray pathways.',
-        'Two-compartment layouts for separated meal components.',
-        'Designed for chilled, takeaway, and convenience food programs.',
-        'Supports buyer review, QA checks, and production conversations.',
+        'Ovenable and microwave-compatible solutions for chilled and frozen meals.',
+        'Barrier options designed around meal format, shelf life, and sealing requirements.',
+        'Single and divided tray pathways for commercial ready meal programs.',
+        'Supports industrial trials, product validation, and commercial scale manufacturing.',
     ];
     $applications = [
-        ['label' => 'RTE meals', 'title' => 'Single-compartment trays', 'copy' => 'Simple tray formats for prepared foods, snacks, and convenience lines.'],
-        ['label' => 'Divided meals', 'title' => 'Two-compartment trays', 'copy' => 'Separated tray layouts for meals with sides, sauces, or multiple portions.'],
-        ['label' => 'Food service', 'title' => 'Convenience tray programs', 'copy' => 'Tray formats for takeaway, counter service, and prepared food distribution.'],
+        ['label' => 'Chilled meals', 'title' => 'Retail-ready meal trays', 'copy' => 'Molded fibre trays for chilled meal packs requiring consistent sealing and presentation.'],
+        ['label' => 'Frozen foods', 'title' => 'Durable tray structures', 'copy' => 'Packaging formats for frozen foods that require rigidity and dependable handling.'],
+        ['label' => 'Food service', 'title' => 'Prepared meal packaging', 'copy' => 'Tray options for takeaway, prepared meals, and food service workflows.'],
     ];
     $video = '/videos/copar/meal-tray-2c.mp4';
     $productDetails = [
         [
-            'label' => '2C RTE tray',
-            'title' => 'Two-compartment tray for RTE programs',
-            'copy' => 'The supplied 2C tray format supports portion separation, presentation, and a practical path for ready-to-serve food programs.',
+            'label' => 'Ready meal tray',
+            'title' => 'Ovenable and microwave-compatible tray pathways',
+            'copy' => 'QRCOPAR ready meal trays support chilled and frozen meals with tray structures planned around heat resistance, barrier needs, and production reliability.',
             'image' => '/images/copar/meal-tray-2c-transparent.png',
-            'imageAlt' => 'Full two-compartment COPAR RTE tray',
+            'imageAlt' => 'Full QRCOPAR ready meal tray',
             'features' => [
-                'Two-compartment layout for separated meal components.',
-                'Fibre tray structure for convenience food programs.',
-                'Useful for sample trials and buyer review.',
+                'Ovenable and microwave-compatible directions.',
+                'Suitable for chilled and frozen meals.',
+                'Single and divided tray formats for meal separation.',
             ],
         ],
         [
-            'label' => 'SG tray range',
-            'title' => 'SG1C, SG2C 6040 and SG 2C 7030 formats',
-            'copy' => 'The SG tray range is presented as a practical product family for single and divided meal formats.',
+            'label' => 'CPET barrier option',
+            'title' => 'High heat resistance for ready meals',
+            'copy' => 'CPET lamination is designed for ovenable and ready meal applications requiring high heat resistance.',
             'image' => '/images/copar/ppt-image2.png',
-            'imageAlt' => 'COPAR RTE tray render',
+            'imageAlt' => 'QRCOPAR ready meal tray render',
             'features' => [
-                'Single and divided tray pathways.',
-                'Format options for chilled, ready-to-heat and takeaway meals.',
-                'Supports discussions around dimensions, lidding and serving use.',
+                'Supports ready-to-heat meal programs.',
+                'Built for sealing, product appearance, and mechanical strength.',
+                'Developed for industrial trials and validation.',
             ],
         ],
     ];

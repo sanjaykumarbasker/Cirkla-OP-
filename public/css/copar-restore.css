@@ -120,13 +120,15 @@
 }
 
 .copar-brand-logo--nav {
-    max-height: 42px;
-    width: 114px;
+    height: 54px;
+    max-height: 54px;
+    width: 54px;
 }
 
 .copar-brand-logo--footer {
-    max-height: 52px;
-    width: 140px;
+    height: 118px;
+    max-height: 118px;
+    width: 118px;
 }
 
 .copar-main-nav {
